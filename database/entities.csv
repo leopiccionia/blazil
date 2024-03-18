@@ -1,0 +1,5600 @@
+name,type,uf
+Brasil,pais,
+Acre,estado,AC
+Alagoas,estado,AL
+Amapá,estado,AP
+Amazonas,estado,AM
+Bahia,estado,BA
+Ceará,estado,CE
+Distrito Federal,distrito_federal,DF
+Espírito Santo,estado,ES
+Goiás,estado,GO
+Maranhão,estado,MA
+Mato Grosso,estado,MT
+Mato Grosso do Sul,estado,MS
+Minas Gerais,estado,MG
+Pará,estado,PA
+Paraíba,estado,PB
+Paraná,estado,PR
+Pernambuco,estado,PE
+Piauí,estado,PI
+Rio de Janeiro,estado,RJ
+Rio Grande do Norte,estado,RN
+Rio Grande do Sul,estado,RS
+Rondônia,estado,RO
+Roraima,estado,RR
+Santa Catarina,estado,SC
+São Paulo,estado,SP
+Sergipe,estado,SE
+Tocantins,estado,TO
+Abadia de Goiás,municipio,GO
+Abadia dos Dourados,municipio,MG
+Abadiânia,municipio,GO
+Abaeté,municipio,MG
+Abaetetuba,municipio,PA
+Abaiara,municipio,CE
+Abaíra,municipio,BA
+Abaré,municipio,BA
+Abatiá,municipio,PR
+Abdon Batista,municipio,SC
+Abel Figueiredo,municipio,PA
+Abelardo Luz,municipio,SC
+Abre Campo,municipio,MG
+Abreu e Lima,municipio,PE
+Abreulândia,municipio,TO
+Acaiaca,municipio,MG
+Açailândia,municipio,MA
+Acajutiba,municipio,BA
+Acará,municipio,PA
+Acarape,municipio,CE
+Acaraú,municipio,CE
+Acari,municipio,RN
+Acauã,municipio,PI
+Aceguá,municipio,RS
+Acopiara,municipio,CE
+Acorizal,municipio,MT
+Acrelândia,municipio,AC
+Acreúna,municipio,GO
+Açu,municipio,RN
+Açucena,municipio,MG
+Adamantina,municipio,SP
+Adelândia,municipio,GO
+Adolfo,municipio,SP
+Adrianópolis,municipio,PR
+Adustina,municipio,BA
+Afogados da Ingazeira,municipio,PE
+Afonso Bezerra,municipio,RN
+Afonso Cláudio,municipio,ES
+Afonso Cunha,municipio,MA
+Afrânio,municipio,PE
+Afuá,municipio,PA
+Agrestina,municipio,PE
+Agricolândia,municipio,PI
+Agrolândia,municipio,SC
+Agronômica,municipio,SC
+Água Azul do Norte,municipio,PA
+Água Boa,municipio,MG
+Água Boa,municipio,MT
+Água Branca,municipio,PI
+Água Branca,municipio,PB
+Água Branca,municipio,AL
+Água Clara,municipio,MS
+Água Comprida,municipio,MG
+Água Doce,municipio,SC
+Água Doce do Maranhão,municipio,MA
+Água Doce do Norte,municipio,ES
+Água Fria,municipio,BA
+Água Fria de Goiás,municipio,GO
+Água Limpa,municipio,GO
+Água Nova,municipio,RN
+Água Preta,municipio,PE
+Água Santa,municipio,RS
+Aguaí,municipio,SP
+Aguanil,municipio,MG
+Águas Belas,municipio,PE
+Águas da Prata,municipio,SP
+Águas de Chapecó,municipio,SC
+Águas de Lindoia,municipio,SP
+Águas de Santa Bárbara,municipio,SP
+Águas de São Pedro,municipio,SP
+Águas Formosas,municipio,MG
+Águas Frias,municipio,SC
+Águas Lindas de Goiás,municipio,GO
+Águas Mornas,municipio,SC
+Águas Vermelhas,municipio,MG
+Agudo,municipio,RS
+Agudos,municipio,SP
+Agudos do Sul,municipio,PR
+Águia Branca,municipio,ES
+Aguiar,municipio,PB
+Aguiarnópolis,municipio,TO
+Aimorés,municipio,MG
+Aiquara,municipio,BA
+Aiuaba,municipio,CE
+Aiuruoca,municipio,MG
+Ajuricaba,municipio,RS
+Alagoa,municipio,MG
+Alagoa Grande,municipio,PB
+Alagoa Nova,municipio,PB
+Alagoinha,municipio,PB
+Alagoinha,municipio,PE
+Alagoinha do Piauí,municipio,PI
+Alagoinhas,municipio,BA
+Alambari,municipio,SP
+Albertina,municipio,MG
+Alcântara,municipio,MA
+Alcântaras,municipio,CE
+Alcantil,municipio,PB
+Alcinópolis,municipio,MS
+Alcobaça,municipio,BA
+Aldeias Altas,municipio,MA
+Alecrim,municipio,RS
+Alegre,municipio,ES
+Alegrete,municipio,RS
+Alegrete do Piauí,municipio,PI
+Alegria,municipio,RS
+Além Paraíba,municipio,MG
+Alenquer,municipio,PA
+Alexandria,municipio,RN
+Alexânia,municipio,GO
+Alfenas,municipio,MG
+Alfredo Chaves,municipio,ES
+Alfredo Marcondes,municipio,SP
+Alfredo Vasconcelos,municipio,MG
+Alfredo Wagner,municipio,SC
+Algodão de Jandaíra,municipio,PB
+Alhandra,municipio,PB
+Aliança,municipio,PE
+Aliança do Tocantins,municipio,TO
+Almadina,municipio,BA
+Almas,municipio,TO
+Almeirim,municipio,PA
+Almenara,municipio,MG
+Almino Afonso,municipio,RN
+Almirante Tamandaré,municipio,PR
+Almirante Tamandaré do Sul,municipio,RS
+Aloândia,municipio,GO
+Alpercata,municipio,MG
+Alpestre,municipio,RS
+Alpinópolis,municipio,MG
+Alta Floresta,municipio,MT
+Alta Floresta d'Oeste,municipio,RO
+Altair,municipio,SP
+Altamira,municipio,PA
+Altamira do Maranhão,municipio,MA
+Altamira do Paraná,municipio,PR
+Altaneira,municipio,CE
+Alterosa,municipio,MG
+Altinho,municipio,PE
+Altinópolis,municipio,SP
+Alto Alegre,municipio,RR
+Alto Alegre,municipio,SP
+Alto Alegre,municipio,RS
+Alto Alegre do Maranhão,municipio,MA
+Alto Alegre do Pindaré,municipio,MA
+Alto Alegre dos Parecis,municipio,RO
+Alto Araguaia,municipio,MT
+Alto Bela Vista,municipio,SC
+Alto Boa Vista,municipio,MT
+Alto Caparaó,municipio,MG
+Alto do Rodrigues,municipio,RN
+Alto Feliz,municipio,RS
+Alto Garças,municipio,MT
+Alto Horizonte,municipio,GO
+Alto Jequitibá,municipio,MG
+Alto Longá,municipio,PI
+Alto Paraguai,municipio,MT
+Alto Paraíso,municipio,RO
+Alto Paraíso,municipio,PR
+Alto Paraíso de Goiás,municipio,GO
+Alto Paraná,municipio,PR
+Alto Parnaíba,municipio,MA
+Alto Piquiri,municipio,PR
+Alto Rio Doce,municipio,MG
+Alto Rio Novo,municipio,ES
+Alto Santo,municipio,CE
+Alto Taquari,municipio,MT
+Altônia,municipio,PR
+Altos,municipio,PI
+Alumínio,municipio,SP
+Alvarães,municipio,AM
+Alvarenga,municipio,MG
+Álvares Florence,municipio,SP
+Álvares Machado,municipio,SP
+Álvaro de Carvalho,municipio,SP
+Alvinlândia,municipio,SP
+Alvinópolis,municipio,MG
+Alvorada,municipio,TO
+Alvorada,municipio,RS
+Alvorada d'Oeste,municipio,RO
+Alvorada de Minas,municipio,MG
+Alvorada do Gurgueia,municipio,PI
+Alvorada do Norte,municipio,GO
+Alvorada do Sul,municipio,PR
+Amajari,municipio,RR
+Amambai,municipio,MS
+Amapá,municipio,AP
+Amapá do Maranhão,municipio,MA
+Amaporã,municipio,PR
+Amaraji,municipio,PE
+Amaral Ferrador,municipio,RS
+Amaralina,municipio,GO
+Amarante,municipio,PI
+Amarante do Maranhão,municipio,MA
+Amargosa,municipio,BA
+Amaturá,municipio,AM
+Amélia Rodrigues,municipio,BA
+América Dourada,municipio,BA
+Americana,municipio,SP
+Americano do Brasil,municipio,GO
+Américo Brasiliense,municipio,SP
+Américo de Campos,municipio,SP
+Ametista do Sul,municipio,RS
+Amontada,municipio,CE
+Amorinópolis,municipio,GO
+Amparo,municipio,PB
+Amparo,municipio,SP
+Amparo de São Francisco,municipio,SE
+Amparo do Serra,municipio,MG
+Ampére,municipio,PR
+Anadia,municipio,AL
+Anagé,municipio,BA
+Anahy,municipio,PR
+Anajás,municipio,PA
+Anajatuba,municipio,MA
+Analândia,municipio,SP
+Anamã,municipio,AM
+Ananás,municipio,TO
+Ananindeua,municipio,PA
+Anápolis,municipio,GO
+Anapu,municipio,PA
+Anapurus,municipio,MA
+Anastácio,municipio,MS
+Anaurilândia,municipio,MS
+Anchieta,municipio,ES
+Anchieta,municipio,SC
+Andaraí,municipio,BA
+Andirá,municipio,PR
+Andorinha,municipio,BA
+Andradas,municipio,MG
+Andradina,municipio,SP
+André da Rocha,municipio,RS
+Andrelândia,municipio,MG
+Angatuba,municipio,SP
+Angelândia,municipio,MG
+Angélica,municipio,MS
+Angelim,municipio,PE
+Angelina,municipio,SC
+Angical,municipio,BA
+Angical do Piauí,municipio,PI
+Angico,municipio,TO
+Angicos,municipio,RN
+Angra dos Reis,municipio,RJ
+Anguera,municipio,BA
+Ângulo,municipio,PR
+Anhanguera,municipio,GO
+Anhembi,municipio,SP
+Anhumas,municipio,SP
+Anicuns,municipio,GO
+Anísio de Abreu,municipio,PI
+Anita Garibaldi,municipio,SC
+Anitápolis,municipio,SC
+Anori,municipio,AM
+Anta Gorda,municipio,RS
+Antas,municipio,BA
+Antonina,municipio,PR
+Antonina do Norte,municipio,CE
+Antônio Almeida,municipio,PI
+Antônio Cardoso,municipio,BA
+Antônio Carlos,municipio,MG
+Antônio Carlos,municipio,SC
+Antônio Dias,municipio,MG
+Antônio Gonçalves,municipio,BA
+Antônio João,municipio,MS
+Antônio Martins,municipio,RN
+Antônio Olinto,municipio,PR
+Antônio Prado,municipio,RS
+Antônio Prado de Minas,municipio,MG
+Aparecida,municipio,PB
+Aparecida,municipio,SP
+Aparecida d'Oeste,municipio,SP
+Aparecida de Goiânia,municipio,GO
+Aparecida do Rio Doce,municipio,GO
+Aparecida do Rio Negro,municipio,TO
+Aparecida do Taboado,municipio,MS
+Aperibé,municipio,RJ
+Apiacá,municipio,ES
+Apiacás,municipio,MT
+Apiaí,municipio,SP
+Apicum-Açu,municipio,MA
+Apiúna,municipio,SC
+Apodi,municipio,RN
+Aporá,municipio,BA
+Aporé,municipio,GO
+Apuarema,municipio,BA
+Apucarana,municipio,PR
+Apuí,municipio,AM
+Apuiarés,municipio,CE
+Aquidabã,municipio,SE
+Aquidauana,municipio,MS
+Aquiraz,municipio,CE
+Arabutã,municipio,SC
+Araçagi,municipio,PB
+Araçaí,municipio,MG
+Aracaju,municipio,SE
+Araçariguama,municipio,SP
+Araças,municipio,BA
+Aracati,municipio,CE
+Aracatu,municipio,BA
+Araçatuba,municipio,SP
+Araci,municipio,BA
+Aracitaba,municipio,MG
+Aracoiaba,municipio,CE
+Araçoiaba,municipio,PE
+Araçoiaba da Serra,municipio,SP
+Aracruz,municipio,ES
+Araçu,municipio,GO
+Araçuaí,municipio,MG
+Aragarças,municipio,GO
+Aragoiânia,municipio,GO
+Aragominas,municipio,TO
+Araguacema,municipio,TO
+Araguaçu,municipio,TO
+Araguaiana,municipio,MT
+Araguaína,municipio,TO
+Araguainha,municipio,MT
+Araguanã,municipio,TO
+Araguanã,municipio,MA
+Araguapaz,municipio,GO
+Araguari,municipio,MG
+Araguatins,municipio,TO
+Araioses,municipio,MA
+Aral Moreira,municipio,MS
+Aramari,municipio,BA
+Arambaré,municipio,RS
+Arame,municipio,MA
+Aramina,municipio,SP
+Arandu,municipio,SP
+Arantina,municipio,MG
+Arapeí,municipio,SP
+Arapiraca,municipio,AL
+Arapoema,municipio,TO
+Araponga,municipio,MG
+Arapongas,municipio,PR
+Araporã,municipio,MG
+Arapoti,municipio,PR
+Arapuá,municipio,MG
+Arapuã,municipio,PR
+Araputanga,municipio,MT
+Araquari,municipio,SC
+Arara,municipio,PB
+Araranguá,municipio,SC
+Araraquara,municipio,SP
+Araras,municipio,SP
+Ararendá,municipio,CE
+Arari,municipio,MA
+Araricá,municipio,RS
+Araripe,municipio,CE
+Araripina,municipio,PE
+Araruama,municipio,RJ
+Araruna,municipio,PB
+Araruna,municipio,PR
+Arataca,municipio,BA
+Aratiba,municipio,RS
+Aratuba,municipio,CE
+Aratuípe,municipio,BA
+Arauá,municipio,SE
+Araucária,municipio,PR
+Araújos,municipio,MG
+Araxá,municipio,MG
+Arceburgo,municipio,MG
+Arco-Íris,municipio,SP
+Arcos,municipio,MG
+Arcoverde,municipio,PE
+Areado,municipio,MG
+Areal,municipio,RJ
+Arealva,municipio,SP
+Areia,municipio,PB
+Areia Branca,municipio,RN
+Areia Branca,municipio,SE
+Areia de Baraúnas,municipio,PB
+Areial,municipio,PB
+Areias,municipio,SP
+Areiópolis,municipio,SP
+Arenápolis,municipio,MT
+Arenópolis,municipio,GO
+Arês,municipio,RN
+Argirita,municipio,MG
+Aricanduva,municipio,MG
+Arinos,municipio,MG
+Aripuanã,municipio,MT
+Ariquemes,municipio,RO
+Ariranha,municipio,SP
+Ariranha do Ivaí,municipio,PR
+Armação dos Búzios,municipio,RJ
+Armazém,municipio,SC
+Arneiroz,municipio,CE
+Aroazes,municipio,PI
+Aroeiras,municipio,PB
+Aroeiras do Itaim,municipio,PI
+Arraial,municipio,PI
+Arraial do Cabo,municipio,RJ
+Arraias,municipio,TO
+Arroio do Meio,municipio,RS
+Arroio do Padre,municipio,RS
+Arroio do Sal,municipio,RS
+Arroio do Tigre,municipio,RS
+Arroio dos Ratos,municipio,RS
+Arroio Grande,municipio,RS
+Arroio Trinta,municipio,SC
+Artur Nogueira,municipio,SP
+Aruanã,municipio,GO
+Arujá,municipio,SP
+Arvoredo,municipio,SC
+Arvorezinha,municipio,RS
+Ascurra,municipio,SC
+Aspásia,municipio,SP
+Assaí,municipio,PR
+Assaré,municipio,CE
+Assis,municipio,SP
+Assis Brasil,municipio,AC
+Assis Chateaubriand,municipio,PR
+Assunção,municipio,PB
+Assunção do Piauí,municipio,PI
+Astolfo Dutra,municipio,MG
+Astorga,municipio,PR
+Atalaia,municipio,AL
+Atalaia,municipio,PR
+Atalaia do Norte,municipio,AM
+Atalanta,municipio,SC
+Ataleia,municipio,MG
+Atibaia,municipio,SP
+Atilio Vivacqua,municipio,ES
+Augustinópolis,municipio,TO
+Augusto Corrêa,municipio,PA
+Augusto de Lima,municipio,MG
+Augusto Pestana,municipio,RS
+Augusto Severo,municipio,RN
+Áurea,municipio,RS
+Aurelino Leal,municipio,BA
+Auriflama,municipio,SP
+Aurilândia,municipio,GO
+Aurora,municipio,CE
+Aurora,municipio,SC
+Aurora do Pará,municipio,PA
+Aurora do Tocantins,municipio,TO
+Autazes,municipio,AM
+Avaí,municipio,SP
+Avanhandava,municipio,SP
+Avaré,municipio,SP
+Aveiro,municipio,PA
+Avelino Lopes,municipio,PI
+Avelinópolis,municipio,GO
+Axixá,municipio,MA
+Axixá do Tocantins,municipio,TO
+Babaçulândia,municipio,TO
+Bacabal,municipio,MA
+Bacabeira,municipio,MA
+Bacuri,municipio,MA
+Bacurituba,municipio,MA
+Bady Bassitt,municipio,SP
+Baependi,municipio,MG
+Bagé,municipio,RS
+Bagre,municipio,PA
+Baía da Traição,municipio,PB
+Baía Formosa,municipio,RN
+Baianópolis,municipio,BA
+Baião,municipio,PA
+Baixa Grande,municipio,BA
+Baixa Grande do Ribeiro,municipio,PI
+Baixio,municipio,CE
+Baixo Guandu,municipio,ES
+Balbinos,municipio,SP
+Baldim,municipio,MG
+Baliza,municipio,GO
+Balneário Arroio do Silva,municipio,SC
+Balneário Barra do Sul,municipio,SC
+Balneário Camboriú,municipio,SC
+Balneário Gaivota,municipio,SC
+Balneário Piçarras,municipio,SC
+Balneário Pinhal,municipio,RS
+Balneário Rincão,municipio,SC
+Balsa Nova,municipio,PR
+Bálsamo,municipio,SP
+Balsas,municipio,MA
+Bambuí,municipio,MG
+Banabuiú,municipio,CE
+Bananal,municipio,SP
+Bananeiras,municipio,PB
+Bandeira,municipio,MG
+Bandeira do Sul,municipio,MG
+Bandeirante,municipio,SC
+Bandeirantes,municipio,PR
+Bandeirantes,municipio,MS
+Bandeirantes do Tocantins,municipio,TO
+Bannach,municipio,PA
+Banzaê,municipio,BA
+Barão,municipio,RS
+Barão de Antonina,municipio,SP
+Barão de Cocais,municipio,MG
+Barão de Cotegipe,municipio,RS
+Barão de Grajaú,municipio,MA
+Barão de Melgaço,municipio,MT
+Barão de Monte Alto,municipio,MG
+Barão do Triunfo,municipio,RS
+Baraúna,municipio,RN
+Baraúna,municipio,PB
+Barbacena,municipio,MG
+Barbalha,municipio,CE
+Barbosa,municipio,SP
+Barbosa Ferraz,municipio,PR
+Barcarena,municipio,PA
+Barcelona,municipio,RN
+Barcelos,municipio,AM
+Bariri,municipio,SP
+Barra,municipio,BA
+Barra Bonita,municipio,SP
+Barra Bonita,municipio,SC
+Barra d'Alcântara,municipio,PI
+Barra da Estiva,municipio,BA
+Barra de Guabiraba,municipio,PE
+Barra de Santa Rosa,municipio,PB
+Barra de Santana,municipio,PB
+Barra de Santo Antônio,municipio,AL
+Barra de São Francisco,municipio,ES
+Barra de São Miguel,municipio,PB
+Barra de São Miguel,municipio,AL
+Barra do Bugres,municipio,MT
+Barra do Chapéu,municipio,SP
+Barra do Choça,municipio,BA
+Barra do Corda,municipio,MA
+Barra do Garças,municipio,MT
+Barra do Guarita,municipio,RS
+Barra do Jacaré,municipio,PR
+Barra do Mendes,municipio,BA
+Barra do Ouro,municipio,TO
+Barra do Piraí,municipio,RJ
+Barra do Quaraí,municipio,RS
+Barra do Ribeiro,municipio,RS
+Barra do Rio Azul,municipio,RS
+Barra do Rocha,municipio,BA
+Barra do Turvo,municipio,SP
+Barra dos Coqueiros,municipio,SE
+Barra Funda,municipio,RS
+Barra Longa,municipio,MG
+Barra Mansa,municipio,RJ
+Barra Velha,municipio,SC
+Barracão,municipio,PR
+Barracão,municipio,RS
+Barras,municipio,PI
+Barreira,municipio,CE
+Barreiras,municipio,BA
+Barreiras do Piauí,municipio,PI
+Barreirinha,municipio,AM
+Barreirinhas,municipio,MA
+Barreiros,municipio,PE
+Barretos,municipio,SP
+Barrinha,municipio,SP
+Barro,municipio,CE
+Barro Alto,municipio,BA
+Barro Alto,municipio,GO
+Barro Duro,municipio,PI
+Barro Preto,municipio,BA
+Barrocas,municipio,BA
+Barrolândia,municipio,TO
+Barroquinha,municipio,CE
+Barros Cassal,municipio,RS
+Barroso,municipio,MG
+Barueri,municipio,SP
+Bastos,municipio,SP
+Bataguassu,municipio,MS
+Batalha,municipio,PI
+Batalha,municipio,AL
+Batatais,municipio,SP
+Batayporã,municipio,MS
+Baturité,municipio,CE
+Bauru,municipio,SP
+Bayeux,municipio,PB
+Bebedouro,municipio,SP
+Beberibe,municipio,CE
+Bela Cruz,municipio,CE
+Bela Vista,municipio,MS
+Bela Vista da Caroba,municipio,PR
+Bela Vista de Goiás,municipio,GO
+Bela Vista de Minas,municipio,MG
+Bela Vista do Maranhão,municipio,MA
+Bela Vista do Paraíso,municipio,PR
+Bela Vista do Piauí,municipio,PI
+Bela Vista do Toldo,municipio,SC
+Belágua,municipio,MA
+Belém,municipio,PA
+Belém,municipio,PB
+Belém,municipio,AL
+Belém de Maria,municipio,PE
+Belém do Brejo do Cruz,municipio,PB
+Belém do Piauí,municipio,PI
+Belém do São Francisco,municipio,PE
+Belford Roxo,municipio,RJ
+Belmiro Braga,municipio,MG
+Belmonte,municipio,BA
+Belmonte,municipio,SC
+Belo Campo,municipio,BA
+Belo Horizonte,municipio,MG
+Belo Jardim,municipio,PE
+Belo Monte,municipio,AL
+Belo Oriente,municipio,MG
+Belo Vale,municipio,MG
+Belterra,municipio,PA
+Beneditinos,municipio,PI
+Benedito Leite,municipio,MA
+Benedito Novo,municipio,SC
+Benevides,municipio,PA
+Benjamin Constant,municipio,AM
+Benjamin Constant do Sul,municipio,RS
+Bento de Abreu,municipio,SP
+Bento Fernandes,municipio,RN
+Bento Gonçalves,municipio,RS
+Bequimão,municipio,MA
+Berilo,municipio,MG
+Berizal,municipio,MG
+Bernardino Batista,municipio,PB
+Bernardino de Campos,municipio,SP
+Bernardo do Mearim,municipio,MA
+Bernardo Sayão,municipio,TO
+Bertioga,municipio,SP
+Bertolínia,municipio,PI
+Bertópolis,municipio,MG
+Beruri,municipio,AM
+Betânia,municipio,PE
+Betânia do Piauí,municipio,PI
+Betim,municipio,MG
+Bezerros,municipio,PE
+Bias Fortes,municipio,MG
+Bicas,municipio,MG
+Biguaçu,municipio,SC
+Bilac,municipio,SP
+Biquinhas,municipio,MG
+Birigui,municipio,SP
+Biritiba-Mirim,municipio,SP
+Biritinga,municipio,BA
+Bituruna,municipio,PR
+Blumenau,municipio,SC
+Boa Esperança,municipio,MG
+Boa Esperança,municipio,ES
+Boa Esperança,municipio,PR
+Boa Esperança do Norte,municipio,MT
+Boa Esperança do Iguaçu,municipio,PR
+Boa Esperança do Sul,municipio,SP
+Boa Hora,municipio,PI
+Boa Nova,municipio,BA
+Boa Ventura,municipio,PB
+Boa Ventura de São Roque,municipio,PR
+Boa Viagem,municipio,CE
+Boa Vista,municipio,RR
+Boa Vista,municipio,PB
+Boa Vista da Aparecida,municipio,PR
+Boa Vista das Missões,municipio,RS
+Boa Vista do Buricá,municipio,RS
+Boa Vista do Cadeado,municipio,RS
+Boa Vista do Gurupi,municipio,MA
+Boa Vista do Incra,municipio,RS
+Boa Vista do Ramos,municipio,AM
+Boa Vista do Sul,municipio,RS
+Boa Vista do Tupim,municipio,BA
+Boca da Mata,municipio,AL
+Boca do Acre,municipio,AM
+Bocaina,municipio,PI
+Bocaina,municipio,SP
+Bocaina de Minas,municipio,MG
+Bocaina do Sul,municipio,SC
+Bocaiúva,municipio,MG
+Bocaiúva do Sul,municipio,PR
+Bodó,municipio,RN
+Bodocó,municipio,PE
+Bodoquena,municipio,MS
+Bofete,municipio,SP
+Boituva,municipio,SP
+Bom Conselho,municipio,PE
+Bom Despacho,municipio,MG
+Bom Jardim,municipio,MA
+Bom Jardim,municipio,PE
+Bom Jardim,municipio,RJ
+Bom Jardim da Serra,municipio,SC
+Bom Jardim de Goiás,municipio,GO
+Bom Jardim de Minas,municipio,MG
+Bom Jesus,municipio,PI
+Bom Jesus,municipio,RN
+Bom Jesus,municipio,PB
+Bom Jesus,municipio,SC
+Bom Jesus,municipio,RS
+Bom Jesus da Lapa,municipio,BA
+Bom Jesus da Penha,municipio,MG
+Bom Jesus da Serra,municipio,BA
+Bom Jesus das Selvas,municipio,MA
+Bom Jesus de Goiás,municipio,GO
+Bom Jesus do Amparo,municipio,MG
+Bom Jesus do Araguaia,municipio,MT
+Bom Jesus do Galho,municipio,MG
+Bom Jesus do Itabapoana,municipio,RJ
+Bom Jesus do Norte,municipio,ES
+Bom Jesus do Oeste,municipio,SC
+Bom Jesus do Sul,municipio,PR
+Bom Jesus do Tocantins,municipio,PA
+Bom Jesus do Tocantins,municipio,TO
+Bom Jesus dos Perdões,municipio,SP
+Bom Lugar,municipio,MA
+Bom Princípio,municipio,RS
+Bom Princípio do Piauí,municipio,PI
+Bom Progresso,municipio,RS
+Bom Repouso,municipio,MG
+Bom Retiro,municipio,SC
+Bom Retiro do Sul,municipio,RS
+Bom Sucesso,municipio,PB
+Bom Sucesso,municipio,MG
+Bom Sucesso,municipio,PR
+Bom Sucesso de Itararé,municipio,SP
+Bom Sucesso do Sul,municipio,PR
+Bombinhas,municipio,SC
+Bonfim,municipio,RR
+Bonfim,municipio,MG
+Bonfim do Piauí,municipio,PI
+Bonfinópolis,municipio,GO
+Bonfinópolis de Minas,municipio,MG
+Boninal,municipio,BA
+Bonito,municipio,PA
+Bonito,municipio,PE
+Bonito,municipio,BA
+Bonito,municipio,MS
+Bonito de Minas,municipio,MG
+Bonito de Santa Fé,municipio,PB
+Bonópolis,municipio,GO
+Boqueirão,municipio,PB
+Boqueirão do Leão,municipio,RS
+Boqueirão do Piauí,municipio,PI
+Boquim,municipio,SE
+Boquira,municipio,BA
+Borá,municipio,SP
+Boraceia,municipio,SP
+Borba,municipio,AM
+Borborema,municipio,PB
+Borborema,municipio,SP
+Borda da Mata,municipio,MG
+Borebi,municipio,SP
+Borrazópolis,municipio,PR
+Bossoroca,municipio,RS
+Botelhos,municipio,MG
+Botucatu,municipio,SP
+Botumirim,municipio,MG
+Botuporã,municipio,BA
+Botuverá,municipio,SC
+Bozano,municipio,RS
+Braço do Norte,municipio,SC
+Braço do Trombudo,municipio,SC
+Braga,municipio,RS
+Bragança,municipio,PA
+Bragança Paulista,municipio,SP
+Braganey,municipio,PR
+Branquinha,municipio,AL
+Brás Pires,municipio,MG
+Brasil Novo,municipio,PA
+Brasilândia,municipio,MS
+Brasilândia de Minas,municipio,MG
+Brasilândia do Sul,municipio,PR
+Brasilândia do Tocantins,municipio,TO
+Brasileia,municipio,AC
+Brasileira,municipio,PI
+Brasília,municipio,DF
+Brasília de Minas,municipio,MG
+Brasnorte,municipio,MT
+Braúna,municipio,SP
+Braúnas,municipio,MG
+Brazabrantes,municipio,GO
+Brazópolis,municipio,MG
+Brejão,municipio,PE
+Brejetuba,municipio,ES
+Brejinho,municipio,RN
+Brejinho,municipio,PE
+Brejinho de Nazaré,municipio,TO
+Brejo,municipio,MA
+Brejo Alegre,municipio,SP
+Brejo da Madre de Deus,municipio,PE
+Brejo de Areia,municipio,MA
+Brejo do Cruz,municipio,PB
+Brejo do Piauí,municipio,PI
+Brejo dos Santos,municipio,PB
+Brejo Grande,municipio,SE
+Brejo Grande do Araguaia,municipio,PA
+Brejo Santo,municipio,CE
+Brejões,municipio,BA
+Brejolândia,municipio,BA
+Breu Branco,municipio,PA
+Breves,municipio,PA
+Britânia,municipio,GO
+Brochier,municipio,RS
+Brodowski,municipio,SP
+Brotas,municipio,SP
+Brotas de Macaúbas,municipio,BA
+Brumadinho,municipio,MG
+Brumado,municipio,BA
+Brunópolis,municipio,SC
+Brusque,municipio,SC
+Bueno Brandão,municipio,MG
+Buenópolis,municipio,MG
+Buenos Aires,municipio,PE
+Buerarema,municipio,BA
+Bugre,municipio,MG
+Buíque,municipio,PE
+Bujari,municipio,AC
+Bujaru,municipio,PA
+Buri,municipio,SP
+Buritama,municipio,SP
+Buriti,municipio,MA
+Buriti Alegre,municipio,GO
+Buriti Bravo,municipio,MA
+Buriti de Goiás,municipio,GO
+Buriti do Tocantins,municipio,TO
+Buriti dos Lopes,municipio,PI
+Buriti dos Montes,municipio,PI
+Buriticupu,municipio,MA
+Buritinópolis,municipio,GO
+Buritirama,municipio,BA
+Buritirana,municipio,MA
+Buritis,municipio,RO
+Buritis,municipio,MG
+Buritizal,municipio,SP
+Buritizeiro,municipio,MG
+Butiá,municipio,RS
+Caapiranga,municipio,AM
+Caaporã,municipio,PB
+Caarapó,municipio,MS
+Caatiba,municipio,BA
+Cabaceiras,municipio,PB
+Cabaceiras do Paraguaçu,municipio,BA
+Cabeceira Grande,municipio,MG
+Cabeceiras,municipio,GO
+Cabeceiras do Piauí,municipio,PI
+Cabedelo,municipio,PB
+Cabixi,municipio,RO
+Cabo de Santo Agostinho,municipio,PE
+Cabo Frio,municipio,RJ
+Cabo Verde,municipio,MG
+Cabrália Paulista,municipio,SP
+Cabreúva,municipio,SP
+Cabrobó,municipio,PE
+Caçador,municipio,SC
+Caçapava,municipio,SP
+Caçapava do Sul,municipio,RS
+Cacaulândia,municipio,RO
+Cacequi,municipio,RS
+Cáceres,municipio,MT
+Cachoeira,municipio,BA
+Cachoeira Alta,municipio,GO
+Cachoeira da Prata,municipio,MG
+Cachoeira de Goiás,municipio,GO
+Cachoeira de Minas,municipio,MG
+Cachoeira de Pajeú,municipio,MG
+Cachoeira do Arari,municipio,PA
+Cachoeira do Piriá,municipio,PA
+Cachoeira do Sul,municipio,RS
+Cachoeira dos Índios,municipio,PB
+Cachoeira Dourada,municipio,MG
+Cachoeira Dourada,municipio,GO
+Cachoeira Grande,municipio,MA
+Cachoeira Paulista,municipio,SP
+Cachoeiras de Macacu,municipio,RJ
+Cachoeirinha,municipio,TO
+Cachoeirinha,municipio,PE
+Cachoeirinha,municipio,RS
+Cachoeiro de Itapemirim,municipio,ES
+Cacimba de Areia,municipio,PB
+Cacimba de Dentro,municipio,PB
+Cacimbas,municipio,PB
+Cacimbinhas,municipio,AL
+Cacique Doble,municipio,RS
+Cacoal,municipio,RO
+Caconde,municipio,SP
+Caçu,municipio,GO
+Caculé,municipio,BA
+Caém,municipio,BA
+Caetanópolis,municipio,MG
+Caetanos,municipio,BA
+Caeté,municipio,MG
+Caetés,municipio,PE
+Caetité,municipio,BA
+Cafarnaum,municipio,BA
+Cafeara,municipio,PR
+Cafelândia,municipio,SP
+Cafelândia,municipio,PR
+Cafezal do Sul,municipio,PR
+Caiabu,municipio,SP
+Caiana,municipio,MG
+Caiapônia,municipio,GO
+Caibaté,municipio,RS
+Caibi,municipio,SC
+Caiçara,municipio,PB
+Caiçara,municipio,RS
+Caiçara do Norte,municipio,RN
+Caiçara do Rio do Vento,municipio,RN
+Caicó,municipio,RN
+Caieiras,municipio,SP
+Cairu,municipio,BA
+Caiuá,municipio,SP
+Cajamar,municipio,SP
+Cajapió,municipio,MA
+Cajari,municipio,MA
+Cajati,municipio,SP
+Cajazeiras,municipio,PB
+Cajazeiras do Piauí,municipio,PI
+Cajazeirinhas,municipio,PB
+Cajobi,municipio,SP
+Cajueiro,municipio,AL
+Cajueiro da Praia,municipio,PI
+Cajuri,municipio,MG
+Cajuru,municipio,SP
+Calçado,municipio,PE
+Calçoene,municipio,AP
+Caldas,municipio,MG
+Caldas Brandão,municipio,PB
+Caldas Novas,municipio,GO
+Caldazinha,municipio,GO
+Caldeirão Grande,municipio,BA
+Caldeirão Grande do Piauí,municipio,PI
+Califórnia,municipio,PR
+Calmon,municipio,SC
+Calumbi,municipio,PE
+Camacan,municipio,BA
+Camaçari,municipio,BA
+Camacho,municipio,MG
+Camalaú,municipio,PB
+Camamu,municipio,BA
+Camanducaia,municipio,MG
+Camapuã,municipio,MS
+Camaquã,municipio,RS
+Camaragibe,municipio,PE
+Camargo,municipio,RS
+Cambará,municipio,PR
+Cambará do Sul,municipio,RS
+Cambé,municipio,PR
+Cambira,municipio,PR
+Camboriú,municipio,SC
+Cambuci,municipio,RJ
+Cambuí,municipio,MG
+Cambuquira,municipio,MG
+Cametá,municipio,PA
+Camocim,municipio,CE
+Camocim de São Félix,municipio,PE
+Campanário,municipio,MG
+Campanha,municipio,MG
+Campestre,municipio,AL
+Campestre,municipio,MG
+Campestre da Serra,municipio,RS
+Campestre de Goiás,municipio,GO
+Campestre do Maranhão,municipio,MA
+Campina da Lagoa,municipio,PR
+Campina das Missões,municipio,RS
+Campina do Monte Alegre,municipio,SP
+Campina do Simão,municipio,PR
+Campina Grande,municipio,PB
+Campina Grande do Sul,municipio,PR
+Campina Verde,municipio,MG
+Campinaçu,municipio,GO
+Campinápolis,municipio,MT
+Campinas,municipio,SP
+Campinas do Piauí,municipio,PI
+Campinas do Sul,municipio,RS
+Campinorte,municipio,GO
+Campo Alegre,municipio,AL
+Campo Alegre,municipio,SC
+Campo Alegre de Goiás,municipio,GO
+Campo Alegre de Lourdes,municipio,BA
+Campo Alegre do Fidalgo,municipio,PI
+Campo Azul,municipio,MG
+Campo Belo,municipio,MG
+Campo Belo do Sul,municipio,SC
+Campo Bom,municipio,RS
+Campo Bonito,municipio,PR
+Campo do Brito,municipio,SE
+Campo do Meio,municipio,MG
+Campo do Tenente,municipio,PR
+Campo Erê,municipio,SC
+Campo Florido,municipio,MG
+Campo Formoso,municipio,BA
+Campo Grande,municipio,AL
+Campo Grande,municipio,MS
+Campo Grande do Piauí,municipio,PI
+Campo Largo,municipio,PR
+Campo Largo do Piauí,municipio,PI
+Campo Limpo de Goiás,municipio,GO
+Campo Limpo Paulista,municipio,SP
+Campo Magro,municipio,PR
+Campo Maior,municipio,PI
+Campo Mourão,municipio,PR
+Campo Novo,municipio,RS
+Campo Novo de Rondônia,municipio,RO
+Campo Novo do Parecis,municipio,MT
+Campo Redondo,municipio,RN
+Campo Verde,municipio,MT
+Campos Altos,municipio,MG
+Campos Belos,municipio,GO
+Campos Borges,municipio,RS
+Campos de Júlio,municipio,MT
+Campos do Jordão,municipio,SP
+Campos dos Goytacazes,municipio,RJ
+Campos Gerais,municipio,MG
+Campos Lindos,municipio,TO
+Campos Novos,municipio,SC
+Campos Novos Paulista,municipio,SP
+Campos Sales,municipio,CE
+Campos Verdes,municipio,GO
+Camutanga,municipio,PE
+Cana Verde,municipio,MG
+Canaã,municipio,MG
+Canaã dos Carajás,municipio,PA
+Canabrava do Norte,municipio,MT
+Cananeia,municipio,SP
+Canapi,municipio,AL
+Canápolis,municipio,BA
+Canápolis,municipio,MG
+Canarana,municipio,BA
+Canarana,municipio,MT
+Canas,municipio,SP
+Canavieira,municipio,PI
+Canavieiras,municipio,BA
+Candeal,municipio,BA
+Candeias,municipio,BA
+Candeias,municipio,MG
+Candeias do Jamari,municipio,RO
+Candelária,municipio,RS
+Candiba,municipio,BA
+Cândido de Abreu,municipio,PR
+Cândido Godói,municipio,RS
+Cândido Mendes,municipio,MA
+Cândido Mota,municipio,SP
+Cândido Rodrigues,municipio,SP
+Cândido Sales,municipio,BA
+Candiota,municipio,RS
+Candói,municipio,PR
+Canela,municipio,RS
+Canelinha,municipio,SC
+Canguaretama,municipio,RN
+Canguçu,municipio,RS
+Canhoba,municipio,SE
+Canhotinho,municipio,PE
+Canindé,municipio,CE
+Canindé de São Francisco,municipio,SE
+Canitar,municipio,SP
+Canoas,municipio,RS
+Canoinhas,municipio,SC
+Cansanção,municipio,BA
+Cantá,municipio,RR
+Cantagalo,municipio,MG
+Cantagalo,municipio,RJ
+Cantagalo,municipio,PR
+Cantanhede,municipio,MA
+Canto do Buriti,municipio,PI
+Canudos,municipio,BA
+Canudos do Vale,municipio,RS
+Canutama,municipio,AM
+Capanema,municipio,PA
+Capanema,municipio,PR
+Capão Alto,municipio,SC
+Capão Bonito,municipio,SP
+Capão Bonito do Sul,municipio,RS
+Capão da Canoa,municipio,RS
+Capão do Cipó,municipio,RS
+Capão do Leão,municipio,RS
+Caparaó,municipio,MG
+Capela,municipio,AL
+Capela,municipio,SE
+Capela de Santana,municipio,RS
+Capela do Alto,municipio,SP
+Capela do Alto Alegre,municipio,BA
+Capela Nova,municipio,MG
+Capelinha,municipio,MG
+Capetinga,municipio,MG
+Capim,municipio,PB
+Capim Branco,municipio,MG
+Capim Grosso,municipio,BA
+Capinópolis,municipio,MG
+Capinzal,municipio,SC
+Capinzal do Norte,municipio,MA
+Capistrano,municipio,CE
+Capitão,municipio,RS
+Capitão Andrade,municipio,MG
+Capitão de Campos,municipio,PI
+Capitão Enéas,municipio,MG
+Capitão Gervásio Oliveira,municipio,PI
+Capitão Leônidas Marques,municipio,PR
+Capitão Poço,municipio,PA
+Capitólio,municipio,MG
+Capivari,municipio,SP
+Capivari de Baixo,municipio,SC
+Capivari do Sul,municipio,RS
+Capixaba,municipio,AC
+Capoeiras,municipio,PE
+Caputira,municipio,MG
+Caraá,municipio,RS
+Caracaraí,municipio,RR
+Caracol,municipio,PI
+Caracol,municipio,MS
+Caraguatatuba,municipio,SP
+Caraí,municipio,MG
+Caraíbas,municipio,BA
+Carambeí,municipio,PR
+Caranaíba,municipio,MG
+Carandaí,municipio,MG
+Carangola,municipio,MG
+Carapebus,municipio,RJ
+Carapicuíba,municipio,SP
+Caratinga,municipio,MG
+Carauari,municipio,AM
+Caraúbas,municipio,RN
+Caraúbas,municipio,PB
+Caraúbas do Piauí,municipio,PI
+Caravelas,municipio,BA
+Carazinho,municipio,RS
+Carbonita,municipio,MG
+Cardeal da Silva,municipio,BA
+Cardoso,municipio,SP
+Cardoso Moreira,municipio,RJ
+Careaçu,municipio,MG
+Careiro,municipio,AM
+Careiro da Várzea,municipio,AM
+Cariacica,municipio,ES
+Caridade,municipio,CE
+Caridade do Piauí,municipio,PI
+Carinhanha,municipio,BA
+Carira,municipio,SE
+Cariré,municipio,CE
+Cariri do Tocantins,municipio,TO
+Caririaçu,municipio,CE
+Cariús,municipio,CE
+Carlinda,municipio,MT
+Carlópolis,municipio,PR
+Carlos Barbosa,municipio,RS
+Carlos Chagas,municipio,MG
+Carlos Gomes,municipio,RS
+Carmésia,municipio,MG
+Carmo,municipio,RJ
+Carmo da Cachoeira,municipio,MG
+Carmo da Mata,municipio,MG
+Carmo de Minas,municipio,MG
+Carmo do Cajuru,municipio,MG
+Carmo do Paranaíba,municipio,MG
+Carmo do Rio Claro,municipio,MG
+Carmo do Rio Verde,municipio,GO
+Carmolândia,municipio,TO
+Carmópolis,municipio,SE
+Carmópolis de Minas,municipio,MG
+Carnaíba,municipio,PE
+Carnaúba dos Dantas,municipio,RN
+Carnaubais,municipio,RN
+Carnaubal,municipio,CE
+Carnaubeira da Penha,municipio,PE
+Carneirinho,municipio,MG
+Carneiros,municipio,AL
+Caroebe,municipio,RR
+Carolina,municipio,MA
+Carpina,municipio,PE
+Carrancas,municipio,MG
+Carrapateira,municipio,PB
+Carrasco Bonito,municipio,TO
+Caruaru,municipio,PE
+Carutapera,municipio,MA
+Carvalhópolis,municipio,MG
+Carvalhos,municipio,MG
+Casa Branca,municipio,SP
+Casa Grande,municipio,MG
+Casa Nova,municipio,BA
+Casca,municipio,RS
+Cascalho Rico,municipio,MG
+Cascavel,municipio,CE
+Cascavel,municipio,PR
+Caseara,municipio,TO
+Caseiros,municipio,RS
+Casimiro de Abreu,municipio,RJ
+Casinhas,municipio,PE
+Casserengue,municipio,PB
+Cássia,municipio,MG
+Cássia dos Coqueiros,municipio,SP
+Cassilândia,municipio,MS
+Castanhal,municipio,PA
+Castanheira,municipio,MT
+Castanheiras,municipio,RO
+Castelândia,municipio,GO
+Castelo,municipio,ES
+Castelo do Piauí,municipio,PI
+Castilho,municipio,SP
+Castro,municipio,PR
+Castro Alves,municipio,BA
+Cataguases,municipio,MG
+Catalão,municipio,GO
+Catanduva,municipio,SP
+Catanduvas,municipio,PR
+Catanduvas,municipio,SC
+Catarina,municipio,CE
+Catas Altas,municipio,MG
+Catas Altas da Noruega,municipio,MG
+Catende,municipio,PE
+Catiguá,municipio,SP
+Catingueira,municipio,PB
+Catolândia,municipio,BA
+Catolé do Rocha,municipio,PB
+Catu,municipio,BA
+Catuípe,municipio,RS
+Catuji,municipio,MG
+Catunda,municipio,CE
+Caturaí,municipio,GO
+Caturama,municipio,BA
+Caturité,municipio,PB
+Catuti,municipio,MG
+Caucaia,municipio,CE
+Cavalcante,municipio,GO
+Caxambu,municipio,MG
+Caxambu do Sul,municipio,SC
+Caxias,municipio,MA
+Caxias do Sul,municipio,RS
+Caxingó,municipio,PI
+Ceará-Mirim,municipio,RN
+Cedral,municipio,MA
+Cedral,municipio,SP
+Cedro,municipio,CE
+Cedro,municipio,PE
+Cedro de São João,municipio,SE
+Cedro do Abaeté,municipio,MG
+Celso Ramos,municipio,SC
+Centenário,municipio,TO
+Centenário,municipio,RS
+Centenário do Sul,municipio,PR
+Central,municipio,BA
+Central de Minas,municipio,MG
+Central do Maranhão,municipio,MA
+Centralina,municipio,MG
+Centro do Guilherme,municipio,MA
+Centro Novo do Maranhão,municipio,MA
+Cerejeiras,municipio,RO
+Ceres,municipio,GO
+Cerqueira César,municipio,SP
+Cerquilho,municipio,SP
+Cerrito,municipio,RS
+Cerro Azul,municipio,PR
+Cerro Branco,municipio,RS
+Cerro Corá,municipio,RN
+Cerro Grande,municipio,RS
+Cerro Grande do Sul,municipio,RS
+Cerro Largo,municipio,RS
+Cerro Negro,municipio,SC
+Cesário Lange,municipio,SP
+Céu Azul,municipio,PR
+Cezarina,municipio,GO
+Chã de Alegria,municipio,PE
+Chã Grande,municipio,PE
+Chã Preta,municipio,AL
+Chácara,municipio,MG
+Chalé,municipio,MG
+Chapada,municipio,RS
+Chapada da Natividade,municipio,TO
+Chapada de Areia,municipio,TO
+Chapada do Norte,municipio,MG
+Chapada dos Guimarães,municipio,MT
+Chapada Gaúcha,municipio,MG
+Chapadão do Céu,municipio,GO
+Chapadão do Lageado,municipio,SC
+Chapadão do Sul,municipio,MS
+Chapadinha,municipio,MA
+Chapecó,municipio,SC
+Charqueada,municipio,SP
+Charqueadas,municipio,RS
+Charrua,municipio,RS
+Chaval,municipio,CE
+Chavantes,municipio,SP
+Chaves,municipio,PA
+Chiador,municipio,MG
+Chiapetta,municipio,RS
+Chopinzinho,municipio,PR
+Choró,municipio,CE
+Chorozinho,municipio,CE
+Chorrochó,municipio,BA
+Chuí,municipio,RS
+Chupinguaia,municipio,RO
+Chuvisca,municipio,RS
+Cianorte,municipio,PR
+Cícero Dantas,municipio,BA
+Cidade Gaúcha,municipio,PR
+Cidade Ocidental,municipio,GO
+Cidelândia,municipio,MA
+Cidreira,municipio,RS
+Cipó,municipio,BA
+Cipotânea,municipio,MG
+Ciríaco,municipio,RS
+Claraval,municipio,MG
+Claro dos Poções,municipio,MG
+Cláudia,municipio,MT
+Cláudio,municipio,MG
+Clementina,municipio,SP
+Clevelândia,municipio,PR
+Coaraci,municipio,BA
+Coari,municipio,AM
+Cocal,municipio,PI
+Cocal de Telha,municipio,PI
+Cocal do Sul,municipio,SC
+Cocal dos Alves,municipio,PI
+Cocalinho,municipio,MT
+Cocalzinho de Goiás,municipio,GO
+Cocos,municipio,BA
+Codajás,municipio,AM
+Codó,municipio,MA
+Coelho Neto,municipio,MA
+Coimbra,municipio,MG
+Coité do Noia,municipio,AL
+Coivaras,municipio,PI
+Colares,municipio,PA
+Colatina,municipio,ES
+Colíder,municipio,MT
+Colina,municipio,SP
+Colinas,municipio,MA
+Colinas,municipio,RS
+Colinas do Sul,municipio,GO
+Colinas do Tocantins,municipio,TO
+Colmeia,municipio,TO
+Colniza,municipio,MT
+Colômbia,municipio,SP
+Colombo,municipio,PR
+Colônia do Gurgueia,municipio,PI
+Colônia do Piauí,municipio,PI
+Colônia Leopoldina,municipio,AL
+Colorado,municipio,PR
+Colorado,municipio,RS
+Colorado do Oeste,municipio,RO
+Coluna,municipio,MG
+Combinado,municipio,TO
+Comendador Gomes,municipio,MG
+Comendador Levy Gasparian,municipio,RJ
+Comercinho,municipio,MG
+Comodoro,municipio,MT
+Conceição,municipio,PB
+Conceição da Aparecida,municipio,MG
+Conceição da Barra,municipio,ES
+Conceição da Barra de Minas,municipio,MG
+Conceição da Feira,municipio,BA
+Conceição das Alagoas,municipio,MG
+Conceição das Pedras,municipio,MG
+Conceição de Ipanema,municipio,MG
+Conceição de Macabu,municipio,RJ
+Conceição do Almeida,municipio,BA
+Conceição do Araguaia,municipio,PA
+Conceição do Canindé,municipio,PI
+Conceição do Castelo,municipio,ES
+Conceição do Coité,municipio,BA
+Conceição do Jacuípe,municipio,BA
+Conceição do Lago-Açu,municipio,MA
+Conceição do Mato Dentro,municipio,MG
+Conceição do Pará,municipio,MG
+Conceição do Rio Verde,municipio,MG
+Conceição do Tocantins,municipio,TO
+Conceição dos Ouros,municipio,MG
+Conchal,municipio,SP
+Conchas,municipio,SP
+Concórdia,municipio,SC
+Concórdia do Pará,municipio,PA
+Condado,municipio,PB
+Condado,municipio,PE
+Conde,municipio,PB
+Conde,municipio,BA
+Condeúba,municipio,BA
+Condor,municipio,RS
+Cônego Marinho,municipio,MG
+Confins,municipio,MG
+Confresa,municipio,MT
+Congo,municipio,PB
+Congonhal,municipio,MG
+Congonhas,municipio,MG
+Congonhas do Norte,municipio,MG
+Congonhinhas,municipio,PR
+Conquista,municipio,MG
+Conquista d'Oeste,municipio,MT
+Conselheiro Lafaiete,municipio,MG
+Conselheiro Mairinck,municipio,PR
+Conselheiro Pena,municipio,MG
+Consolação,municipio,MG
+Constantina,municipio,RS
+Contagem,municipio,MG
+Contenda,municipio,PR
+Contendas do Sincorá,municipio,BA
+Coqueiral,municipio,MG
+Coqueiro Baixo,municipio,RS
+Coqueiro Seco,municipio,AL
+Coqueiros do Sul,municipio,RS
+Coração de Jesus,municipio,MG
+Coração de Maria,municipio,BA
+Corbélia,municipio,PR
+Cordeiro,municipio,RJ
+Cordeirópolis,municipio,SP
+Cordeiros,municipio,BA
+Cordilheira Alta,municipio,SC
+Cordisburgo,municipio,MG
+Cordislândia,municipio,MG
+Coreaú,municipio,CE
+Coremas,municipio,PB
+Corguinho,municipio,MS
+Coribe,municipio,BA
+Corinto,municipio,MG
+Cornélio Procópio,municipio,PR
+Coroaci,municipio,MG
+Coroados,municipio,SP
+Coroatá,municipio,MA
+Coromandel,municipio,MG
+Coronel Barros,municipio,RS
+Coronel Bicaco,municipio,RS
+Coronel Domingos Soares,municipio,PR
+Coronel Ezequiel,municipio,RN
+Coronel Fabriciano,municipio,MG
+Coronel Freitas,municipio,SC
+Coronel João Pessoa,municipio,RN
+Coronel João Sá,municipio,BA
+Coronel José Dias,municipio,PI
+Coronel Macedo,municipio,SP
+Coronel Martins,municipio,SC
+Coronel Murta,municipio,MG
+Coronel Pacheco,municipio,MG
+Coronel Pilar,municipio,RS
+Coronel Sapucaia,municipio,MS
+Coronel Vivida,municipio,PR
+Coronel Xavier Chaves,municipio,MG
+Córrego Danta,municipio,MG
+Córrego do Bom Jesus,municipio,MG
+Córrego do Ouro,municipio,GO
+Córrego Fundo,municipio,MG
+Córrego Novo,municipio,MG
+Correia Pinto,municipio,SC
+Corrente,municipio,PI
+Correntes,municipio,PE
+Correntina,municipio,BA
+Cortês,municipio,PE
+Corumbá,municipio,MS
+Corumbá de Goiás,municipio,GO
+Corumbaíba,municipio,GO
+Corumbataí,municipio,SP
+Corumbataí do Sul,municipio,PR
+Corumbiara,municipio,RO
+Corupá,municipio,SC
+Coruripe,municipio,AL
+Cosmópolis,municipio,SP
+Cosmorama,municipio,SP
+Costa Marques,municipio,RO
+Costa Rica,municipio,MS
+Cotegipe,municipio,BA
+Cotia,municipio,SP
+Cotiporã,municipio,RS
+Cotriguaçu,municipio,MT
+Couto de Magalhães de Minas,municipio,MG
+Couto Magalhães,municipio,TO
+Coxilha,municipio,RS
+Coxim,municipio,MS
+Coxixola,municipio,PB
+Craíbas,municipio,AL
+Crateús,municipio,CE
+Crato,municipio,CE
+Cravinhos,municipio,SP
+Cravolândia,municipio,BA
+Criciúma,municipio,SC
+Crisólita,municipio,MG
+Crisópolis,municipio,BA
+Crissiumal,municipio,RS
+Cristais,municipio,MG
+Cristais Paulista,municipio,SP
+Cristal,municipio,RS
+Cristal do Sul,municipio,RS
+Cristalândia,municipio,TO
+Cristalândia do Piauí,municipio,PI
+Cristália,municipio,MG
+Cristalina,municipio,GO
+Cristiano Otoni,municipio,MG
+Cristianópolis,municipio,GO
+Cristina,municipio,MG
+Cristinápolis,municipio,SE
+Cristino Castro,municipio,PI
+Cristópolis,municipio,BA
+Crixás,municipio,GO
+Crixás do Tocantins,municipio,TO
+Croatá,municipio,CE
+Cromínia,municipio,GO
+Crucilândia,municipio,MG
+Cruz,municipio,CE
+Cruz Alta,municipio,RS
+Cruz das Almas,municipio,BA
+Cruz do Espírito Santo,municipio,PB
+Cruz Machado,municipio,PR
+Cruzália,municipio,SP
+Cruzaltense,municipio,RS
+Cruzeiro,municipio,SP
+Cruzeiro da Fortaleza,municipio,MG
+Cruzeiro do Iguaçu,municipio,PR
+Cruzeiro do Oeste,municipio,PR
+Cruzeiro do Sul,municipio,AC
+Cruzeiro do Sul,municipio,PR
+Cruzeiro do Sul,municipio,RS
+Cruzeta,municipio,RN
+Cruzília,municipio,MG
+Cruzmaltina,municipio,PR
+Cubatão,municipio,SP
+Cubati,municipio,PB
+Cuiabá,municipio,MT
+Cuité,municipio,PB
+Cuité de Mamanguape,municipio,PB
+Cuitegi,municipio,PB
+Cujubim,municipio,RO
+Cumari,municipio,GO
+Cumaru,municipio,PE
+Cumaru do Norte,municipio,PA
+Cumbe,municipio,SE
+Cunha,municipio,SP
+Cunha Porã,municipio,SC
+Cunhataí,municipio,SC
+Cuparaque,municipio,MG
+Cupira,municipio,PE
+Curaçá,municipio,BA
+Curimatá,municipio,PI
+Curionópolis,municipio,PA
+Curitiba,municipio,PR
+Curitibanos,municipio,SC
+Curiúva,municipio,PR
+Currais,municipio,PI
+Currais Novos,municipio,RN
+Curral de Cima,municipio,PB
+Curral de Dentro,municipio,MG
+Curral Novo do Piauí,municipio,PI
+Curral Velho,municipio,PB
+Curralinho,municipio,PA
+Curralinhos,municipio,PI
+Curuá,municipio,PA
+Curuçá,municipio,PA
+Cururupu,municipio,MA
+Curvelândia,municipio,MT
+Curvelo,municipio,MG
+Custódia,municipio,PE
+Cutias,municipio,AP
+Damianópolis,municipio,GO
+Damião,municipio,PB
+Damolândia,municipio,GO
+Darcinópolis,municipio,TO
+Dário Meira,municipio,BA
+Datas,municipio,MG
+David Canabarro,municipio,RS
+Davinópolis,municipio,MA
+Davinópolis,municipio,GO
+Delfim Moreira,municipio,MG
+Delfinópolis,municipio,MG
+Delmiro Gouveia,municipio,AL
+Delta,municipio,MG
+Demerval Lobão,municipio,PI
+Denise,municipio,MT
+Deodápolis,municipio,MS
+Deputado Irapuan Pinheiro,municipio,CE
+Derrubadas,municipio,RS
+Descalvado,municipio,SP
+Descanso,municipio,SC
+Descoberto,municipio,MG
+Desterro,municipio,PB
+Desterro de Entre Rios,municipio,MG
+Desterro do Melo,municipio,MG
+Dezesseis de Novembro,municipio,RS
+Diadema,municipio,SP
+Diamante,municipio,PB
+Diamante d'Oeste,municipio,PR
+Diamante do Norte,municipio,PR
+Diamante do Sul,municipio,PR
+Diamantina,municipio,MG
+Diamantino,municipio,MT
+Dianópolis,municipio,TO
+Dias d'Ávila,municipio,BA
+Dilermando de Aguiar,municipio,RS
+Diogo de Vasconcelos,municipio,MG
+Dionísio,municipio,MG
+Dionísio Cerqueira,municipio,SC
+Diorama,municipio,GO
+Dirce Reis,municipio,SP
+Dirceu Arcoverde,municipio,PI
+Divina Pastora,municipio,SE
+Divinésia,municipio,MG
+Divino,municipio,MG
+Divino das Laranjeiras,municipio,MG
+Divino de São Lourenço,municipio,ES
+Divinolândia,municipio,SP
+Divinolândia de Minas,municipio,MG
+Divinópolis,municipio,MG
+Divinópolis de Goiás,municipio,GO
+Divinópolis do Tocantins,municipio,TO
+Divisa Alegre,municipio,MG
+Divisa Nova,municipio,MG
+Divisópolis,municipio,MG
+Dobrada,municipio,SP
+Dois Córregos,municipio,SP
+Dois Irmãos,municipio,RS
+Dois Irmãos das Missões,municipio,RS
+Dois Irmãos do Buriti,municipio,MS
+Dois Irmãos do Tocantins,municipio,TO
+Dois Lajeados,municipio,RS
+Dois Riachos,municipio,AL
+Dois Vizinhos,municipio,PR
+Dolcinópolis,municipio,SP
+Dom Aquino,municipio,MT
+Dom Basílio,municipio,BA
+Dom Bosco,municipio,MG
+Dom Cavati,municipio,MG
+Dom Eliseu,municipio,PA
+Dom Expedito Lopes,municipio,PI
+Dom Feliciano,municipio,RS
+Dom Inocêncio,municipio,PI
+Dom Joaquim,municipio,MG
+Dom Macedo Costa,municipio,BA
+Dom Pedrito,municipio,RS
+Dom Pedro,municipio,MA
+Dom Pedro de Alcântara,municipio,RS
+Dom Silvério,municipio,MG
+Dom Viçoso,municipio,MG
+Domingos Martins,municipio,ES
+Domingos Mourão,municipio,PI
+Dona Emma,municipio,SC
+Dona Eusébia,municipio,MG
+Dona Francisca,municipio,RS
+Dona Inês,municipio,PB
+Dores de Campos,municipio,MG
+Dores de Guanhães,municipio,MG
+Dores do Indaiá,municipio,MG
+Dores do Rio Preto,municipio,ES
+Dores do Turvo,municipio,MG
+Doresópolis,municipio,MG
+Dormentes,municipio,PE
+Douradina,municipio,PR
+Douradina,municipio,MS
+Dourado,municipio,SP
+Douradoquara,municipio,MG
+Dourados,municipio,MS
+Doutor Camargo,municipio,PR
+Doutor Maurício Cardoso,municipio,RS
+Doutor Pedrinho,municipio,SC
+Doutor Ricardo,municipio,RS
+Doutor Severiano,municipio,RN
+Doutor Ulysses,municipio,PR
+Doverlândia,municipio,GO
+Dracena,municipio,SP
+Duartina,municipio,SP
+Duas Barras,municipio,RJ
+Duas Estradas,municipio,PB
+Dueré,municipio,TO
+Dumont,municipio,SP
+Duque Bacelar,municipio,MA
+Duque de Caxias,municipio,RJ
+Durandé,municipio,MG
+Echaporã,municipio,SP
+Ecoporanga,municipio,ES
+Edealina,municipio,GO
+Edeia,municipio,GO
+Eirunepé,municipio,AM
+Eldorado,municipio,SP
+Eldorado,municipio,MS
+Eldorado do Carajás,municipio,PA
+Eldorado do Sul,municipio,RS
+Elesbão Veloso,municipio,PI
+Elias Fausto,municipio,SP
+Eliseu Martins,municipio,PI
+Elisiário,municipio,SP
+Elísio Medrado,municipio,BA
+Elói Mendes,municipio,MG
+Emas,municipio,PB
+Embaúba,municipio,SP
+Embu das Artes,municipio,SP
+Embu-Guaçu,municipio,SP
+Emilianópolis,municipio,SP
+Encantado,municipio,RS
+Encanto,municipio,RN
+Encruzilhada,municipio,BA
+Encruzilhada do Sul,municipio,RS
+Enéas Marques,municipio,PR
+Engenheiro Beltrão,municipio,PR
+Engenheiro Caldas,municipio,MG
+Engenheiro Coelho,municipio,SP
+Engenheiro Navarro,municipio,MG
+Engenheiro Paulo de Frontin,municipio,RJ
+Engenho Velho,municipio,RS
+Entre Folhas,municipio,MG
+Entre Rios,municipio,BA
+Entre Rios,municipio,SC
+Entre Rios de Minas,municipio,MG
+Entre Rios do Oeste,municipio,PR
+Entre Rios do Sul,municipio,RS
+Entre-Ijuís,municipio,RS
+Envira,municipio,AM
+Epitaciolândia,municipio,AC
+Equador,municipio,RN
+Erebango,municipio,RS
+Erechim,municipio,RS
+Ererê,municipio,CE
+Érico Cardoso,municipio,BA
+Ermo,municipio,SC
+Ernestina,municipio,RS
+Erval Grande,municipio,RS
+Erval Seco,municipio,RS
+Erval Velho,municipio,SC
+Ervália,municipio,MG
+Escada,municipio,PE
+Esmeralda,municipio,RS
+Esmeraldas,municipio,MG
+Espera Feliz,municipio,MG
+Esperança,municipio,PB
+Esperança do Sul,municipio,RS
+Esperança Nova,municipio,PR
+Esperantina,municipio,TO
+Esperantina,municipio,PI
+Esperantinópolis,municipio,MA
+Espigão Alto do Iguaçu,municipio,PR
+Espigão d'Oeste,municipio,RO
+Espinosa,municipio,MG
+Espírito Santo,municipio,RN
+Espírito Santo do Dourado,municipio,MG
+Espírito Santo do Pinhal,municipio,SP
+Espírito Santo do Turvo,municipio,SP
+Esplanada,municipio,BA
+Espumoso,municipio,RS
+Estação,municipio,RS
+Estância,municipio,SE
+Estância Velha,municipio,RS
+Esteio,municipio,RS
+Estiva,municipio,MG
+Estiva Gerbi,municipio,SP
+Estreito,municipio,MA
+Estrela,municipio,RS
+Estrela d'Oeste,municipio,SP
+Estrela Dalva,municipio,MG
+Estrela de Alagoas,municipio,AL
+Estrela do Indaiá,municipio,MG
+Estrela do Norte,municipio,SP
+Estrela do Norte,municipio,GO
+Estrela do Sul,municipio,MG
+Estrela Velha,municipio,RS
+Euclides da Cunha,municipio,BA
+Euclides da Cunha Paulista,municipio,SP
+Eugênio de Castro,municipio,RS
+Eugenópolis,municipio,MG
+Eunápolis,municipio,BA
+Eusébio,municipio,CE
+Ewbank da Câmara,municipio,MG
+Extrema,municipio,MG
+Extremoz,municipio,RN
+Exu,municipio,PE
+Fagundes,municipio,PB
+Fagundes Varela,municipio,RS
+Faina,municipio,GO
+Fama,municipio,MG
+Faria Lemos,municipio,MG
+Farias Brito,municipio,CE
+Faro,municipio,PA
+Farol,municipio,PR
+Farroupilha,municipio,RS
+Fartura,municipio,SP
+Fartura do Piauí,municipio,PI
+Fátima,municipio,TO
+Fátima,municipio,BA
+Fátima do Sul,municipio,MS
+Faxinal,municipio,PR
+Faxinal do Soturno,municipio,RS
+Faxinal dos Guedes,municipio,SC
+Faxinalzinho,municipio,RS
+Fazenda Nova,municipio,GO
+Fazenda Rio Grande,municipio,PR
+Fazenda Vilanova,municipio,RS
+Feijó,municipio,AC
+Feira da Mata,municipio,BA
+Feira de Santana,municipio,BA
+Feira Grande,municipio,AL
+Feira Nova,municipio,PE
+Feira Nova,municipio,SE
+Feira Nova do Maranhão,municipio,MA
+Felício dos Santos,municipio,MG
+Felipe Guerra,municipio,RN
+Felisburgo,municipio,MG
+Felixlândia,municipio,MG
+Feliz,municipio,RS
+Feliz Deserto,municipio,AL
+Feliz Natal,municipio,MT
+Fênix,municipio,PR
+Fernandes Pinheiro,municipio,PR
+Fernandes Tourinho,municipio,MG
+Fernando de Noronha,distrito_estadual,PE
+Fernando Falcão,municipio,MA
+Fernando Pedroza,municipio,RN
+Fernando Prestes,municipio,SP
+Fernandópolis,municipio,SP
+Fernão,municipio,SP
+Ferraz de Vasconcelos,municipio,SP
+Ferreira Gomes,municipio,AP
+Ferreiros,municipio,PE
+Ferros,municipio,MG
+Fervedouro,municipio,MG
+Figueira,municipio,PR
+Figueirão,municipio,MS
+Figueirópolis,municipio,TO
+Figueirópolis d'Oeste,municipio,MT
+Filadélfia,municipio,TO
+Filadélfia,municipio,BA
+Firmino Alves,municipio,BA
+Firminópolis,municipio,GO
+Flexeiras,municipio,AL
+Flor da Serra do Sul,municipio,PR
+Flor do Sertão,municipio,SC
+Flora Rica,municipio,SP
+Floraí,municipio,PR
+Florânia,municipio,RN
+Floreal,municipio,SP
+Flores,municipio,PE
+Flores da Cunha,municipio,RS
+Flores de Goiás,municipio,GO
+Flores do Piauí,municipio,PI
+Floresta,municipio,PE
+Floresta,municipio,PR
+Floresta Azul,municipio,BA
+Floresta do Araguaia,municipio,PA
+Floresta do Piauí,municipio,PI
+Florestal,municipio,MG
+Florestópolis,municipio,PR
+Floriano,municipio,PI
+Floriano Peixoto,municipio,RS
+Florianópolis,municipio,SC
+Flórida,municipio,PR
+Flórida Paulista,municipio,SP
+Florínia,municipio,SP
+Fonte Boa,municipio,AM
+Fontoura Xavier,municipio,RS
+Formiga,municipio,MG
+Formigueiro,municipio,RS
+Formosa,municipio,GO
+Formosa da Serra Negra,municipio,MA
+Formosa do Oeste,municipio,PR
+Formosa do Rio Preto,municipio,BA
+Formosa do Sul,municipio,SC
+Formoso,municipio,MG
+Formoso,municipio,GO
+Formoso do Araguaia,municipio,TO
+Forquetinha,municipio,RS
+Forquilha,municipio,CE
+Forquilhinha,municipio,SC
+Fortaleza,municipio,CE
+Fortaleza de Minas,municipio,MG
+Fortaleza do Tabocão,municipio,TO
+Fortaleza dos Nogueiras,municipio,MA
+Fortaleza dos Valos,municipio,RS
+Fortim,municipio,CE
+Fortuna,municipio,MA
+Fortuna de Minas,municipio,MG
+Foz do Iguaçu,municipio,PR
+Foz do Jordão,municipio,PR
+Fraiburgo,municipio,SC
+Franca,municipio,SP
+Francinópolis,municipio,PI
+Francisco Alves,municipio,PR
+Francisco Ayres,municipio,PI
+Francisco Badaró,municipio,MG
+Francisco Beltrão,municipio,PR
+Francisco Dantas,municipio,RN
+Francisco Dumont,municipio,MG
+Francisco Macedo,municipio,PI
+Francisco Morato,municipio,SP
+Francisco Sá,municipio,MG
+Francisco Santos,municipio,PI
+Franciscópolis,municipio,MG
+Franco da Rocha,municipio,SP
+Frecheirinha,municipio,CE
+Frederico Westphalen,municipio,RS
+Frei Gaspar,municipio,MG
+Frei Inocêncio,municipio,MG
+Frei Lagonegro,municipio,MG
+Frei Martinho,municipio,PB
+Frei Miguelinho,municipio,PE
+Frei Paulo,municipio,SE
+Frei Rogério,municipio,SC
+Fronteira,municipio,MG
+Fronteira dos Vales,municipio,MG
+Fronteiras,municipio,PI
+Fruta de Leite,municipio,MG
+Frutal,municipio,MG
+Frutuoso Gomes,municipio,RN
+Fundão,municipio,ES
+Funilândia,municipio,MG
+Gabriel Monteiro,municipio,SP
+Gado Bravo,municipio,PB
+Gália,municipio,SP
+Galileia,municipio,MG
+Galinhos,municipio,RN
+Galvão,municipio,SC
+Gameleira,municipio,PE
+Gameleira de Goiás,municipio,GO
+Gameleiras,municipio,MG
+Gandu,municipio,BA
+Garanhuns,municipio,PE
+Gararu,municipio,SE
+Garça,municipio,SP
+Garibaldi,municipio,RS
+Garopaba,municipio,SC
+Garrafão do Norte,municipio,PA
+Garruchos,municipio,RS
+Garuva,municipio,SC
+Gaspar,municipio,SC
+Gastão Vidigal,municipio,SP
+Gaúcha do Norte,municipio,MT
+Gaurama,municipio,RS
+Gavião,municipio,BA
+Gavião Peixoto,municipio,SP
+Geminiano,municipio,PI
+General Câmara,municipio,RS
+General Carneiro,municipio,PR
+General Carneiro,municipio,MT
+General Maynard,municipio,SE
+General Salgado,municipio,SP
+General Sampaio,municipio,CE
+Gentil,municipio,RS
+Gentio do Ouro,municipio,BA
+Getulina,municipio,SP
+Getúlio Vargas,municipio,RS
+Gilbués,municipio,PI
+Girau do Ponciano,municipio,AL
+Giruá,municipio,RS
+Glaucilândia,municipio,MG
+Glicério,municipio,SP
+Glória,municipio,BA
+Glória d'Oeste,municipio,MT
+Glória de Dourados,municipio,MS
+Glória do Goitá,municipio,PE
+Glorinha,municipio,RS
+Godofredo Viana,municipio,MA
+Godoy Moreira,municipio,PR
+Goiabeira,municipio,MG
+Goiana,municipio,PE
+Goianá,municipio,MG
+Goianápolis,municipio,GO
+Goiandira,municipio,GO
+Goianésia,municipio,GO
+Goianésia do Pará,municipio,PA
+Goiânia,municipio,GO
+Goianinha,municipio,RN
+Goianira,municipio,GO
+Goianorte,municipio,TO
+Goiás,municipio,GO
+Goiatins,municipio,TO
+Goiatuba,municipio,GO
+Goioerê,municipio,PR
+Goioxim,municipio,PR
+Gonçalves,municipio,MG
+Gonçalves Dias,municipio,MA
+Gongogi,municipio,BA
+Gonzaga,municipio,MG
+Gouveia,municipio,MG
+Gouvelândia,municipio,GO
+Governador Archer,municipio,MA
+Governador Celso Ramos,municipio,SC
+Governador Dix-Sept Rosado,municipio,RN
+Governador Edison Lobão,municipio,MA
+Governador Eugênio Barros,municipio,MA
+Governador Jorge Teixeira,municipio,RO
+Governador Lindenberg,municipio,ES
+Governador Luiz Rocha,municipio,MA
+Governador Mangabeira,municipio,BA
+Governador Newton Bello,municipio,MA
+Governador Nunes Freire,municipio,MA
+Governador Valadares,municipio,MG
+Graça,municipio,CE
+Graça Aranha,municipio,MA
+Gracho Cardoso,municipio,SE
+Grajaú,municipio,MA
+Gramado,municipio,RS
+Gramado dos Loureiros,municipio,RS
+Gramado Xavier,municipio,RS
+Grandes Rios,municipio,PR
+Granito,municipio,PE
+Granja,municipio,CE
+Granjeiro,municipio,CE
+Grão Mogol,municipio,MG
+Grão Pará,municipio,SC
+Gravatá,municipio,PE
+Gravataí,municipio,RS
+Gravatal,municipio,SC
+Groaíras,municipio,CE
+Grossos,municipio,RN
+Grupiara,municipio,MG
+Guabiju,municipio,RS
+Guabiruba,municipio,SC
+Guaçuí,municipio,ES
+Guadalupe,municipio,PI
+Guaíba,municipio,RS
+Guaiçara,municipio,SP
+Guaimbê,municipio,SP
+Guaíra,municipio,SP
+Guaíra,municipio,PR
+Guairaçá,municipio,PR
+Guaiúba,municipio,CE
+Guajará,municipio,AM
+Guajará-Mirim,municipio,RO
+Guajeru,municipio,BA
+Guamaré,municipio,RN
+Guamiranga,municipio,PR
+Guanambi,municipio,BA
+Guanhães,municipio,MG
+Guapé,municipio,MG
+Guapiaçu,municipio,SP
+Guapiara,municipio,SP
+Guapimirim,municipio,RJ
+Guapirama,municipio,PR
+Guapó,municipio,GO
+Guaporé,municipio,RS
+Guaporema,municipio,PR
+Guará,municipio,SP
+Guarabira,municipio,PB
+Guaraçaí,municipio,SP
+Guaraci,municipio,SP
+Guaraci,municipio,PR
+Guaraciaba,municipio,MG
+Guaraciaba,municipio,SC
+Guaraciaba do Norte,municipio,CE
+Guaraciama,municipio,MG
+Guaraí,municipio,TO
+Guaraíta,municipio,GO
+Guaramiranga,municipio,CE
+Guaramirim,municipio,SC
+Guaranésia,municipio,MG
+Guarani,municipio,MG
+Guarani d'Oeste,municipio,SP
+Guarani das Missões,municipio,RS
+Guarani de Goiás,municipio,GO
+Guaraniaçu,municipio,PR
+Guarantã,municipio,SP
+Guarantã do Norte,municipio,MT
+Guarapari,municipio,ES
+Guarapuava,municipio,PR
+Guaraqueçaba,municipio,PR
+Guarará,municipio,MG
+Guararapes,municipio,SP
+Guararema,municipio,SP
+Guaratinga,municipio,BA
+Guaratinguetá,municipio,SP
+Guaratuba,municipio,PR
+Guarda-Mor,municipio,MG
+Guareí,municipio,SP
+Guariba,municipio,SP
+Guaribas,municipio,PI
+Guarinos,municipio,GO
+Guarujá,municipio,SP
+Guarujá do Sul,municipio,SC
+Guarulhos,municipio,SP
+Guatambú,municipio,SC
+Guatapará,municipio,SP
+Guaxupé,municipio,MG
+Guia Lopes da Laguna,municipio,MS
+Guidoval,municipio,MG
+Guimarães,municipio,MA
+Guimarânia,municipio,MG
+Guiratinga,municipio,MT
+Guiricema,municipio,MG
+Gurinhatã,municipio,MG
+Gurinhém,municipio,PB
+Gurjão,municipio,PB
+Gurupá,municipio,PA
+Gurupi,municipio,TO
+Guzolândia,municipio,SP
+Harmonia,municipio,RS
+Heitoraí,municipio,GO
+Heliodora,municipio,MG
+Heliópolis,municipio,BA
+Herculândia,municipio,SP
+Herval,municipio,RS
+Herval d'Oeste,municipio,SC
+Herveiras,municipio,RS
+Hidrolândia,municipio,CE
+Hidrolândia,municipio,GO
+Hidrolina,municipio,GO
+Holambra,municipio,SP
+Honório Serpa,municipio,PR
+Horizonte,municipio,CE
+Horizontina,municipio,RS
+Hortolândia,municipio,SP
+Hugo Napoleão,municipio,PI
+Hulha Negra,municipio,RS
+Humaitá,municipio,AM
+Humaitá,municipio,RS
+Humberto de Campos,municipio,MA
+Iacanga,municipio,SP
+Iaciara,municipio,GO
+Iacri,municipio,SP
+Iaçu,municipio,BA
+Iapu,municipio,MG
+Iaras,municipio,SP
+Iati,municipio,PE
+Ibaiti,municipio,PR
+Ibarama,municipio,RS
+Ibaretama,municipio,CE
+Ibaté,municipio,SP
+Ibateguara,municipio,AL
+Ibatiba,municipio,ES
+Ibema,municipio,PR
+Ibertioga,municipio,MG
+Ibiá,municipio,MG
+Ibiaçá,municipio,RS
+Ibiaí,municipio,MG
+Ibiam,municipio,SC
+Ibiapina,municipio,CE
+Ibiara,municipio,PB
+Ibiassucê,municipio,BA
+Ibicaraí,municipio,BA
+Ibicaré,municipio,SC
+Ibicoara,municipio,BA
+Ibicuí,municipio,BA
+Ibicuitinga,municipio,CE
+Ibimirim,municipio,PE
+Ibipeba,municipio,BA
+Ibipitanga,municipio,BA
+Ibiporã,municipio,PR
+Ibiquera,municipio,BA
+Ibirá,municipio,SP
+Ibiracatu,municipio,MG
+Ibiraci,municipio,MG
+Ibiraçu,municipio,ES
+Ibiraiaras,municipio,RS
+Ibirajuba,municipio,PE
+Ibirama,municipio,SC
+Ibirapitanga,municipio,BA
+Ibirapuã,municipio,BA
+Ibirapuitã,municipio,RS
+Ibirarema,municipio,SP
+Ibirataia,municipio,BA
+Ibirité,municipio,MG
+Ibirubá,municipio,RS
+Ibitiara,municipio,BA
+Ibitinga,municipio,SP
+Ibitirama,municipio,ES
+Ibititá,municipio,BA
+Ibitiúra de Minas,municipio,MG
+Ibituruna,municipio,MG
+Ibiúna,municipio,SP
+Ibotirama,municipio,BA
+Icapuí,municipio,CE
+Içara,municipio,SC
+Icaraí de Minas,municipio,MG
+Icaraíma,municipio,PR
+Icatu,municipio,MA
+Icém,municipio,SP
+Ichu,municipio,BA
+Icó,municipio,CE
+Iconha,municipio,ES
+Ielmo Marinho,municipio,RN
+Iepê,municipio,SP
+Igaci,municipio,AL
+Igaporã,municipio,BA
+Igaraçu do Tietê,municipio,SP
+Igaracy,municipio,PB
+Igarapava,municipio,SP
+Igarapé,municipio,MG
+Igarapé do Meio,municipio,MA
+Igarapé Grande,municipio,MA
+Igarapé-Açu,municipio,PA
+Igarapé-Miri,municipio,PA
+Igarassu,municipio,PE
+Igaratá,municipio,SP
+Igaratinga,municipio,MG
+Igrapiúna,municipio,BA
+Igreja Nova,municipio,AL
+Igrejinha,municipio,RS
+Iguaba Grande,municipio,RJ
+Iguaí,municipio,BA
+Iguape,municipio,SP
+Iguaraçu,municipio,PR
+Iguaracy,municipio,PE
+Iguatama,municipio,MG
+Iguatemi,municipio,MS
+Iguatu,municipio,CE
+Iguatu,municipio,PR
+Ijaci,municipio,MG
+Ijuí,municipio,RS
+Ilha Comprida,municipio,SP
+Ilha das Flores,municipio,SE
+Ilha de Itamaracá,municipio,PE
+Ilha Grande,municipio,PI
+Ilha Solteira,municipio,SP
+Ilhabela,municipio,SP
+Ilhéus,municipio,BA
+Ilhota,municipio,SC
+Ilicínea,municipio,MG
+Ilópolis,municipio,RS
+Imaculada,municipio,PB
+Imaruí,municipio,SC
+Imbaú,municipio,PR
+Imbé,municipio,RS
+Imbé de Minas,municipio,MG
+Imbituba,municipio,SC
+Imbituva,municipio,PR
+Imbuia,municipio,SC
+Imigrante,municipio,RS
+Imperatriz,municipio,MA
+Inácio Martins,municipio,PR
+Inaciolândia,municipio,GO
+Inajá,municipio,PE
+Inajá,municipio,PR
+Inconfidentes,municipio,MG
+Indaiabira,municipio,MG
+Indaial,municipio,SC
+Indaiatuba,municipio,SP
+Independência,municipio,CE
+Independência,municipio,RS
+Indiana,municipio,SP
+Indianópolis,municipio,MG
+Indianópolis,municipio,PR
+Indiaporã,municipio,SP
+Indiara,municipio,GO
+Indiaroba,municipio,SE
+Indiavaí,municipio,MT
+Ingá,municipio,PB
+Ingaí,municipio,MG
+Ingazeira,municipio,PE
+Inhacorá,municipio,RS
+Inhambupe,municipio,BA
+Inhangapi,municipio,PA
+Inhapi,municipio,AL
+Inhapim,municipio,MG
+Inhaúma,municipio,MG
+Inhuma,municipio,PI
+Inhumas,municipio,GO
+Inimutaba,municipio,MG
+Inocência,municipio,MS
+Inúbia Paulista,municipio,SP
+Iomerê,municipio,SC
+Ipaba,municipio,MG
+Ipameri,municipio,GO
+Ipanema,municipio,MG
+Ipanguaçu,municipio,RN
+Ipaporanga,municipio,CE
+Ipatinga,municipio,MG
+Ipaumirim,municipio,CE
+Ipaussu,municipio,SP
+Ipê,municipio,RS
+Ipecaetá,municipio,BA
+Iperó,municipio,SP
+Ipeúna,municipio,SP
+Ipiaçu,municipio,MG
+Ipiaú,municipio,BA
+Ipiguá,municipio,SP
+Ipira,municipio,SC
+Ipirá,municipio,BA
+Ipiranga,municipio,PR
+Ipiranga de Goiás,municipio,GO
+Ipiranga do Norte,municipio,MT
+Ipiranga do Piauí,municipio,PI
+Ipiranga do Sul,municipio,RS
+Ipixuna,municipio,AM
+Ipixuna do Pará,municipio,PA
+Ipojuca,municipio,PE
+Iporá,municipio,GO
+Iporã,municipio,PR
+Iporã do Oeste,municipio,SC
+Iporanga,municipio,SP
+Ipu,municipio,CE
+Ipuã,municipio,SP
+Ipuaçu,municipio,SC
+Ipubi,municipio,PE
+Ipueira,municipio,RN
+Ipueiras,municipio,TO
+Ipueiras,municipio,CE
+Ipuiúna,municipio,MG
+Ipumirim,municipio,SC
+Ipupiara,municipio,BA
+Iracema,municipio,RR
+Iracema,municipio,CE
+Iracema do Oeste,municipio,PR
+Iracemápolis,municipio,SP
+Iraceminha,municipio,SC
+Iraí,municipio,RS
+Iraí de Minas,municipio,MG
+Irajuba,municipio,BA
+Iramaia,municipio,BA
+Iranduba,municipio,AM
+Irani,municipio,SC
+Irapuã,municipio,SP
+Irapuru,municipio,SP
+Iraquara,municipio,BA
+Irará,municipio,BA
+Irati,municipio,PR
+Irati,municipio,SC
+Irauçuba,municipio,CE
+Irecê,municipio,BA
+Iretama,municipio,PR
+Irineópolis,municipio,SC
+Irituia,municipio,PA
+Irupi,municipio,ES
+Isaías Coelho,municipio,PI
+Israelândia,municipio,GO
+Itá,municipio,SC
+Itaara,municipio,RS
+Itabaiana,municipio,PB
+Itabaiana,municipio,SE
+Itabaianinha,municipio,SE
+Itabela,municipio,BA
+Itaberá,municipio,SP
+Itaberaba,municipio,BA
+Itaberaí,municipio,GO
+Itabi,municipio,SE
+Itabira,municipio,MG
+Itabirinha,municipio,MG
+Itabirito,municipio,MG
+Itaboraí,municipio,RJ
+Itabuna,municipio,BA
+Itacajá,municipio,TO
+Itacambira,municipio,MG
+Itacarambi,municipio,MG
+Itacaré,municipio,BA
+Itacoatiara,municipio,AM
+Itacuruba,municipio,PE
+Itacurubi,municipio,RS
+Itaeté,municipio,BA
+Itagi,municipio,BA
+Itagibá,municipio,BA
+Itagimirim,municipio,BA
+Itaguaçu,municipio,ES
+Itaguaçu da Bahia,municipio,BA
+Itaguaí,municipio,RJ
+Itaguajé,municipio,PR
+Itaguara,municipio,MG
+Itaguari,municipio,GO
+Itaguaru,municipio,GO
+Itaguatins,municipio,TO
+Itaí,municipio,SP
+Itaíba,municipio,PE
+Itaiçaba,municipio,CE
+Itainópolis,municipio,PI
+Itaiópolis,municipio,SC
+Itaipava do Grajaú,municipio,MA
+Itaipé,municipio,MG
+Itaipulândia,municipio,PR
+Itaitinga,municipio,CE
+Itaituba,municipio,PA
+Itajá,municipio,RN
+Itajá,municipio,GO
+Itajaí,municipio,SC
+Itajobi,municipio,SP
+Itaju,municipio,SP
+Itaju do Colônia,municipio,BA
+Itajubá,municipio,MG
+Itajuípe,municipio,BA
+Italva,municipio,RJ
+Itamaraju,municipio,BA
+Itamarandiba,municipio,MG
+Itamarati,municipio,AM
+Itamarati de Minas,municipio,MG
+Itamari,municipio,BA
+Itambacuri,municipio,MG
+Itambaracá,municipio,PR
+Itambé,municipio,PE
+Itambé,municipio,BA
+Itambé,municipio,PR
+Itambé do Mato Dentro,municipio,MG
+Itamogi,municipio,MG
+Itamonte,municipio,MG
+Itanagra,municipio,BA
+Itanhaém,municipio,SP
+Itanhandu,municipio,MG
+Itanhangá,municipio,MT
+Itanhém,municipio,BA
+Itanhomi,municipio,MG
+Itaobim,municipio,MG
+Itaóca,municipio,SP
+Itaocara,municipio,RJ
+Itapaci,municipio,GO
+Itapagipe,municipio,MG
+Itapajé,municipio,CE
+Itaparica,municipio,BA
+Itapé,municipio,BA
+Itapebi,municipio,BA
+Itapecerica,municipio,MG
+Itapecerica da Serra,municipio,SP
+Itapecuru Mirim,municipio,MA
+Itapejara d'Oeste,municipio,PR
+Itapema,municipio,SC
+Itapemirim,municipio,ES
+Itaperuçu,municipio,PR
+Itaperuna,municipio,RJ
+Itapetim,municipio,PE
+Itapetinga,municipio,BA
+Itapetininga,municipio,SP
+Itapeva,municipio,MG
+Itapeva,municipio,SP
+Itapevi,municipio,SP
+Itapicuru,municipio,BA
+Itapipoca,municipio,CE
+Itapira,municipio,SP
+Itapiranga,municipio,AM
+Itapiranga,municipio,SC
+Itapirapuã,municipio,GO
+Itapirapuã Paulista,municipio,SP
+Itapiratins,municipio,TO
+Itapissuma,municipio,PE
+Itapitanga,municipio,BA
+Itapiúna,municipio,CE
+Itapoá,municipio,SC
+Itápolis,municipio,SP
+Itaporã,municipio,MS
+Itaporã do Tocantins,municipio,TO
+Itaporanga,municipio,PB
+Itaporanga,municipio,SP
+Itaporanga d'Ajuda,municipio,SE
+Itapororoca,municipio,PB
+Itapuã do Oeste,municipio,RO
+Itapuca,municipio,RS
+Itapuí,municipio,SP
+Itapura,municipio,SP
+Itapuranga,municipio,GO
+Itaquaquecetuba,municipio,SP
+Itaquara,municipio,BA
+Itaqui,municipio,RS
+Itaquiraí,municipio,MS
+Itaquitinga,municipio,PE
+Itarana,municipio,ES
+Itarantim,municipio,BA
+Itararé,municipio,SP
+Itarema,municipio,CE
+Itariri,municipio,SP
+Itarumã,municipio,GO
+Itati,municipio,RS
+Itatiaia,municipio,RJ
+Itatiaiuçu,municipio,MG
+Itatiba,municipio,SP
+Itatiba do Sul,municipio,RS
+Itatim,municipio,BA
+Itatinga,municipio,SP
+Itatira,municipio,CE
+Itatuba,municipio,PB
+Itaú,municipio,RN
+Itaú de Minas,municipio,MG
+Itaúba,municipio,MT
+Itaubal,municipio,AP
+Itauçu,municipio,GO
+Itaueira,municipio,PI
+Itaúna,municipio,MG
+Itaúna do Sul,municipio,PR
+Itaverava,municipio,MG
+Itinga,municipio,MG
+Itinga do Maranhão,municipio,MA
+Itiquira,municipio,MT
+Itirapina,municipio,SP
+Itirapuã,municipio,SP
+Itiruçu,municipio,BA
+Itiúba,municipio,BA
+Itobi,municipio,SP
+Itororó,municipio,BA
+Itu,municipio,SP
+Ituaçu,municipio,BA
+Ituberá,municipio,BA
+Itueta,municipio,MG
+Ituiutaba,municipio,MG
+Itumbiara,municipio,GO
+Itumirim,municipio,MG
+Itupeva,municipio,SP
+Itupiranga,municipio,PA
+Ituporanga,municipio,SC
+Iturama,municipio,MG
+Itutinga,municipio,MG
+Ituverava,municipio,SP
+Iuiú,municipio,BA
+Iúna,municipio,ES
+Ivaí,municipio,PR
+Ivaiporã,municipio,PR
+Ivaté,municipio,PR
+Ivatuba,municipio,PR
+Ivinhema,municipio,MS
+Ivolândia,municipio,GO
+Ivorá,municipio,RS
+Ivoti,municipio,RS
+Jaboatão dos Guararapes,municipio,PE
+Jaborá,municipio,SC
+Jaborandi,municipio,BA
+Jaborandi,municipio,SP
+Jaboti,municipio,PR
+Jaboticaba,municipio,RS
+Jaboticabal,municipio,SP
+Jaboticatubas,municipio,MG
+Jaçanã,municipio,RN
+Jacaraci,municipio,BA
+Jacaraú,municipio,PB
+Jacaré dos Homens,municipio,AL
+Jacareacanga,municipio,PA
+Jacareí,municipio,SP
+Jacarezinho,municipio,PR
+Jaci,municipio,SP
+Jaciara,municipio,MT
+Jacinto,municipio,MG
+Jacinto Machado,municipio,SC
+Jacobina,municipio,BA
+Jacobina do Piauí,municipio,PI
+Jacuí,municipio,MG
+Jacuípe,municipio,AL
+Jacuizinho,municipio,RS
+Jacundá,municipio,PA
+Jacupiranga,municipio,SP
+Jacutinga,municipio,MG
+Jacutinga,municipio,RS
+Jaguapitã,municipio,PR
+Jaguaquara,municipio,BA
+Jaguaraçu,municipio,MG
+Jaguarão,municipio,RS
+Jaguarari,municipio,BA
+Jaguaré,municipio,ES
+Jaguaretama,municipio,CE
+Jaguari,municipio,RS
+Jaguariaíva,municipio,PR
+Jaguaribara,municipio,CE
+Jaguaribe,municipio,CE
+Jaguaripe,municipio,BA
+Jaguariúna,municipio,SP
+Jaguaruana,municipio,CE
+Jaguaruna,municipio,SC
+Jaíba,municipio,MG
+Jaicós,municipio,PI
+Jales,municipio,SP
+Jambeiro,municipio,SP
+Jampruca,municipio,MG
+Janaúba,municipio,MG
+Jandaia,municipio,GO
+Jandaia do Sul,municipio,PR
+Jandaíra,municipio,RN
+Jandaíra,municipio,BA
+Jandira,municipio,SP
+Janduís,municipio,RN
+Jangada,municipio,MT
+Janiópolis,municipio,PR
+Januária,municipio,MG
+Januário Cicco,municipio,RN
+Japaraíba,municipio,MG
+Japaratinga,municipio,AL
+Japaratuba,municipio,SE
+Japeri,municipio,RJ
+Japi,municipio,RN
+Japira,municipio,PR
+Japoatã,municipio,SE
+Japonvar,municipio,MG
+Japorã,municipio,MS
+Japurá,municipio,AM
+Japurá,municipio,PR
+Jaqueira,municipio,PE
+Jaquirana,municipio,RS
+Jaraguá,municipio,GO
+Jaraguá do Sul,municipio,SC
+Jaraguari,municipio,MS
+Jaramataia,municipio,AL
+Jardim,municipio,CE
+Jardim,municipio,MS
+Jardim Alegre,municipio,PR
+Jardim de Angicos,municipio,RN
+Jardim de Piranhas,municipio,RN
+Jardim do Mulato,municipio,PI
+Jardim do Seridó,municipio,RN
+Jardim Olinda,municipio,PR
+Jardinópolis,municipio,SP
+Jardinópolis,municipio,SC
+Jari,municipio,RS
+Jarinu,municipio,SP
+Jaru,municipio,RO
+Jataí,municipio,GO
+Jataizinho,municipio,PR
+Jataúba,municipio,PE
+Jateí,municipio,MS
+Jati,municipio,CE
+Jatobá,municipio,MA
+Jatobá,municipio,PE
+Jatobá do Piauí,municipio,PI
+Jaú,municipio,SP
+Jaú do Tocantins,municipio,TO
+Jaupaci,municipio,GO
+Jauru,municipio,MT
+Jeceaba,municipio,MG
+Jenipapo de Minas,municipio,MG
+Jenipapo dos Vieiras,municipio,MA
+Jequeri,municipio,MG
+Jequiá da Praia,municipio,AL
+Jequié,municipio,BA
+Jequitaí,municipio,MG
+Jequitibá,municipio,MG
+Jequitinhonha,municipio,MG
+Jeremoabo,municipio,BA
+Jericó,municipio,PB
+Jeriquara,municipio,SP
+Jerônimo Monteiro,municipio,ES
+Jerumenha,municipio,PI
+Jesuânia,municipio,MG
+Jesuítas,municipio,PR
+Jesúpolis,municipio,GO
+Ji-Paraná,municipio,RO
+Jijoca de Jericoacoara,municipio,CE
+Jiquiriçá,municipio,BA
+Jitaúna,municipio,BA
+Joaçaba,municipio,SC
+Joaíma,municipio,MG
+Joanésia,municipio,MG
+Joanópolis,municipio,SP
+João Alfredo,municipio,PE
+João Câmara,municipio,RN
+João Costa,municipio,PI
+João Dias,municipio,RN
+João Dourado,municipio,BA
+João Lisboa,municipio,MA
+João Monlevade,municipio,MG
+João Neiva,municipio,ES
+João Pessoa,municipio,PB
+João Pinheiro,municipio,MG
+João Ramalho,municipio,SP
+Joaquim Felício,municipio,MG
+Joaquim Gomes,municipio,AL
+Joaquim Nabuco,municipio,PE
+Joaquim Pires,municipio,PI
+Joaquim Távora,municipio,PR
+Joca Claudino,municipio,PB
+Joca Marques,municipio,PI
+Joia,municipio,RS
+Joinville,municipio,SC
+Jordânia,municipio,MG
+Jordão,municipio,AC
+José Boiteux,municipio,SC
+José Bonifácio,municipio,SP
+José da Penha,municipio,RN
+José de Freitas,municipio,PI
+José Gonçalves de Minas,municipio,MG
+José Raydan,municipio,MG
+Joselândia,municipio,MA
+Josenópolis,municipio,MG
+Joviânia,municipio,GO
+Juara,municipio,MT
+Juarez Távora,municipio,PB
+Juarina,municipio,TO
+Juatuba,municipio,MG
+Juazeirinho,municipio,PB
+Juazeiro,municipio,BA
+Juazeiro do Norte,municipio,CE
+Juazeiro do Piauí,municipio,PI
+Jucás,municipio,CE
+Jucati,municipio,PE
+Jucuruçu,municipio,BA
+Jucurutu,municipio,RN
+Juína,municipio,MT
+Juiz de Fora,municipio,MG
+Júlio Borges,municipio,PI
+Júlio de Castilhos,municipio,RS
+Júlio Mesquita,municipio,SP
+Jumirim,municipio,SP
+Junco do Maranhão,municipio,MA
+Junco do Seridó,municipio,PB
+Jundiá,municipio,RN
+Jundiá,municipio,AL
+Jundiaí,municipio,SP
+Jundiaí do Sul,municipio,PR
+Junqueiro,municipio,AL
+Junqueirópolis,municipio,SP
+Jupi,municipio,PE
+Jupiá,municipio,SC
+Juquiá,municipio,SP
+Juquitiba,municipio,SP
+Juramento,municipio,MG
+Juranda,municipio,PR
+Jurema,municipio,PI
+Jurema,municipio,PE
+Juripiranga,municipio,PB
+Juru,municipio,PB
+Juruá,municipio,AM
+Juruaia,municipio,MG
+Juruena,municipio,MT
+Juruti,municipio,PA
+Juscimeira,municipio,MT
+Jussara,municipio,BA
+Jussara,municipio,PR
+Jussara,municipio,GO
+Jussari,municipio,BA
+Jussiape,municipio,BA
+Jutaí,municipio,AM
+Juti,municipio,MS
+Juvenília,municipio,MG
+Kaloré,municipio,PR
+Lábrea,municipio,AM
+Lacerdópolis,municipio,SC
+Ladainha,municipio,MG
+Ladário,municipio,MS
+Lafaiete Coutinho,municipio,BA
+Lagamar,municipio,MG
+Lagarto,municipio,SE
+Lages,municipio,SC
+Lago da Pedra,municipio,MA
+Lago do Junco,municipio,MA
+Lago dos Rodrigues,municipio,MA
+Lago Verde,municipio,MA
+Lagoa,municipio,PB
+Lagoa Alegre,municipio,PI
+Lagoa Bonita do Sul,municipio,RS
+Lagoa d'Anta,municipio,RN
+Lagoa da Canoa,municipio,AL
+Lagoa da Confusão,municipio,TO
+Lagoa da Prata,municipio,MG
+Lagoa de Dentro,municipio,PB
+Lagoa de Itaenga,municipio,PE
+Lagoa de Pedras,municipio,RN
+Lagoa de São Francisco,municipio,PI
+Lagoa de Velhos,municipio,RN
+Lagoa do Barro do Piauí,municipio,PI
+Lagoa do Carro,municipio,PE
+Lagoa do Mato,municipio,MA
+Lagoa do Ouro,municipio,PE
+Lagoa do Piauí,municipio,PI
+Lagoa do Sítio,municipio,PI
+Lagoa do Tocantins,municipio,TO
+Lagoa dos Gatos,municipio,PE
+Lagoa dos Patos,municipio,MG
+Lagoa dos Três Cantos,municipio,RS
+Lagoa Dourada,municipio,MG
+Lagoa Formosa,municipio,MG
+Lagoa Grande,municipio,PE
+Lagoa Grande,municipio,MG
+Lagoa Grande do Maranhão,municipio,MA
+Lagoa Nova,municipio,RN
+Lagoa Real,municipio,BA
+Lagoa Salgada,municipio,RN
+Lagoa Santa,municipio,MG
+Lagoa Santa,municipio,GO
+Lagoa Seca,municipio,PB
+Lagoa Vermelha,municipio,RS
+Lagoão,municipio,RS
+Lagoinha,municipio,SP
+Lagoinha do Piauí,municipio,PI
+Laguna,municipio,SC
+Laguna Carapã,municipio,MS
+Laje,municipio,BA
+Laje do Muriaé,municipio,RJ
+Lajeado,municipio,TO
+Lajeado,municipio,RS
+Lajeado do Bugre,municipio,RS
+Lajeado Grande,municipio,SC
+Lajeado Novo,municipio,MA
+Lajedão,municipio,BA
+Lajedinho,municipio,BA
+Lajedo,municipio,PE
+Lajedo do Tabocal,municipio,BA
+Lajes,municipio,RN
+Lajes Pintadas,municipio,RN
+Lajinha,municipio,MG
+Lamarão,municipio,BA
+Lambari,municipio,MG
+Lambari d'Oeste,municipio,MT
+Lamim,municipio,MG
+Landri Sales,municipio,PI
+Lapa,municipio,PR
+Lapão,municipio,BA
+Laranja da Terra,municipio,ES
+Laranjal,municipio,MG
+Laranjal,municipio,PR
+Laranjal do Jari,municipio,AP
+Laranjal Paulista,municipio,SP
+Laranjeiras,municipio,SE
+Laranjeiras do Sul,municipio,PR
+Lassance,municipio,MG
+Lastro,municipio,PB
+Laurentino,municipio,SC
+Lauro de Freitas,municipio,BA
+Lauro Muller,municipio,SC
+Lavandeira,municipio,TO
+Lavínia,municipio,SP
+Lavras,municipio,MG
+Lavras da Mangabeira,municipio,CE
+Lavras do Sul,municipio,RS
+Lavrinhas,municipio,SP
+Leandro Ferreira,municipio,MG
+Lebon Régis,municipio,SC
+Leme,municipio,SP
+Leme do Prado,municipio,MG
+Lençóis,municipio,BA
+Lençóis Paulista,municipio,SP
+Leoberto Leal,municipio,SC
+Leopoldina,municipio,MG
+Leopoldo de Bulhões,municipio,GO
+Leópolis,municipio,PR
+Liberato Salzano,municipio,RS
+Liberdade,municipio,MG
+Licínio de Almeida,municipio,BA
+Lidianópolis,municipio,PR
+Lima Campos,municipio,MA
+Lima Duarte,municipio,MG
+Limeira,municipio,SP
+Limeira do Oeste,municipio,MG
+Limoeiro,municipio,PE
+Limoeiro de Anadia,municipio,AL
+Limoeiro do Ajuru,municipio,PA
+Limoeiro do Norte,municipio,CE
+Lindoeste,municipio,PR
+Lindoia,municipio,SP
+Lindoia do Sul,municipio,SC
+Lindolfo Collor,municipio,RS
+Linha Nova,municipio,RS
+Linhares,municipio,ES
+Lins,municipio,SP
+Livramento,municipio,PB
+Livramento de Nossa Senhora,municipio,BA
+Lizarda,municipio,TO
+Loanda,municipio,PR
+Lobato,municipio,PR
+Logradouro,municipio,PB
+Londrina,municipio,PR
+Lontra,municipio,MG
+Lontras,municipio,SC
+Lorena,municipio,SP
+Loreto,municipio,MA
+Lourdes,municipio,SP
+Louveira,municipio,SP
+Lucas do Rio Verde,municipio,MT
+Lucélia,municipio,SP
+Lucena,municipio,PB
+Lucianópolis,municipio,SP
+Luciara,municipio,MT
+Lucrécia,municipio,RN
+Luís Antônio,municipio,SP
+Luís Correia,municipio,PI
+Luís Domingues,municipio,MA
+Luís Eduardo Magalhães,municipio,BA
+Luís Gomes,municipio,RN
+Luisburgo,municipio,MG
+Luislândia,municipio,MG
+Luiz Alves,municipio,SC
+Luiziana,municipio,PR
+Luiziânia,municipio,SP
+Luminárias,municipio,MG
+Lunardelli,municipio,PR
+Lupércio,municipio,SP
+Lupionópolis,municipio,PR
+Lutécia,municipio,SP
+Luz,municipio,MG
+Luzerna,municipio,SC
+Luziânia,municipio,GO
+Luzilândia,municipio,PI
+Luzinópolis,municipio,TO
+Macaé,municipio,RJ
+Macaíba,municipio,RN
+Macajuba,municipio,BA
+Maçambará,municipio,RS
+Macambira,municipio,SE
+Macapá,municipio,AP
+Macaparana,municipio,PE
+Macarani,municipio,BA
+Macatuba,municipio,SP
+Macau,municipio,RN
+Macaubal,municipio,SP
+Macaúbas,municipio,BA
+Macedônia,municipio,SP
+Maceió,municipio,AL
+Machacalis,municipio,MG
+Machadinho,municipio,RS
+Machadinho d'Oeste,municipio,RO
+Machado,municipio,MG
+Machados,municipio,PE
+Macieira,municipio,SC
+Macuco,municipio,RJ
+Macururé,municipio,BA
+Madalena,municipio,CE
+Madeiro,municipio,PI
+Madre de Deus,municipio,BA
+Madre de Deus de Minas,municipio,MG
+Mãe d'Água,municipio,PB
+Mãe do Rio,municipio,PA
+Maetinga,municipio,BA
+Mafra,municipio,SC
+Magalhães Barata,municipio,PA
+Magalhães de Almeida,municipio,MA
+Magda,municipio,SP
+Magé,municipio,RJ
+Maiquinique,municipio,BA
+Mairi,municipio,BA
+Mairinque,municipio,SP
+Mairiporã,municipio,SP
+Mairipotaba,municipio,GO
+Major Gercino,municipio,SC
+Major Isidoro,municipio,AL
+Major Sales,municipio,RN
+Major Vieira,municipio,SC
+Malacacheta,municipio,MG
+Malhada,municipio,BA
+Malhada de Pedras,municipio,BA
+Malhada dos Bois,municipio,SE
+Malhador,municipio,SE
+Mallet,municipio,PR
+Malta,municipio,PB
+Mamanguape,municipio,PB
+Mambaí,municipio,GO
+Mamborê,municipio,PR
+Mamonas,municipio,MG
+Mampituba,municipio,RS
+Manacapuru,municipio,AM
+Manaíra,municipio,PB
+Manaquiri,municipio,AM
+Manari,municipio,PE
+Manaus,municipio,AM
+Mâncio Lima,municipio,AC
+Mandaguaçu,municipio,PR
+Mandaguari,municipio,PR
+Mandirituba,municipio,PR
+Manduri,municipio,SP
+Manfrinópolis,municipio,PR
+Manga,municipio,MG
+Mangaratiba,municipio,RJ
+Mangueirinha,municipio,PR
+Manhuaçu,municipio,MG
+Manhumirim,municipio,MG
+Manicoré,municipio,AM
+Manoel Emídio,municipio,PI
+Manoel Ribas,municipio,PR
+Manoel Urbano,municipio,AC
+Manoel Viana,municipio,RS
+Manoel Vitorino,municipio,BA
+Mansidão,municipio,BA
+Mantena,municipio,MG
+Mantenópolis,municipio,ES
+Maquiné,municipio,RS
+Mar de Espanha,municipio,MG
+Mar Vermelho,municipio,AL
+Mara Rosa,municipio,GO
+Maraã,municipio,AM
+Marabá,municipio,PA
+Marabá Paulista,municipio,SP
+Maracaçumé,municipio,MA
+Maracaí,municipio,SP
+Maracajá,municipio,SC
+Maracaju,municipio,MS
+Maracanã,municipio,PA
+Maracanaú,municipio,CE
+Maracás,municipio,BA
+Maragogi,municipio,AL
+Maragogipe,municipio,BA
+Maraial,municipio,PE
+Marajá do Sena,municipio,MA
+Maranguape,municipio,CE
+Maranhãozinho,municipio,MA
+Marapanim,municipio,PA
+Marapoama,municipio,SP
+Maratá,municipio,RS
+Marataízes,municipio,ES
+Marau,municipio,RS
+Maraú,municipio,BA
+Maravilha,municipio,AL
+Maravilha,municipio,SC
+Maravilhas,municipio,MG
+Marcação,municipio,PB
+Marcelândia,municipio,MT
+Marcelino Ramos,municipio,RS
+Marcelino Vieira,municipio,RN
+Marcionílio Souza,municipio,BA
+Marco,municipio,CE
+Marcolândia,municipio,PI
+Marcos Parente,municipio,PI
+Marechal Cândido Rondon,municipio,PR
+Marechal Deodoro,municipio,AL
+Marechal Floriano,municipio,ES
+Marechal Thaumaturgo,municipio,AC
+Marema,municipio,SC
+Mari,municipio,PB
+Maria da Fé,municipio,MG
+Maria Helena,municipio,PR
+Marialva,municipio,PR
+Mariana,municipio,MG
+Mariana Pimentel,municipio,RS
+Mariano Moro,municipio,RS
+Marianópolis do Tocantins,municipio,TO
+Mariápolis,municipio,SP
+Maribondo,municipio,AL
+Maricá,municipio,RJ
+Marilac,municipio,MG
+Marilândia,municipio,ES
+Marilândia do Sul,municipio,PR
+Marilena,municipio,PR
+Marília,municipio,SP
+Mariluz,municipio,PR
+Maringá,municipio,PR
+Marinópolis,municipio,SP
+Mário Campos,municipio,MG
+Mariópolis,municipio,PR
+Maripá,municipio,PR
+Maripá de Minas,municipio,MG
+Marituba,municipio,PA
+Marizópolis,municipio,PB
+Marliéria,municipio,MG
+Marmeleiro,municipio,PR
+Marmelópolis,municipio,MG
+Marques de Souza,municipio,RS
+Marquinho,municipio,PR
+Martinho Campos,municipio,MG
+Martinópole,municipio,CE
+Martinópolis,municipio,SP
+Martins,municipio,RN
+Martins Soares,municipio,MG
+Maruim,municipio,SE
+Marumbi,municipio,PR
+Marzagão,municipio,GO
+Mascote,municipio,BA
+Massapê,municipio,CE
+Massapê do Piauí,municipio,PI
+Massaranduba,municipio,PB
+Massaranduba,municipio,SC
+Mata,municipio,RS
+Mata de São João,municipio,BA
+Mata Grande,municipio,AL
+Mata Roma,municipio,MA
+Mata Verde,municipio,MG
+Matão,municipio,SP
+Mataraca,municipio,PB
+Mateiros,municipio,TO
+Matelândia,municipio,PR
+Materlândia,municipio,MG
+Mateus Leme,municipio,MG
+Mathias Lobato,municipio,MG
+Matias Barbosa,municipio,MG
+Matias Cardoso,municipio,MG
+Matias Olímpio,municipio,PI
+Matina,municipio,BA
+Matinha,municipio,MA
+Matinhas,municipio,PB
+Matinhos,municipio,PR
+Matipó,municipio,MG
+Mato Castelhano,municipio,RS
+Mato Grosso,municipio,PB
+Mato Leitão,municipio,RS
+Mato Queimado,municipio,RS
+Mato Rico,municipio,PR
+Mato Verde,municipio,MG
+Matões,municipio,MA
+Matões do Norte,municipio,MA
+Matos Costa,municipio,SC
+Matozinhos,municipio,MG
+Matrinchã,municipio,GO
+Matriz de Camaragibe,municipio,AL
+Matupá,municipio,MT
+Matureia,municipio,PB
+Matutina,municipio,MG
+Mauá,municipio,SP
+Mauá da Serra,municipio,PR
+Maués,municipio,AM
+Maurilândia,municipio,GO
+Maurilândia do Tocantins,municipio,TO
+Mauriti,municipio,CE
+Maxaranguape,municipio,RN
+Maximiliano de Almeida,municipio,RS
+Mazagão,municipio,AP
+Medeiros,municipio,MG
+Medeiros Neto,municipio,BA
+Medianeira,municipio,PR
+Medicilândia,municipio,PA
+Medina,municipio,MG
+Meleiro,municipio,SC
+Melgaço,municipio,PA
+Mendes,municipio,RJ
+Mendes Pimentel,municipio,MG
+Mendonça,municipio,SP
+Mercedes,municipio,PR
+Mercês,municipio,MG
+Meridiano,municipio,SP
+Meruoca,municipio,CE
+Mesópolis,municipio,SP
+Mesquita,municipio,MG
+Mesquita,municipio,RJ
+Messias,municipio,AL
+Messias Targino,municipio,RN
+Miguel Alves,municipio,PI
+Miguel Calmon,municipio,BA
+Miguel Leão,municipio,PI
+Miguel Pereira,municipio,RJ
+Miguelópolis,municipio,SP
+Milagres,municipio,CE
+Milagres,municipio,BA
+Milagres do Maranhão,municipio,MA
+Milhã,municipio,CE
+Milton Brandão,municipio,PI
+Mimoso de Goiás,municipio,GO
+Mimoso do Sul,municipio,ES
+Minaçu,municipio,GO
+Minador do Negrão,municipio,AL
+Minas do Leão,municipio,RS
+Minas Novas,municipio,MG
+Minduri,municipio,MG
+Mineiros,municipio,GO
+Mineiros do Tietê,municipio,SP
+Ministro Andreazza,municipio,RO
+Mira Estrela,municipio,SP
+Mirabela,municipio,MG
+Miracatu,municipio,SP
+Miracema,municipio,RJ
+Miracema do Tocantins,municipio,TO
+Mirador,municipio,MA
+Mirador,municipio,PR
+Miradouro,municipio,MG
+Miraguaí,municipio,RS
+Miraí,municipio,MG
+Miraíma,municipio,CE
+Miranda,municipio,MS
+Miranda do Norte,municipio,MA
+Mirandiba,municipio,PE
+Mirandópolis,municipio,SP
+Mirangaba,municipio,BA
+Miranorte,municipio,TO
+Mirante,municipio,BA
+Mirante da Serra,municipio,RO
+Mirante do Paranapanema,municipio,SP
+Miraselva,municipio,PR
+Mirassol,municipio,SP
+Mirassol d'Oeste,municipio,MT
+Mirassolândia,municipio,SP
+Miravânia,municipio,MG
+Mirim Doce,municipio,SC
+Mirinzal,municipio,MA
+Missal,municipio,PR
+Missão Velha,municipio,CE
+Mocajuba,municipio,PA
+Mococa,municipio,SP
+Modelo,municipio,SC
+Moeda,municipio,MG
+Moema,municipio,MG
+Mogeiro,municipio,PB
+Mogi das Cruzes,municipio,SP
+Mogi Guaçu,municipio,SP
+Mogi Mirim,municipio,SP
+Moiporá,municipio,GO
+Moita Bonita,municipio,SE
+Moju,municipio,PA
+Mojuí dos Campos,municipio,PA
+Mombaça,municipio,CE
+Mombuca,municipio,SP
+Monção,municipio,MA
+Monções,municipio,SP
+Mondaí,municipio,SC
+Mongaguá,municipio,SP
+Monjolos,municipio,MG
+Monsenhor Gil,municipio,PI
+Monsenhor Hipólito,municipio,PI
+Monsenhor Paulo,municipio,MG
+Monsenhor Tabosa,municipio,CE
+Montadas,municipio,PB
+Montalvânia,municipio,MG
+Montanha,municipio,ES
+Montanhas,municipio,RN
+Montauri,municipio,RS
+Monte Alegre,municipio,PA
+Monte Alegre,municipio,RN
+Monte Alegre de Goiás,municipio,GO
+Monte Alegre de Minas,municipio,MG
+Monte Alegre de Sergipe,municipio,SE
+Monte Alegre do Piauí,municipio,PI
+Monte Alegre do Sul,municipio,SP
+Monte Alegre dos Campos,municipio,RS
+Monte Alto,municipio,SP
+Monte Aprazível,municipio,SP
+Monte Azul,municipio,MG
+Monte Azul Paulista,municipio,SP
+Monte Belo,municipio,MG
+Monte Belo do Sul,municipio,RS
+Monte Carlo,municipio,SC
+Monte Carmelo,municipio,MG
+Monte Castelo,municipio,SP
+Monte Castelo,municipio,SC
+Monte das Gameleiras,municipio,RN
+Monte do Carmo,municipio,TO
+Monte Formoso,municipio,MG
+Monte Horebe,municipio,PB
+Monte Mor,municipio,SP
+Monte Negro,municipio,RO
+Monte Santo,municipio,BA
+Monte Santo de Minas,municipio,MG
+Monte Santo do Tocantins,municipio,TO
+Monte Sião,municipio,MG
+Monteiro,municipio,PB
+Monteiro Lobato,municipio,SP
+Monteirópolis,municipio,AL
+Montenegro,municipio,RS
+Montes Altos,municipio,MA
+Montes Claros,municipio,MG
+Montes Claros de Goiás,municipio,GO
+Montezuma,municipio,MG
+Montividiu,municipio,GO
+Montividiu do Norte,municipio,GO
+Morada Nova,municipio,CE
+Morada Nova de Minas,municipio,MG
+Moraújo,municipio,CE
+Moreilândia,municipio,PE
+Moreira Sales,municipio,PR
+Moreno,municipio,PE
+Mormaço,municipio,RS
+Morpará,municipio,BA
+Morretes,municipio,PR
+Morrinhos,municipio,CE
+Morrinhos,municipio,GO
+Morrinhos do Sul,municipio,RS
+Morro Agudo,municipio,SP
+Morro Agudo de Goiás,municipio,GO
+Morro Cabeça no Tempo,municipio,PI
+Morro da Fumaça,municipio,SC
+Morro da Garça,municipio,MG
+Morro do Chapéu,municipio,BA
+Morro do Chapéu do Piauí,municipio,PI
+Morro do Pilar,municipio,MG
+Morro Grande,municipio,SC
+Morro Redondo,municipio,RS
+Morro Reuter,municipio,RS
+Morros,municipio,MA
+Mortugaba,municipio,BA
+Morungaba,municipio,SP
+Mossâmedes,municipio,GO
+Mossoró,municipio,RN
+Mostardas,municipio,RS
+Motuca,municipio,SP
+Mozarlândia,municipio,GO
+Muaná,municipio,PA
+Mucajaí,municipio,RR
+Mucambo,municipio,CE
+Mucugê,municipio,BA
+Muçum,municipio,RS
+Mucuri,municipio,BA
+Mucurici,municipio,ES
+Muitos Capões,municipio,RS
+Muliterno,municipio,RS
+Mulungu,municipio,CE
+Mulungu,municipio,PB
+Mulungu do Morro,municipio,BA
+Mundo Novo,municipio,BA
+Mundo Novo,municipio,MS
+Mundo Novo,municipio,GO
+Munhoz,municipio,MG
+Munhoz de Melo,municipio,PR
+Muniz Ferreira,municipio,BA
+Muniz Freire,municipio,ES
+Muquém de São Francisco,municipio,BA
+Muqui,municipio,ES
+Muriaé,municipio,MG
+Muribeca,municipio,SE
+Murici,municipio,AL
+Murici dos Portelas,municipio,PI
+Muricilândia,municipio,TO
+Muritiba,municipio,BA
+Murutinga do Sul,municipio,SP
+Mutuípe,municipio,BA
+Mutum,municipio,MG
+Mutunópolis,municipio,GO
+Muzambinho,municipio,MG
+Nacip Raydan,municipio,MG
+Nantes,municipio,SP
+Nanuque,municipio,MG
+Não-Me-Toque,municipio,RS
+Naque,municipio,MG
+Narandiba,municipio,SP
+Natal,municipio,RN
+Natalândia,municipio,MG
+Natércia,municipio,MG
+Natividade,municipio,TO
+Natividade,municipio,RJ
+Natividade da Serra,municipio,SP
+Natuba,municipio,PB
+Navegantes,municipio,SC
+Naviraí,municipio,MS
+Nazaré,municipio,TO
+Nazaré,municipio,BA
+Nazaré da Mata,municipio,PE
+Nazaré do Piauí,municipio,PI
+Nazaré Paulista,municipio,SP
+Nazareno,municipio,MG
+Nazarezinho,municipio,PB
+Nazária,municipio,PI
+Nazário,municipio,GO
+Neópolis,municipio,SE
+Nepomuceno,municipio,MG
+Nerópolis,municipio,GO
+Neves Paulista,municipio,SP
+Nhamundá,municipio,AM
+Nhandeara,municipio,SP
+Nicolau Vergueiro,municipio,RS
+Nilo Peçanha,municipio,BA
+Nilópolis,municipio,RJ
+Nina Rodrigues,municipio,MA
+Ninheira,municipio,MG
+Nioaque,municipio,MS
+Nipoã,municipio,SP
+Niquelândia,municipio,GO
+Nísia Floresta,municipio,RN
+Niterói,municipio,RJ
+Nobres,municipio,MT
+Nonoai,municipio,RS
+Nordestina,municipio,BA
+Normandia,municipio,RR
+Nortelândia,municipio,MT
+Nossa Senhora Aparecida,municipio,SE
+Nossa Senhora da Glória,municipio,SE
+Nossa Senhora das Dores,municipio,SE
+Nossa Senhora das Graças,municipio,PR
+Nossa Senhora de Lourdes,municipio,SE
+Nossa Senhora de Nazaré,municipio,PI
+Nossa Senhora do Livramento,municipio,MT
+Nossa Senhora do Socorro,municipio,SE
+Nossa Senhora dos Remédios,municipio,PI
+Nova Aliança,municipio,SP
+Nova Aliança do Ivaí,municipio,PR
+Nova Alvorada,municipio,RS
+Nova Alvorada do Sul,municipio,MS
+Nova América,municipio,GO
+Nova América da Colina,municipio,PR
+Nova Andradina,municipio,MS
+Nova Araçá,municipio,RS
+Nova Aurora,municipio,PR
+Nova Aurora,municipio,GO
+Nova Bandeirantes,municipio,MT
+Nova Bassano,municipio,RS
+Nova Belém,municipio,MG
+Nova Boa Vista,municipio,RS
+Nova Brasilândia,municipio,MT
+Nova Brasilândia d'Oeste,municipio,RO
+Nova Bréscia,municipio,RS
+Nova Campina,municipio,SP
+Nova Canaã,municipio,BA
+Nova Canaã do Norte,municipio,MT
+Nova Canaã Paulista,municipio,SP
+Nova Candelária,municipio,RS
+Nova Cantu,municipio,PR
+Nova Castilho,municipio,SP
+Nova Colinas,municipio,MA
+Nova Crixás,municipio,GO
+Nova Cruz,municipio,RN
+Nova Era,municipio,MG
+Nova Erechim,municipio,SC
+Nova Esperança,municipio,PR
+Nova Esperança do Piriá,municipio,PA
+Nova Esperança do Sudoeste,municipio,PR
+Nova Esperança do Sul,municipio,RS
+Nova Europa,municipio,SP
+Nova Fátima,municipio,BA
+Nova Fátima,municipio,PR
+Nova Floresta,municipio,PB
+Nova Friburgo,municipio,RJ
+Nova Glória,municipio,GO
+Nova Granada,municipio,SP
+Nova Guarita,municipio,MT
+Nova Guataporanga,municipio,SP
+Nova Hartz,municipio,RS
+Nova Ibiá,municipio,BA
+Nova Iguaçu,municipio,RJ
+Nova Iguaçu de Goiás,municipio,GO
+Nova Independência,municipio,SP
+Nova Iorque,municipio,MA
+Nova Ipixuna,municipio,PA
+Nova Itaberaba,municipio,SC
+Nova Itarana,municipio,BA
+Nova Lacerda,municipio,MT
+Nova Laranjeiras,municipio,PR
+Nova Lima,municipio,MG
+Nova Londrina,municipio,PR
+Nova Luzitânia,municipio,SP
+Nova Mamoré,municipio,RO
+Nova Marilândia,municipio,MT
+Nova Maringá,municipio,MT
+Nova Módica,municipio,MG
+Nova Monte Verde,municipio,MT
+Nova Mutum,municipio,MT
+Nova Nazaré,municipio,MT
+Nova Odessa,municipio,SP
+Nova Olímpia,municipio,PR
+Nova Olímpia,municipio,MT
+Nova Olinda,municipio,TO
+Nova Olinda,municipio,CE
+Nova Olinda,municipio,PB
+Nova Olinda do Maranhão,municipio,MA
+Nova Olinda do Norte,municipio,AM
+Nova Pádua,municipio,RS
+Nova Palma,municipio,RS
+Nova Palmeira,municipio,PB
+Nova Petrópolis,municipio,RS
+Nova Ponte,municipio,MG
+Nova Porteirinha,municipio,MG
+Nova Prata,municipio,RS
+Nova Prata do Iguaçu,municipio,PR
+Nova Ramada,municipio,RS
+Nova Redenção,municipio,BA
+Nova Resende,municipio,MG
+Nova Roma,municipio,GO
+Nova Roma do Sul,municipio,RS
+Nova Rosalândia,municipio,TO
+Nova Russas,municipio,CE
+Nova Santa Bárbara,municipio,PR
+Nova Santa Helena,municipio,MT
+Nova Santa Rita,municipio,PI
+Nova Santa Rita,municipio,RS
+Nova Santa Rosa,municipio,PR
+Nova Serrana,municipio,MG
+Nova Soure,municipio,BA
+Nova Tebas,municipio,PR
+Nova Timboteua,municipio,PA
+Nova Trento,municipio,SC
+Nova Ubiratã,municipio,MT
+Nova União,municipio,RO
+Nova União,municipio,MG
+Nova Venécia,municipio,ES
+Nova Veneza,municipio,SC
+Nova Veneza,municipio,GO
+Nova Viçosa,municipio,BA
+Nova Xavantina,municipio,MT
+Novais,municipio,SP
+Novo Acordo,municipio,TO
+Novo Airão,municipio,AM
+Novo Alegre,municipio,TO
+Novo Aripuanã,municipio,AM
+Novo Barreiro,municipio,RS
+Novo Brasil,municipio,GO
+Novo Cabrais,municipio,RS
+Novo Cruzeiro,municipio,MG
+Novo Gama,municipio,GO
+Novo Hamburgo,municipio,RS
+Novo Horizonte,municipio,BA
+Novo Horizonte,municipio,SP
+Novo Horizonte,municipio,SC
+Novo Horizonte do Norte,municipio,MT
+Novo Horizonte do Oeste,municipio,RO
+Novo Horizonte do Sul,municipio,MS
+Novo Itacolomi,municipio,PR
+Novo Jardim,municipio,TO
+Novo Lino,municipio,AL
+Novo Machado,municipio,RS
+Novo Mundo,municipio,MT
+Novo Oriente,municipio,CE
+Novo Oriente de Minas,municipio,MG
+Novo Oriente do Piauí,municipio,PI
+Novo Planalto,municipio,GO
+Novo Progresso,municipio,PA
+Novo Repartimento,municipio,PA
+Novo Santo Antônio,municipio,PI
+Novo Santo Antônio,municipio,MT
+Novo São Joaquim,municipio,MT
+Novo Tiradentes,municipio,RS
+Novo Triunfo,municipio,BA
+Novo Xingu,municipio,RS
+Novorizonte,municipio,MG
+Nuporanga,municipio,SP
+Óbidos,municipio,PA
+Ocara,municipio,CE
+Ocauçu,municipio,SP
+Oeiras,municipio,PI
+Oeiras do Pará,municipio,PA
+Oiapoque,municipio,AP
+Olaria,municipio,MG
+Óleo,municipio,SP
+Olho d'Água,municipio,PB
+Olho d'Água das Cunhãs,municipio,MA
+Olho d'Água das Flores,municipio,AL
+Olho d'Água do Casado,municipio,AL
+Olho d'Água do Piauí,municipio,PI
+Olho d'Água Grande,municipio,AL
+Olho-d'Água do Borges,municipio,RN
+Olhos-d'Água,municipio,MG
+Olímpia,municipio,SP
+Olímpio Noronha,municipio,MG
+Olinda,municipio,PE
+Olinda Nova do Maranhão,municipio,MA
+Olindina,municipio,BA
+Olivedos,municipio,PB
+Oliveira,municipio,MG
+Oliveira de Fátima,municipio,TO
+Oliveira dos Brejinhos,municipio,BA
+Oliveira Fortes,municipio,MG
+Olivença,municipio,AL
+Onça de Pitangui,municipio,MG
+Onda Verde,municipio,SP
+Oratórios,municipio,MG
+Oriente,municipio,SP
+Orindiúva,municipio,SP
+Oriximiná,municipio,PA
+Orizânia,municipio,MG
+Orizona,municipio,GO
+Orlândia,municipio,SP
+Orleans,municipio,SC
+Orobó,municipio,PE
+Orocó,municipio,PE
+Orós,municipio,CE
+Ortigueira,municipio,PR
+Osasco,municipio,SP
+Oscar Bressane,municipio,SP
+Osório,municipio,RS
+Osvaldo Cruz,municipio,SP
+Otacílio Costa,municipio,SC
+Ourém,municipio,PA
+Ouriçangas,municipio,BA
+Ouricuri,municipio,PE
+Ourilândia do Norte,municipio,PA
+Ourinhos,municipio,SP
+Ourizona,municipio,PR
+Ouro,municipio,SC
+Ouro Branco,municipio,RN
+Ouro Branco,municipio,AL
+Ouro Branco,municipio,MG
+Ouro Fino,municipio,MG
+Ouro Preto,municipio,MG
+Ouro Preto do Oeste,municipio,RO
+Ouro Velho,municipio,PB
+Ouro Verde,municipio,SP
+Ouro Verde,municipio,SC
+Ouro Verde de Goiás,municipio,GO
+Ouro Verde de Minas,municipio,MG
+Ouro Verde do Oeste,municipio,PR
+Ouroeste,municipio,SP
+Ourolândia,municipio,BA
+Ouvidor,municipio,GO
+Pacaembu,municipio,SP
+Pacajá,municipio,PA
+Pacajus,municipio,CE
+Pacaraima,municipio,RR
+Pacatuba,municipio,CE
+Pacatuba,municipio,SE
+Paço do Lumiar,municipio,MA
+Pacoti,municipio,CE
+Pacujá,municipio,CE
+Padre Bernardo,municipio,GO
+Padre Carvalho,municipio,MG
+Padre Marcos,municipio,PI
+Padre Paraíso,municipio,MG
+Paes Landim,municipio,PI
+Pai Pedro,municipio,MG
+Paial,municipio,SC
+Paiçandu,municipio,PR
+Paim Filho,municipio,RS
+Paineiras,municipio,MG
+Painel,municipio,SC
+Pains,municipio,MG
+Paiva,municipio,MG
+Pajeú do Piauí,municipio,PI
+Palestina,municipio,AL
+Palestina,municipio,SP
+Palestina de Goiás,municipio,GO
+Palestina do Pará,municipio,PA
+Palhano,municipio,CE
+Palhoça,municipio,SC
+Palma,municipio,MG
+Palma Sola,municipio,SC
+Palmácia,municipio,CE
+Palmares,municipio,PE
+Palmares do Sul,municipio,RS
+Palmares Paulista,municipio,SP
+Palmas,municipio,TO
+Palmas,municipio,PR
+Palmas de Monte Alto,municipio,BA
+Palmeira,municipio,PR
+Palmeira,municipio,SC
+Palmeira d'Oeste,municipio,SP
+Palmeira das Missões,municipio,RS
+Palmeira do Piauí,municipio,PI
+Palmeira dos Índios,municipio,AL
+Palmeirais,municipio,PI
+Palmeirândia,municipio,MA
+Palmeirante,municipio,TO
+Palmeiras,municipio,BA
+Palmeiras de Goiás,municipio,GO
+Palmeiras do Tocantins,municipio,TO
+Palmeirina,municipio,PE
+Palmeirópolis,municipio,TO
+Palmelo,municipio,GO
+Palminópolis,municipio,GO
+Palmital,municipio,SP
+Palmital,municipio,PR
+Palmitinho,municipio,RS
+Palmitos,municipio,SC
+Palmópolis,municipio,MG
+Palotina,municipio,PR
+Panamá,municipio,GO
+Panambi,municipio,RS
+Pancas,municipio,ES
+Panelas,municipio,PE
+Panorama,municipio,SP
+Pantano Grande,municipio,RS
+Pão de Açúcar,municipio,AL
+Papagaios,municipio,MG
+Papanduva,municipio,SC
+Paquetá,municipio,PI
+Pará de Minas,municipio,MG
+Paracambi,municipio,RJ
+Paracatu,municipio,MG
+Paracuru,municipio,CE
+Paragominas,municipio,PA
+Paraguaçu,municipio,MG
+Paraguaçu Paulista,municipio,SP
+Paraí,municipio,RS
+Paraíba do Sul,municipio,RJ
+Paraibano,municipio,MA
+Paraibuna,municipio,SP
+Paraipaba,municipio,CE
+Paraíso,municipio,SP
+Paraíso,municipio,SC
+Paraíso das Águas,municipio,MS
+Paraíso do Norte,municipio,PR
+Paraíso do Sul,municipio,RS
+Paraíso do Tocantins,municipio,TO
+Paraisópolis,municipio,MG
+Parambu,municipio,CE
+Paramirim,municipio,BA
+Paramoti,municipio,CE
+Paraná,municipio,RN
+Paranã,municipio,TO
+Paranacity,municipio,PR
+Paranaguá,municipio,PR
+Paranaíba,municipio,MS
+Paranaiguara,municipio,GO
+Paranaíta,municipio,MT
+Paranapanema,municipio,SP
+Paranapoema,municipio,PR
+Paranapuã,municipio,SP
+Paranatama,municipio,PE
+Paranatinga,municipio,MT
+Paranavaí,municipio,PR
+Paranhos,municipio,MS
+Paraopeba,municipio,MG
+Parapuã,municipio,SP
+Parari,municipio,PB
+Paratinga,municipio,BA
+Paraty,municipio,RJ
+Paraú,municipio,RN
+Parauapebas,municipio,PA
+Paraúna,municipio,GO
+Parazinho,municipio,RN
+Pardinho,municipio,SP
+Pareci Novo,municipio,RS
+Parecis,municipio,RO
+Parelhas,municipio,RN
+Pariconha,municipio,AL
+Parintins,municipio,AM
+Paripiranga,municipio,BA
+Paripueira,municipio,AL
+Pariquera-Açu,municipio,SP
+Parisi,municipio,SP
+Parnaguá,municipio,PI
+Parnaíba,municipio,PI
+Parnamirim,municipio,RN
+Parnamirim,municipio,PE
+Parnarama,municipio,MA
+Parobé,municipio,RS
+Passa e Fica,municipio,RN
+Passa Quatro,municipio,MG
+Passa Sete,municipio,RS
+Passa Tempo,municipio,MG
+Passa-Vinte,municipio,MG
+Passabém,municipio,MG
+Passagem,municipio,RN
+Passagem,municipio,PB
+Passagem Franca,municipio,MA
+Passagem Franca do Piauí,municipio,PI
+Passira,municipio,PE
+Passo de Camaragibe,municipio,AL
+Passo de Torres,municipio,SC
+Passo do Sobrado,municipio,RS
+Passo Fundo,municipio,RS
+Passos,municipio,MG
+Passos Maia,municipio,SC
+Pastos Bons,municipio,MA
+Patis,municipio,MG
+Pato Bragado,municipio,PR
+Pato Branco,municipio,PR
+Patos,municipio,PB
+Patos de Minas,municipio,MG
+Patos do Piauí,municipio,PI
+Patrocínio,municipio,MG
+Patrocínio do Muriaé,municipio,MG
+Patrocínio Paulista,municipio,SP
+Patu,municipio,RN
+Paty do Alferes,municipio,RJ
+Pau Brasil,municipio,BA
+Pau d'Arco,municipio,PA
+Pau d'Arco,municipio,TO
+Pau d'Arco do Piauí,municipio,PI
+Pau dos Ferros,municipio,RN
+Paudalho,municipio,PE
+Pauini,municipio,AM
+Paula Cândido,municipio,MG
+Paula Freitas,municipio,PR
+Pauliceia,municipio,SP
+Paulínia,municipio,SP
+Paulino Neves,municipio,MA
+Paulista,municipio,PB
+Paulista,municipio,PE
+Paulistana,municipio,PI
+Paulistânia,municipio,SP
+Paulistas,municipio,MG
+Paulo Afonso,municipio,BA
+Paulo Bento,municipio,RS
+Paulo de Faria,municipio,SP
+Paulo Frontin,municipio,PR
+Paulo Jacinto,municipio,AL
+Paulo Lopes,municipio,SC
+Paulo Ramos,municipio,MA
+Pavão,municipio,MG
+Paverama,municipio,RS
+Pavussu,municipio,PI
+Pé de Serra,municipio,BA
+Peabiru,municipio,PR
+Peçanha,municipio,MG
+Pederneiras,municipio,SP
+Pedra,municipio,PE
+Pedra Azul,municipio,MG
+Pedra Bela,municipio,SP
+Pedra Bonita,municipio,MG
+Pedra Branca,municipio,CE
+Pedra Branca,municipio,PB
+Pedra Branca do Amapari,municipio,AP
+Pedra do Anta,municipio,MG
+Pedra do Indaiá,municipio,MG
+Pedra Dourada,municipio,MG
+Pedra Grande,municipio,RN
+Pedra Lavrada,municipio,PB
+Pedra Mole,municipio,SE
+Pedra Preta,municipio,RN
+Pedra Preta,municipio,MT
+Pedralva,municipio,MG
+Pedranópolis,municipio,SP
+Pedrão,municipio,BA
+Pedras Altas,municipio,RS
+Pedras de Fogo,municipio,PB
+Pedras de Maria da Cruz,municipio,MG
+Pedras Grandes,municipio,SC
+Pedregulho,municipio,SP
+Pedreira,municipio,SP
+Pedreiras,municipio,MA
+Pedrinhas,municipio,SE
+Pedrinhas Paulista,municipio,SP
+Pedrinópolis,municipio,MG
+Pedro Afonso,municipio,TO
+Pedro Alexandre,municipio,BA
+Pedro Avelino,municipio,RN
+Pedro Canário,municipio,ES
+Pedro de Toledo,municipio,SP
+Pedro do Rosário,municipio,MA
+Pedro Gomes,municipio,MS
+Pedro II,municipio,PI
+Pedro Laurentino,municipio,PI
+Pedro Leopoldo,municipio,MG
+Pedro Osório,municipio,RS
+Pedro Régis,municipio,PB
+Pedro Teixeira,municipio,MG
+Pedro Velho,municipio,RN
+Peixe,municipio,TO
+Peixe-Boi,municipio,PA
+Peixoto de Azevedo,municipio,MT
+Pejuçara,municipio,RS
+Pelotas,municipio,RS
+Penaforte,municipio,CE
+Penalva,municipio,MA
+Penápolis,municipio,SP
+Pendências,municipio,RN
+Penedo,municipio,AL
+Penha,municipio,SC
+Pentecoste,municipio,CE
+Pequeri,municipio,MG
+Pequi,municipio,MG
+Pequizeiro,municipio,TO
+Perdigão,municipio,MG
+Perdizes,municipio,MG
+Perdões,municipio,MG
+Pereira Barreto,municipio,SP
+Pereiras,municipio,SP
+Pereiro,municipio,CE
+Peri Mirim,municipio,MA
+Periquito,municipio,MG
+Peritiba,municipio,SC
+Peritoró,municipio,MA
+Perobal,municipio,PR
+Pérola,municipio,PR
+Pérola d'Oeste,municipio,PR
+Perolândia,municipio,GO
+Peruíbe,municipio,SP
+Pescador,municipio,MG
+Pescaria Brava,municipio,SC
+Pesqueira,municipio,PE
+Petrolândia,municipio,PE
+Petrolândia,municipio,SC
+Petrolina,municipio,PE
+Petrolina de Goiás,municipio,GO
+Petrópolis,municipio,RJ
+Piaçabuçu,municipio,AL
+Piacatu,municipio,SP
+Piancó,municipio,PB
+Piatã,municipio,BA
+Piau,municipio,MG
+Picada Café,municipio,RS
+Piçarra,municipio,PA
+Picos,municipio,PI
+Picuí,municipio,PB
+Piedade,municipio,SP
+Piedade de Caratinga,municipio,MG
+Piedade de Ponte Nova,municipio,MG
+Piedade do Rio Grande,municipio,MG
+Piedade dos Gerais,municipio,MG
+Piên,municipio,PR
+Pilão Arcado,municipio,BA
+Pilar,municipio,PB
+Pilar,municipio,AL
+Pilar de Goiás,municipio,GO
+Pilar do Sul,municipio,SP
+Pilões,municipio,RN
+Pilões,municipio,PB
+Pilõezinhos,municipio,PB
+Pimenta,municipio,MG
+Pimenta Bueno,municipio,RO
+Pimenteiras,municipio,PI
+Pimenteiras do Oeste,municipio,RO
+Pindaí,municipio,BA
+Pindamonhangaba,municipio,SP
+Pindaré-Mirim,municipio,MA
+Pindoba,municipio,AL
+Pindobaçu,municipio,BA
+Pindorama,municipio,SP
+Pindorama do Tocantins,municipio,TO
+Pindoretama,municipio,CE
+Pingo-d'Água,municipio,MG
+Pinhais,municipio,PR
+Pinhal,municipio,RS
+Pinhal da Serra,municipio,RS
+Pinhal de São Bento,municipio,PR
+Pinhal Grande,municipio,RS
+Pinhalão,municipio,PR
+Pinhalzinho,municipio,SP
+Pinhalzinho,municipio,SC
+Pinhão,municipio,SE
+Pinhão,municipio,PR
+Pinheiral,municipio,RJ
+Pinheirinho do Vale,municipio,RS
+Pinheiro,municipio,MA
+Pinheiro Machado,municipio,RS
+Pinheiro Preto,municipio,SC
+Pinheiros,municipio,ES
+Pintadas,municipio,BA
+Pinto Bandeira,municipio,RS
+Pintópolis,municipio,MG
+Pio IX,municipio,PI
+Pio XII,municipio,MA
+Piquerobi,municipio,SP
+Piquet Carneiro,municipio,CE
+Piquete,municipio,SP
+Piracaia,municipio,SP
+Piracanjuba,municipio,GO
+Piracema,municipio,MG
+Piracicaba,municipio,SP
+Piracuruca,municipio,PI
+Piraí,municipio,RJ
+Piraí do Norte,municipio,BA
+Piraí do Sul,municipio,PR
+Piraju,municipio,SP
+Pirajuba,municipio,MG
+Pirajuí,municipio,SP
+Pirambu,municipio,SE
+Piranga,municipio,MG
+Pirangi,municipio,SP
+Piranguçu,municipio,MG
+Piranguinho,municipio,MG
+Piranhas,municipio,AL
+Piranhas,municipio,GO
+Pirapemas,municipio,MA
+Pirapetinga,municipio,MG
+Pirapó,municipio,RS
+Pirapora,municipio,MG
+Pirapora do Bom Jesus,municipio,SP
+Pirapozinho,municipio,SP
+Piraquara,municipio,PR
+Piraquê,municipio,TO
+Pirassununga,municipio,SP
+Piratini,municipio,RS
+Piratininga,municipio,SP
+Piratuba,municipio,SC
+Piraúba,municipio,MG
+Pirenópolis,municipio,GO
+Pires do Rio,municipio,GO
+Pires Ferreira,municipio,CE
+Piripá,municipio,BA
+Piripiri,municipio,PI
+Piritiba,municipio,BA
+Pirpirituba,municipio,PB
+Pitanga,municipio,PR
+Pitangueiras,municipio,SP
+Pitangueiras,municipio,PR
+Pitangui,municipio,MG
+Pitimbu,municipio,PB
+Pium,municipio,TO
+Piúma,municipio,ES
+Piumhi,municipio,MG
+Placas,municipio,PA
+Plácido de Castro,municipio,AC
+Planaltina,municipio,GO
+Planaltina do Paraná,municipio,PR
+Planaltino,municipio,BA
+Planalto,municipio,BA
+Planalto,municipio,SP
+Planalto,municipio,PR
+Planalto,municipio,RS
+Planalto Alegre,municipio,SC
+Planalto da Serra,municipio,MT
+Planura,municipio,MG
+Platina,municipio,SP
+Poá,municipio,SP
+Poção,municipio,PE
+Poção de Pedras,municipio,MA
+Pocinhos,municipio,PB
+Poço Branco,municipio,RN
+Poço dantas,municipio,PB
+Poço das Antas,municipio,RS
+Poço das Trincheiras,municipio,AL
+Poço de José de Moura,municipio,PB
+Poço Fundo,municipio,MG
+Poço Redondo,municipio,SE
+Poço Verde,municipio,SE
+Poções,municipio,BA
+Poconé,municipio,MT
+Poços de Caldas,municipio,MG
+Pocrane,municipio,MG
+Pojuca,municipio,BA
+Poloni,municipio,SP
+Pombal,municipio,PB
+Pombos,municipio,PE
+Pomerode,municipio,SC
+Pompeia,municipio,SP
+Pompéu,municipio,MG
+Pongaí,municipio,SP
+Ponta de Pedras,municipio,PA
+Ponta Grossa,municipio,PR
+Ponta Porã,municipio,MS
+Pontal,municipio,SP
+Pontal do Araguaia,municipio,MT
+Pontal do Paraná,municipio,PR
+Pontalina,municipio,GO
+Pontalinda,municipio,SP
+Pontão,municipio,RS
+Ponte Alta,municipio,SC
+Ponte Alta do Bom Jesus,municipio,TO
+Ponte Alta do Norte,municipio,SC
+Ponte Alta do Tocantins,municipio,TO
+Ponte Branca,municipio,MT
+Ponte Nova,municipio,MG
+Ponte Preta,municipio,RS
+Ponte Serrada,municipio,SC
+Pontes e Lacerda,municipio,MT
+Pontes Gestal,municipio,SP
+Ponto Belo,municipio,ES
+Ponto Chique,municipio,MG
+Ponto dos Volantes,municipio,MG
+Ponto Novo,municipio,BA
+Populina,municipio,SP
+Poranga,municipio,CE
+Porangaba,municipio,SP
+Porangatu,municipio,GO
+Porciúncula,municipio,RJ
+Porecatu,municipio,PR
+Portalegre,municipio,RN
+Portão,municipio,RS
+Porteirão,municipio,GO
+Porteiras,municipio,CE
+Porteirinha,municipio,MG
+Portel,municipio,PA
+Portelândia,municipio,GO
+Porto,municipio,PI
+Porto Acre,municipio,AC
+Porto Alegre,municipio,RS
+Porto Alegre do Norte,municipio,MT
+Porto Alegre do Piauí,municipio,PI
+Porto Alegre do Tocantins,municipio,TO
+Porto Amazonas,municipio,PR
+Porto Barreiro,municipio,PR
+Porto Belo,municipio,SC
+Porto Calvo,municipio,AL
+Porto da Folha,municipio,SE
+Porto de Moz,municipio,PA
+Porto de Pedras,municipio,AL
+Porto do Mangue,municipio,RN
+Porto dos Gaúchos,municipio,MT
+Porto Esperidião,municipio,MT
+Porto Estrela,municipio,MT
+Porto Feliz,municipio,SP
+Porto Ferreira,municipio,SP
+Porto Firme,municipio,MG
+Porto Franco,municipio,MA
+Porto Grande,municipio,AP
+Porto Lucena,municipio,RS
+Porto Mauá,municipio,RS
+Porto Murtinho,municipio,MS
+Porto Nacional,municipio,TO
+Porto Real,municipio,RJ
+Porto Real do Colégio,municipio,AL
+Porto Rico,municipio,PR
+Porto Rico do Maranhão,municipio,MA
+Porto Seguro,municipio,BA
+Porto União,municipio,SC
+Porto Velho,municipio,RO
+Porto Vera Cruz,municipio,RS
+Porto Vitória,municipio,PR
+Porto Walter,municipio,AC
+Porto Xavier,municipio,RS
+Posse,municipio,GO
+Poté,municipio,MG
+Potengi,municipio,CE
+Potim,municipio,SP
+Potiraguá,municipio,BA
+Potirendaba,municipio,SP
+Potiretama,municipio,CE
+Pouso Alegre,municipio,MG
+Pouso Alto,municipio,MG
+Pouso Novo,municipio,RS
+Pouso Redondo,municipio,SC
+Poxoréu,municipio,MT
+Pracinha,municipio,SP
+Pracuúba,municipio,AP
+Prado,municipio,BA
+Prado Ferreira,municipio,PR
+Pradópolis,municipio,SP
+Prados,municipio,MG
+Praia Grande,municipio,SP
+Praia Grande,municipio,SC
+Praia Norte,municipio,TO
+Prainha,municipio,PA
+Pranchita,municipio,PR
+Prata,municipio,PB
+Prata,municipio,MG
+Prata do Piauí,municipio,PI
+Pratânia,municipio,SP
+Pratápolis,municipio,MG
+Pratinha,municipio,MG
+Presidente Alves,municipio,SP
+Presidente Bernardes,municipio,MG
+Presidente Bernardes,municipio,SP
+Presidente Castello Branco,municipio,SC
+Presidente Castelo Branco,municipio,PR
+Presidente Dutra,municipio,MA
+Presidente Dutra,municipio,BA
+Presidente Epitácio,municipio,SP
+Presidente Figueiredo,municipio,AM
+Presidente Getúlio,municipio,SC
+Presidente Jânio Quadros,municipio,BA
+Presidente Juscelino,municipio,MA
+Presidente Juscelino,municipio,MG
+Presidente Kennedy,municipio,TO
+Presidente Kennedy,municipio,ES
+Presidente Kubitschek,municipio,MG
+Presidente Lucena,municipio,RS
+Presidente Médici,municipio,RO
+Presidente Médici,municipio,MA
+Presidente Nereu,municipio,SC
+Presidente Olegário,municipio,MG
+Presidente Prudente,municipio,SP
+Presidente Sarney,municipio,MA
+Presidente Tancredo Neves,municipio,BA
+Presidente Vargas,municipio,MA
+Presidente Venceslau,municipio,SP
+Primavera,municipio,PA
+Primavera,municipio,PE
+Primavera de Rondônia,municipio,RO
+Primavera do Leste,municipio,MT
+Primeira Cruz,municipio,MA
+Primeiro de Maio,municipio,PR
+Princesa,municipio,SC
+Princesa Isabel,municipio,PB
+Professor Jamil,municipio,GO
+Progresso,municipio,RS
+Promissão,municipio,SP
+Propriá,municipio,SE
+Protásio Alves,municipio,RS
+Prudente de Morais,municipio,MG
+Prudentópolis,municipio,PR
+Pugmil,municipio,TO
+Pureza,municipio,RN
+Putinga,municipio,RS
+Puxinanã,municipio,PB
+Quadra,municipio,SP
+Quaraí,municipio,RS
+Quartel Geral,municipio,MG
+Quarto Centenário,municipio,PR
+Quatá,municipio,SP
+Quatiguá,municipio,PR
+Quatipuru,municipio,PA
+Quatis,municipio,RJ
+Quatro Barras,municipio,PR
+Quatro Irmãos,municipio,RS
+Quatro Pontes,municipio,PR
+Quebrangulo,municipio,AL
+Quedas do Iguaçu,municipio,PR
+Queimada Nova,municipio,PI
+Queimadas,municipio,PB
+Queimadas,municipio,BA
+Queimados,municipio,RJ
+Queiroz,municipio,SP
+Queluz,municipio,SP
+Queluzito,municipio,MG
+Querência,municipio,MT
+Querência do Norte,municipio,PR
+Quevedos,municipio,RS
+Quijingue,municipio,BA
+Quilombo,municipio,SC
+Quinta do Sol,municipio,PR
+Quintana,municipio,SP
+Quinze de Novembro,municipio,RS
+Quipapá,municipio,PE
+Quirinópolis,municipio,GO
+Quissamã,municipio,RJ
+Quitandinha,municipio,PR
+Quiterianópolis,municipio,CE
+Quixaba,municipio,PB
+Quixaba,municipio,PE
+Quixabeira,municipio,BA
+Quixadá,municipio,CE
+Quixelô,municipio,CE
+Quixeramobim,municipio,CE
+Quixeré,municipio,CE
+Rafael Fernandes,municipio,RN
+Rafael Godeiro,municipio,RN
+Rafael Jambeiro,municipio,BA
+Rafard,municipio,SP
+Ramilândia,municipio,PR
+Rancharia,municipio,SP
+Rancho Alegre,municipio,PR
+Rancho Alegre d'Oeste,municipio,PR
+Rancho Queimado,municipio,SC
+Raposa,municipio,MA
+Raposos,municipio,MG
+Raul Soares,municipio,MG
+Realeza,municipio,PR
+Rebouças,municipio,PR
+Recife,municipio,PE
+Recreio,municipio,MG
+Recursolândia,municipio,TO
+Redenção,municipio,PA
+Redenção,municipio,CE
+Redenção da Serra,municipio,SP
+Redenção do Gurgueia,municipio,PI
+Redentora,municipio,RS
+Reduto,municipio,MG
+Regeneração,municipio,PI
+Regente Feijó,municipio,SP
+Reginópolis,municipio,SP
+Registro,municipio,SP
+Relvado,municipio,RS
+Remanso,municipio,BA
+Remígio,municipio,PB
+Renascença,municipio,PR
+Reriutaba,municipio,CE
+Resende,municipio,RJ
+Resende Costa,municipio,MG
+Reserva,municipio,PR
+Reserva do Cabaçal,municipio,MT
+Reserva do Iguaçu,municipio,PR
+Resplendor,municipio,MG
+Ressaquinha,municipio,MG
+Restinga,municipio,SP
+Restinga Seca,municipio,RS
+Retirolândia,municipio,BA
+Riachão,municipio,MA
+Riachão,municipio,PB
+Riachão das Neves,municipio,BA
+Riachão do Bacamarte,municipio,PB
+Riachão do Dantas,municipio,SE
+Riachão do Jacuípe,municipio,BA
+Riachão do Poço,municipio,PB
+Riachinho,municipio,TO
+Riachinho,municipio,MG
+Riacho da Cruz,municipio,RN
+Riacho das Almas,municipio,PE
+Riacho de Santana,municipio,RN
+Riacho de Santana,municipio,BA
+Riacho de Santo Antônio,municipio,PB
+Riacho dos Cavalos,municipio,PB
+Riacho dos Machados,municipio,MG
+Riacho Frio,municipio,PI
+Riachuelo,municipio,RN
+Riachuelo,municipio,SE
+Rialma,municipio,GO
+Rianápolis,municipio,GO
+Ribamar Fiquene,municipio,MA
+Ribas do Rio Pardo,municipio,MS
+Ribeira,municipio,SP
+Ribeira do Amparo,municipio,BA
+Ribeira do Piauí,municipio,PI
+Ribeira do Pombal,municipio,BA
+Ribeirão,municipio,PE
+Ribeirão Bonito,municipio,SP
+Ribeirão Branco,municipio,SP
+Ribeirão Cascalheira,municipio,MT
+Ribeirão Claro,municipio,PR
+Ribeirão Corrente,municipio,SP
+Ribeirão das Neves,municipio,MG
+Ribeirão do Largo,municipio,BA
+Ribeirão do Pinhal,municipio,PR
+Ribeirão do Sul,municipio,SP
+Ribeirão dos Índios,municipio,SP
+Ribeirão Grande,municipio,SP
+Ribeirão Pires,municipio,SP
+Ribeirão Preto,municipio,SP
+Ribeirão Vermelho,municipio,MG
+Ribeirãozinho,municipio,MT
+Ribeiro Gonçalves,municipio,PI
+Ribeirópolis,municipio,SE
+Rifaina,municipio,SP
+Rincão,municipio,SP
+Rinópolis,municipio,SP
+Rio Acima,municipio,MG
+Rio Azul,municipio,PR
+Rio Bananal,municipio,ES
+Rio Bom,municipio,PR
+Rio Bonito,municipio,RJ
+Rio Bonito do Iguaçu,municipio,PR
+Rio Branco,municipio,AC
+Rio Branco,municipio,MT
+Rio Branco do Ivaí,municipio,PR
+Rio Branco do Sul,municipio,PR
+Rio Brilhante,municipio,MS
+Rio Casca,municipio,MG
+Rio Claro,municipio,RJ
+Rio Claro,municipio,SP
+Rio Crespo,municipio,RO
+Rio da Conceição,municipio,TO
+Rio das Antas,municipio,SC
+Rio das Flores,municipio,RJ
+Rio das Ostras,municipio,RJ
+Rio das Pedras,municipio,SP
+Rio de Contas,municipio,BA
+Rio de Janeiro,municipio,RJ
+Rio do Antônio,municipio,BA
+Rio do Campo,municipio,SC
+Rio do Fogo,municipio,RN
+Rio do Oeste,municipio,SC
+Rio do Pires,municipio,BA
+Rio do Prado,municipio,MG
+Rio do Sul,municipio,SC
+Rio doce,municipio,MG
+Rio dos Bois,municipio,TO
+Rio dos Cedros,municipio,SC
+Rio dos Índios,municipio,RS
+Rio Espera,municipio,MG
+Rio Formoso,municipio,PE
+Rio Fortuna,municipio,SC
+Rio Grande,municipio,RS
+Rio Grande da Serra,municipio,SP
+Rio Grande do Piauí,municipio,PI
+Rio Largo,municipio,AL
+Rio Manso,municipio,MG
+Rio Maria,municipio,PA
+Rio Negrinho,municipio,SC
+Rio Negro,municipio,PR
+Rio Negro,municipio,MS
+Rio Novo,municipio,MG
+Rio Novo do Sul,municipio,ES
+Rio Paranaíba,municipio,MG
+Rio Pardo,municipio,RS
+Rio Pardo de Minas,municipio,MG
+Rio Piracicaba,municipio,MG
+Rio Pomba,municipio,MG
+Rio Preto,municipio,MG
+Rio Preto da Eva,municipio,AM
+Rio Quente,municipio,GO
+Rio Real,municipio,BA
+Rio Rufino,municipio,SC
+Rio Sono,municipio,TO
+Rio Tinto,municipio,PB
+Rio Verde,municipio,GO
+Rio Verde de Mato Grosso,municipio,MS
+Rio Vermelho,municipio,MG
+Riolândia,municipio,SP
+Riozinho,municipio,RS
+Riqueza,municipio,SC
+Ritápolis,municipio,MG
+Riversul,municipio,SP
+Roca Sales,municipio,RS
+Rochedo,municipio,MS
+Rochedo de Minas,municipio,MG
+Rodeio,municipio,SC
+Rodeio Bonito,municipio,RS
+Rodeiro,municipio,MG
+Rodelas,municipio,BA
+Rodolfo Fernandes,municipio,RN
+Rodrigues Alves,municipio,AC
+Rolador,municipio,RS
+Rolândia,municipio,PR
+Rolante,municipio,RS
+Rolim de Moura,municipio,RO
+Romaria,municipio,MG
+Romelândia,municipio,SC
+Roncador,municipio,PR
+Ronda Alta,municipio,RS
+Rondinha,municipio,RS
+Rondolândia,municipio,MT
+Rondon,municipio,PR
+Rondon do Pará,municipio,PA
+Rondonópolis,municipio,MT
+Roque Gonzales,municipio,RS
+Rorainópolis,municipio,RR
+Rosana,municipio,SP
+Rosário,municipio,MA
+Rosário da Limeira,municipio,MG
+Rosário do Catete,municipio,SE
+Rosário do Ivaí,municipio,PR
+Rosário do Sul,municipio,RS
+Rosário Oeste,municipio,MT
+Roseira,municipio,SP
+Roteiro,municipio,AL
+Rubelita,municipio,MG
+Rubiácea,municipio,SP
+Rubiataba,municipio,GO
+Rubim,municipio,MG
+Rubineia,municipio,SP
+Rurópolis,municipio,PA
+Russas,municipio,CE
+Ruy Barbosa,municipio,RN
+Ruy Barbosa,municipio,BA
+Sabará,municipio,MG
+Sabáudia,municipio,PR
+Sabino,municipio,SP
+Sabinópolis,municipio,MG
+Saboeiro,municipio,CE
+Sacramento,municipio,MG
+Sagrada Família,municipio,RS
+Sagres,municipio,SP
+Sairé,municipio,PE
+Saldanha Marinho,municipio,RS
+Sales,municipio,SP
+Sales Oliveira,municipio,SP
+Salesópolis,municipio,SP
+Salete,municipio,SC
+Salgadinho,municipio,PB
+Salgadinho,municipio,PE
+Salgado,municipio,SE
+Salgado de São Félix,municipio,PB
+Salgado Filho,municipio,PR
+Salgueiro,municipio,PE
+Salinas,municipio,MG
+Salinas da Margarida,municipio,BA
+Salinópolis,municipio,PA
+Salitre,municipio,CE
+Salmourão,municipio,SP
+Saloá,municipio,PE
+Saltinho,municipio,SP
+Saltinho,municipio,SC
+Salto,municipio,SP
+Salto da Divisa,municipio,MG
+Salto de Pirapora,municipio,SP
+Salto do Céu,municipio,MT
+Salto do Itararé,municipio,PR
+Salto do Jacuí,municipio,RS
+Salto do Lontra,municipio,PR
+Salto Grande,municipio,SP
+Salto Veloso,municipio,SC
+Salvador,municipio,BA
+Salvador das Missões,municipio,RS
+Salvador do Sul,municipio,RS
+Salvaterra,municipio,PA
+Sambaíba,municipio,MA
+Sampaio,municipio,TO
+Sananduva,municipio,RS
+Sanclerlândia,municipio,GO
+Sandolândia,municipio,TO
+Sandovalina,municipio,SP
+Sangão,municipio,SC
+Sanharó,municipio,PE
+Sant'ana do Livramento,municipio,RS
+Santa Adélia,municipio,SP
+Santa Albertina,municipio,SP
+Santa Amélia,municipio,PR
+Santa Bárbara,municipio,BA
+Santa Bárbara,municipio,MG
+Santa Bárbara d'Oeste,municipio,SP
+Santa Bárbara de Goiás,municipio,GO
+Santa Bárbara do Leste,municipio,MG
+Santa Bárbara do Monte Verde,municipio,MG
+Santa Bárbara do Pará,municipio,PA
+Santa Bárbara do Sul,municipio,RS
+Santa Bárbara do Tugúrio,municipio,MG
+Santa Branca,municipio,SP
+Santa Brígida,municipio,BA
+Santa Carmem,municipio,MT
+Santa Cecília,municipio,PB
+Santa Cecília,municipio,SC
+Santa Cecília do Pavão,municipio,PR
+Santa Cecília do Sul,municipio,RS
+Santa Clara d'Oeste,municipio,SP
+Santa Clara do Sul,municipio,RS
+Santa Cruz,municipio,RN
+Santa Cruz,municipio,PB
+Santa Cruz,municipio,PE
+Santa Cruz Cabrália,municipio,BA
+Santa Cruz da Baixa Verde,municipio,PE
+Santa Cruz da Conceição,municipio,SP
+Santa Cruz da Esperança,municipio,SP
+Santa Cruz da Vitória,municipio,BA
+Santa Cruz das Palmeiras,municipio,SP
+Santa Cruz de Goiás,municipio,GO
+Santa Cruz de Minas,municipio,MG
+Santa Cruz de Monte Castelo,municipio,PR
+Santa Cruz de Salinas,municipio,MG
+Santa Cruz do Arari,municipio,PA
+Santa Cruz do Capibaribe,municipio,PE
+Santa Cruz do Escalvado,municipio,MG
+Santa Cruz do Piauí,municipio,PI
+Santa Cruz do Rio Pardo,municipio,SP
+Santa Cruz do Sul,municipio,RS
+Santa Cruz do Xingu,municipio,MT
+Santa Cruz dos Milagres,municipio,PI
+Santa Efigênia de Minas,municipio,MG
+Santa Ernestina,municipio,SP
+Santa Fé,municipio,PR
+Santa Fé de Goiás,municipio,GO
+Santa Fé de Minas,municipio,MG
+Santa Fé do Araguaia,municipio,TO
+Santa Fé do Sul,municipio,SP
+Santa Filomena,municipio,PI
+Santa Filomena,municipio,PE
+Santa Filomena do Maranhão,municipio,MA
+Santa Gertrudes,municipio,SP
+Santa Helena,municipio,MA
+Santa Helena,municipio,PB
+Santa Helena,municipio,PR
+Santa Helena,municipio,SC
+Santa Helena de Goiás,municipio,GO
+Santa Helena de Minas,municipio,MG
+Santa Inês,municipio,MA
+Santa Inês,municipio,PB
+Santa Inês,municipio,BA
+Santa Inês,municipio,PR
+Santa Isabel,municipio,SP
+Santa Isabel,municipio,GO
+Santa Isabel do Ivaí,municipio,PR
+Santa Isabel do Rio Negro,municipio,AM
+Santa Izabel do Oeste,municipio,PR
+Santa Izabel do Pará,municipio,PA
+Santa Juliana,municipio,MG
+Santa Leopoldina,municipio,ES
+Santa Lúcia,municipio,SP
+Santa Lúcia,municipio,PR
+Santa Luz,municipio,PI
+Santa Luzia,municipio,MA
+Santa Luzia,municipio,PB
+Santa Luzia,municipio,BA
+Santa Luzia,municipio,MG
+Santa Luzia d'Oeste,municipio,RO
+Santa Luzia do Itanhy,municipio,SE
+Santa Luzia do Norte,municipio,AL
+Santa Luzia do Pará,municipio,PA
+Santa Luzia do Paruá,municipio,MA
+Santa Margarida,municipio,MG
+Santa Margarida do Sul,municipio,RS
+Santa Maria,municipio,RN
+Santa Maria,municipio,RS
+Santa Maria da Boa Vista,municipio,PE
+Santa Maria da Serra,municipio,SP
+Santa Maria da Vitória,municipio,BA
+Santa Maria das Barreiras,municipio,PA
+Santa Maria de Itabira,municipio,MG
+Santa Maria de Jetibá,municipio,ES
+Santa Maria do Cambucá,municipio,PE
+Santa Maria do Herval,municipio,RS
+Santa Maria do Oeste,municipio,PR
+Santa Maria do Pará,municipio,PA
+Santa Maria do Salto,municipio,MG
+Santa Maria do Suaçuí,municipio,MG
+Santa Maria do Tocantins,municipio,TO
+Santa Maria Madalena,municipio,RJ
+Santa Mariana,municipio,PR
+Santa Mercedes,municipio,SP
+Santa Mônica,municipio,PR
+Santa Quitéria,municipio,CE
+Santa Quitéria do Maranhão,municipio,MA
+Santa Rita,municipio,MA
+Santa Rita,municipio,PB
+Santa Rita d'Oeste,municipio,SP
+Santa Rita de Caldas,municipio,MG
+Santa Rita de Cássia,municipio,BA
+Santa Rita de Ibitipoca,municipio,MG
+Santa Rita de Jacutinga,municipio,MG
+Santa Rita de Minas,municipio,MG
+Santa Rita do Araguaia,municipio,GO
+Santa Rita do Itueto,municipio,MG
+Santa Rita do Novo Destino,municipio,GO
+Santa Rita do Pardo,municipio,MS
+Santa Rita do Passa Quatro,municipio,SP
+Santa Rita do Sapucaí,municipio,MG
+Santa Rita do Tocantins,municipio,TO
+Santa Rita do Trivelato,municipio,MT
+Santa Rosa,municipio,RS
+Santa Rosa da Serra,municipio,MG
+Santa Rosa de Goiás,municipio,GO
+Santa Rosa de Lima,municipio,SE
+Santa Rosa de Lima,municipio,SC
+Santa Rosa de Viterbo,municipio,SP
+Santa Rosa do Piauí,municipio,PI
+Santa Rosa do Purus,municipio,AC
+Santa Rosa do Sul,municipio,SC
+Santa Rosa do Tocantins,municipio,TO
+Santa Salete,municipio,SP
+Santa Teresa,municipio,ES
+Santa Teresinha,municipio,PB
+Santa Teresinha,municipio,BA
+Santa Tereza,municipio,RS
+Santa Tereza de Goiás,municipio,GO
+Santa Tereza do Oeste,municipio,PR
+Santa Tereza do Tocantins,municipio,TO
+Santa Terezinha,municipio,PE
+Santa Terezinha,municipio,SC
+Santa Terezinha,municipio,MT
+Santa Terezinha de Goiás,municipio,GO
+Santa Terezinha de Itaipu,municipio,PR
+Santa Terezinha do Progresso,municipio,SC
+Santa Terezinha do Tocantins,municipio,TO
+Santa Vitória,municipio,MG
+Santa Vitória do Palmar,municipio,RS
+Santaluz,municipio,BA
+Santana,municipio,AP
+Santana,municipio,BA
+Santana da Boa Vista,municipio,RS
+Santana da Ponte Pensa,municipio,SP
+Santana da Vargem,municipio,MG
+Santana de Cataguases,municipio,MG
+Santana de Mangueira,municipio,PB
+Santana de Parnaíba,municipio,SP
+Santana de Pirapama,municipio,MG
+Santana do Acaraú,municipio,CE
+Santana do Araguaia,municipio,PA
+Santana do Cariri,municipio,CE
+Santana do Deserto,municipio,MG
+Santana do Garambéu,municipio,MG
+Santana do Ipanema,municipio,AL
+Santana do Itararé,municipio,PR
+Santana do Jacaré,municipio,MG
+Santana do Manhuaçu,municipio,MG
+Santana do Maranhão,municipio,MA
+Santana do Matos,municipio,RN
+Santana do Mundaú,municipio,AL
+Santana do Paraíso,municipio,MG
+Santana do Piauí,municipio,PI
+Santana do Riacho,municipio,MG
+Santana do São Francisco,municipio,SE
+Santana do Seridó,municipio,RN
+Santana dos Garrotes,municipio,PB
+Santana dos Montes,municipio,MG
+Santanópolis,municipio,BA
+Santarém,municipio,PA
+Santarém Novo,municipio,PA
+Santiago,municipio,RS
+Santiago do Sul,municipio,SC
+Santo Afonso,municipio,MT
+Santo Amaro,municipio,BA
+Santo Amaro da Imperatriz,municipio,SC
+Santo Amaro das Brotas,municipio,SE
+Santo Amaro do Maranhão,municipio,MA
+Santo Anastácio,municipio,SP
+Santo André,municipio,PB
+Santo André,municipio,SP
+Santo Ângelo,municipio,RS
+Santo Antônio,municipio,RN
+Santo Antônio da Alegria,municipio,SP
+Santo Antônio da Barra,municipio,GO
+Santo Antônio da Patrulha,municipio,RS
+Santo Antônio da Platina,municipio,PR
+Santo Antônio das Missões,municipio,RS
+Santo Antônio de Goiás,municipio,GO
+Santo Antônio de Jesus,municipio,BA
+Santo Antônio de Lisboa,municipio,PI
+Santo Antônio de Pádua,municipio,RJ
+Santo Antônio de Posse,municipio,SP
+Santo Antônio do Amparo,municipio,MG
+Santo Antônio do Aracanguá,municipio,SP
+Santo Antônio do Aventureiro,municipio,MG
+Santo Antônio do Caiuá,municipio,PR
+Santo Antônio do Descoberto,municipio,GO
+Santo Antônio do Grama,municipio,MG
+Santo Antônio do Içá,municipio,AM
+Santo Antônio do Itambé,municipio,MG
+Santo Antônio do Jacinto,municipio,MG
+Santo Antônio do Jardim,municipio,SP
+Santo Antônio do Leste,municipio,MT
+Santo Antônio do Leverger,municipio,MT
+Santo Antônio do Monte,municipio,MG
+Santo Antônio do Palma,municipio,RS
+Santo Antônio do Paraíso,municipio,PR
+Santo Antônio do Pinhal,municipio,SP
+Santo Antônio do Planalto,municipio,RS
+Santo Antônio do Retiro,municipio,MG
+Santo Antônio do Rio Abaixo,municipio,MG
+Santo Antônio do Sudoeste,municipio,PR
+Santo Antônio do Tauá,municipio,PA
+Santo Antônio dos Lopes,municipio,MA
+Santo Antônio dos Milagres,municipio,PI
+Santo Augusto,municipio,RS
+Santo Cristo,municipio,RS
+Santo Estêvão,municipio,BA
+Santo Expedito,municipio,SP
+Santo Expedito do Sul,municipio,RS
+Santo Hipólito,municipio,MG
+Santo Inácio,municipio,PR
+Santo Inácio do Piauí,municipio,PI
+Santópolis do Aguapeí,municipio,SP
+Santos,municipio,SP
+Santos Dumont,municipio,MG
+São Benedito,municipio,CE
+São Benedito do Rio Preto,municipio,MA
+São Benedito do Sul,municipio,PE
+São Bentinho,municipio,PB
+São Bento,municipio,MA
+São Bento,municipio,PB
+São Bento Abade,municipio,MG
+São Bento do Norte,municipio,RN
+São Bento do Sapucaí,municipio,SP
+São Bento do Sul,municipio,SC
+São Bento do Tocantins,municipio,TO
+São Bento do Trairí,municipio,RN
+São Bento do Una,municipio,PE
+São Bernardino,municipio,SC
+São Bernardo,municipio,MA
+São Bernardo do Campo,municipio,SP
+São Bonifácio,municipio,SC
+São Borja,municipio,RS
+São Brás,municipio,AL
+São Brás do Suaçuí,municipio,MG
+São Braz do Piauí,municipio,PI
+São Caetano de Odivelas,municipio,PA
+São Caetano do Sul,municipio,SP
+São Caitano,municipio,PE
+São Carlos,municipio,SP
+São Carlos,municipio,SC
+São Carlos do Ivaí,municipio,PR
+São Cristóvão,municipio,SE
+São Cristovão do Sul,municipio,SC
+São Desidério,municipio,BA
+São Domingos,municipio,PB
+São Domingos,municipio,SE
+São Domingos,municipio,BA
+São Domingos,municipio,SC
+São Domingos,municipio,GO
+São Domingos das Dores,municipio,MG
+São Domingos do Araguaia,municipio,PA
+São Domingos do Azeitão,municipio,MA
+São Domingos do Capim,municipio,PA
+São Domingos do Cariri,municipio,PB
+São Domingos do Maranhão,municipio,MA
+São Domingos do Norte,municipio,ES
+São Domingos do Prata,municipio,MG
+São Domingos do Sul,municipio,RS
+São Felipe,municipio,BA
+São Felipe d'Oeste,municipio,RO
+São Félix,municipio,BA
+São Félix de Balsas,municipio,MA
+São Félix de Minas,municipio,MG
+São Félix do Araguaia,municipio,MT
+São Félix do Coribe,municipio,BA
+São Félix do Piauí,municipio,PI
+São Félix do Tocantins,municipio,TO
+São Félix do Xingu,municipio,PA
+São Fernando,municipio,RN
+São Fidélis,municipio,RJ
+São Francisco,municipio,PB
+São Francisco,municipio,SE
+São Francisco,municipio,MG
+São Francisco,municipio,SP
+São Francisco de Assis,municipio,RS
+São Francisco de Assis do Piauí,municipio,PI
+São Francisco de Goiás,municipio,GO
+São Francisco de Itabapoana,municipio,RJ
+São Francisco de Paula,municipio,MG
+São Francisco de Paula,municipio,RS
+São Francisco de Sales,municipio,MG
+São Francisco do Brejão,municipio,MA
+São Francisco do Conde,municipio,BA
+São Francisco do Glória,municipio,MG
+São Francisco do Guaporé,municipio,RO
+São Francisco do Maranhão,municipio,MA
+São Francisco do Oeste,municipio,RN
+São Francisco do Pará,municipio,PA
+São Francisco do Piauí,municipio,PI
+São Francisco do Sul,municipio,SC
+São Gabriel,municipio,BA
+São Gabriel,municipio,RS
+São Gabriel da Cachoeira,municipio,AM
+São Gabriel da Palha,municipio,ES
+São Gabriel do Oeste,municipio,MS
+São Geraldo,municipio,MG
+São Geraldo da Piedade,municipio,MG
+São Geraldo do Araguaia,municipio,PA
+São Geraldo do Baixio,municipio,MG
+São Gonçalo,municipio,RJ
+São Gonçalo do Abaeté,municipio,MG
+São Gonçalo do Amarante,municipio,CE
+São Gonçalo do Amarante,municipio,RN
+São Gonçalo do Gurgueia,municipio,PI
+São Gonçalo do Pará,municipio,MG
+São Gonçalo do Piauí,municipio,PI
+São Gonçalo do Rio Abaixo,municipio,MG
+São Gonçalo do Rio Preto,municipio,MG
+São Gonçalo do Sapucaí,municipio,MG
+São Gonçalo dos Campos,municipio,BA
+São Gotardo,municipio,MG
+São Jerônimo,municipio,RS
+São Jerônimo da Serra,municipio,PR
+São João,municipio,PE
+São João,municipio,PR
+São João Batista,municipio,MA
+São João Batista,municipio,SC
+São João Batista do Glória,municipio,MG
+São João d'Aliança,municipio,GO
+São João da Baliza,municipio,RR
+São João da Barra,municipio,RJ
+São João da Boa Vista,municipio,SP
+São João da Canabrava,municipio,PI
+São João da Fronteira,municipio,PI
+São João da Lagoa,municipio,MG
+São João da Mata,municipio,MG
+São João da Paraúna,municipio,GO
+São João da Ponta,municipio,PA
+São João da Ponte,municipio,MG
+São João da Serra,municipio,PI
+São João da Urtiga,municipio,RS
+São João da Varjota,municipio,PI
+São João das Duas Pontes,municipio,SP
+São João das Missões,municipio,MG
+São João de Iracema,municipio,SP
+São João de Meriti,municipio,RJ
+São João de Pirabas,municipio,PA
+São João del Rei,municipio,MG
+São João do Araguaia,municipio,PA
+São João do Arraial,municipio,PI
+São João do Caiuá,municipio,PR
+São João do Cariri,municipio,PB
+São João do Carú,municipio,MA
+São João do Itaperiú,municipio,SC
+São João do Ivaí,municipio,PR
+São João do Jaguaribe,municipio,CE
+São João do Manhuaçu,municipio,MG
+São João do Manteninha,municipio,MG
+São João do Oeste,municipio,SC
+São João do Oriente,municipio,MG
+São João do Pacuí,municipio,MG
+São João do Paraíso,municipio,MA
+São João do Paraíso,municipio,MG
+São João do Pau d'Alho,municipio,SP
+São João do Piauí,municipio,PI
+São João do Polêsine,municipio,RS
+São João do Rio do Peixe,municipio,PB
+São João do Sabugi,municipio,RN
+São João do Soter,municipio,MA
+São João do Sul,municipio,SC
+São João do Tigre,municipio,PB
+São João do Triunfo,municipio,PR
+São João dos Patos,municipio,MA
+São João Evangelista,municipio,MG
+São João Nepomuceno,municipio,MG
+São Joaquim,municipio,SC
+São Joaquim da Barra,municipio,SP
+São Joaquim de Bicas,municipio,MG
+São Joaquim do Monte,municipio,PE
+São Jorge,municipio,RS
+São Jorge d'Oeste,municipio,PR
+São Jorge do Ivaí,municipio,PR
+São Jorge do Patrocínio,municipio,PR
+São José,municipio,SC
+São José da Barra,municipio,MG
+São José da Bela Vista,municipio,SP
+São José da Boa Vista,municipio,PR
+São José da Coroa Grande,municipio,PE
+São José da Lagoa Tapada,municipio,PB
+São José da Laje,municipio,AL
+São José da Lapa,municipio,MG
+São José da Safira,municipio,MG
+São José da Tapera,municipio,AL
+São José da Varginha,municipio,MG
+São José da Vitória,municipio,BA
+São José das Missões,municipio,RS
+São José das Palmeiras,municipio,PR
+São José de Caiana,municipio,PB
+São José de Espinharas,municipio,PB
+São José de Mipibu,municipio,RN
+São José de Piranhas,municipio,PB
+São José de Princesa,municipio,PB
+São José de Ribamar,municipio,MA
+São José de Ubá,municipio,RJ
+São José do Alegre,municipio,MG
+São José do Barreiro,municipio,SP
+São José do Belmonte,municipio,PE
+São José do Bonfim,municipio,PB
+São José do Brejo do Cruz,municipio,PB
+São José do Calçado,municipio,ES
+São José do Campestre,municipio,RN
+São José do Cedro,municipio,SC
+São José do Cerrito,municipio,SC
+São José do Divino,municipio,PI
+São José do Divino,municipio,MG
+São José do Egito,municipio,PE
+São José do Goiabal,municipio,MG
+São José do Herval,municipio,RS
+São José do Hortêncio,municipio,RS
+São José do Inhacorá,municipio,RS
+São José do Jacuípe,municipio,BA
+São José do Jacuri,municipio,MG
+São José do Mantimento,municipio,MG
+São José do Norte,municipio,RS
+São José do Ouro,municipio,RS
+São José do Peixe,municipio,PI
+São José do Piauí,municipio,PI
+São José do Povo,municipio,MT
+São José do Rio Claro,municipio,MT
+São José do Rio Pardo,municipio,SP
+São José do Rio Preto,municipio,SP
+São José do Sabugi,municipio,PB
+São José do Seridó,municipio,RN
+São José do Sul,municipio,RS
+São José do Vale do Rio Preto,municipio,RJ
+São José do Xingu,municipio,MT
+São José dos Ausentes,municipio,RS
+São José dos Basílios,municipio,MA
+São José dos Campos,municipio,SP
+São José dos Cordeiros,municipio,PB
+São José dos Pinhais,municipio,PR
+São José dos Quatro Marcos,municipio,MT
+São José dos Ramos,municipio,PB
+São Julião,municipio,PI
+São Leopoldo,municipio,RS
+São Lourenço,municipio,MG
+São Lourenço da Mata,municipio,PE
+São Lourenço da Serra,municipio,SP
+São Lourenço do Oeste,municipio,SC
+São Lourenço do Piauí,municipio,PI
+São Lourenço do Sul,municipio,RS
+São Ludgero,municipio,SC
+São Luís,municipio,MA
+São Luís de Montes Belos,municipio,GO
+São Luís do Curu,municipio,CE
+São Luís do Paraitinga,municipio,SP
+São Luis do Piauí,municipio,PI
+São Luís do Quitunde,municipio,AL
+São Luís Gonzaga do Maranhão,municipio,MA
+São Luiz,municipio,RR
+São Luíz do Norte,municipio,GO
+São Luiz Gonzaga,municipio,RS
+São Mamede,municipio,PB
+São Manoel do Paraná,municipio,PR
+São Manuel,municipio,SP
+São Marcos,municipio,RS
+São Martinho,municipio,SC
+São Martinho,municipio,RS
+São Martinho da Serra,municipio,RS
+São Mateus,municipio,ES
+São Mateus do Maranhão,municipio,MA
+São Mateus do Sul,municipio,PR
+São Miguel,municipio,RN
+São Miguel Arcanjo,municipio,SP
+São Miguel da Baixa Grande,municipio,PI
+São Miguel da Boa Vista,municipio,SC
+São Miguel das Matas,municipio,BA
+São Miguel das Missões,municipio,RS
+São Miguel de Taipu,municipio,PB
+São Miguel do Aleixo,municipio,SE
+São Miguel do Anta,municipio,MG
+São Miguel do Araguaia,municipio,GO
+São Miguel do Fidalgo,municipio,PI
+São Miguel do Gostoso,municipio,RN
+São Miguel do Guamá,municipio,PA
+São Miguel do Guaporé,municipio,RO
+São Miguel do Iguaçu,municipio,PR
+São Miguel do Oeste,municipio,SC
+São Miguel do Passa Quatro,municipio,GO
+São Miguel do Tapuio,municipio,PI
+São Miguel do Tocantins,municipio,TO
+São Miguel dos Campos,municipio,AL
+São Miguel dos Milagres,municipio,AL
+São Nicolau,municipio,RS
+São Patrício,municipio,GO
+São Paulo,municipio,SP
+São Paulo das Missões,municipio,RS
+São Paulo de Olivença,municipio,AM
+São Paulo do Potengi,municipio,RN
+São Pedro,municipio,RN
+São Pedro,municipio,SP
+São Pedro da Água Branca,municipio,MA
+São Pedro da Aldeia,municipio,RJ
+São Pedro da Cipa,municipio,MT
+São Pedro da Serra,municipio,RS
+São Pedro da União,municipio,MG
+São Pedro das Missões,municipio,RS
+São Pedro de Alcântara,municipio,SC
+São Pedro do Butiá,municipio,RS
+São Pedro do Iguaçu,municipio,PR
+São Pedro do Ivaí,municipio,PR
+São Pedro do Paraná,municipio,PR
+São Pedro do Piauí,municipio,PI
+São Pedro do Suaçuí,municipio,MG
+São Pedro do Sul,municipio,RS
+São Pedro do Turvo,municipio,SP
+São Pedro dos Crentes,municipio,MA
+São Pedro dos Ferros,municipio,MG
+São Rafael,municipio,RN
+São Raimundo das Mangabeiras,municipio,MA
+São Raimundo do Doca Bezerra,municipio,MA
+São Raimundo Nonato,municipio,PI
+São Roberto,municipio,MA
+São Romão,municipio,MG
+São Roque,municipio,SP
+São Roque de Minas,municipio,MG
+São Roque do Canaã,municipio,ES
+São Salvador do Tocantins,municipio,TO
+São Sebastião,municipio,AL
+São Sebastião,municipio,SP
+São Sebastião da Amoreira,municipio,PR
+São Sebastião da Bela Vista,municipio,MG
+São Sebastião da Boa Vista,municipio,PA
+São Sebastião da Grama,municipio,SP
+São Sebastião da Vargem Alegre,municipio,MG
+São Sebastião de Lagoa de Roça,municipio,PB
+São Sebastião do Alto,municipio,RJ
+São Sebastião do Anta,municipio,MG
+São Sebastião do Caí,municipio,RS
+São Sebastião do Maranhão,municipio,MG
+São Sebastião do Oeste,municipio,MG
+São Sebastião do Paraíso,municipio,MG
+São Sebastião do Passé,municipio,BA
+São Sebastião do Rio Preto,municipio,MG
+São Sebastião do Rio Verde,municipio,MG
+São Sebastião do Tocantins,municipio,TO
+São Sebastião do Uatumã,municipio,AM
+São Sebastião do Umbuzeiro,municipio,PB
+São Sepé,municipio,RS
+São Simão,municipio,SP
+São Simão,municipio,GO
+São Thomé das Letras,municipio,MG
+São Tiago,municipio,MG
+São Tomás de Aquino,municipio,MG
+São Tomé,municipio,RN
+São Tomé,municipio,PR
+São Valentim,municipio,RS
+São Valentim do Sul,municipio,RS
+São Valério,municipio,TO
+São Valério do Sul,municipio,RS
+São Vendelino,municipio,RS
+São Vicente,municipio,RN
+São Vicente,municipio,SP
+São Vicente de Minas,municipio,MG
+São Vicente do Seridó,municipio,PB
+São Vicente do Sul,municipio,RS
+São Vicente Ferrer,municipio,MA
+São Vicente Ferrer,municipio,PE
+Sapé,municipio,PB
+Sapeaçu,municipio,BA
+Sapezal,municipio,MT
+Sapiranga,municipio,RS
+Sapopema,municipio,PR
+Sapucaí-Mirim,municipio,MG
+Sapucaia,municipio,PA
+Sapucaia,municipio,RJ
+Sapucaia do Sul,municipio,RS
+Saquarema,municipio,RJ
+Sarandi,municipio,PR
+Sarandi,municipio,RS
+Sarapuí,municipio,SP
+Sardoá,municipio,MG
+Sarutaiá,municipio,SP
+Sarzedo,municipio,MG
+Sátiro Dias,municipio,BA
+Satuba,municipio,AL
+Satubinha,municipio,MA
+Saubara,municipio,BA
+Saudade do Iguaçu,municipio,PR
+Saudades,municipio,SC
+Saúde,municipio,BA
+Schroeder,municipio,SC
+Seabra,municipio,BA
+Seara,municipio,SC
+Sebastianópolis do Sul,municipio,SP
+Sebastião Barros,municipio,PI
+Sebastião Laranjeiras,municipio,BA
+Sebastião Leal,municipio,PI
+Seberi,municipio,RS
+Sede Nova,municipio,RS
+Segredo,municipio,RS
+Selbach,municipio,RS
+Selvíria,municipio,MS
+Sem-Peixe,municipio,MG
+Sena Madureira,municipio,AC
+Senador Alexandre Costa,municipio,MA
+Senador Amaral,municipio,MG
+Senador Canedo,municipio,GO
+Senador Cortes,municipio,MG
+Senador Elói de Souza,municipio,RN
+Senador Firmino,municipio,MG
+Senador Georgino Avelino,municipio,RN
+Senador Guiomard,municipio,AC
+Senador José Bento,municipio,MG
+Senador José Porfírio,municipio,PA
+Senador La Rocque,municipio,MA
+Senador Modestino Gonçalves,municipio,MG
+Senador Pompeu,municipio,CE
+Senador Rui Palmeira,municipio,AL
+Senador Sá,municipio,CE
+Senador Salgado Filho,municipio,RS
+Sengés,municipio,PR
+Senhor do Bonfim,municipio,BA
+Senhora de Oliveira,municipio,MG
+Senhora do Porto,municipio,MG
+Senhora dos Remédios,municipio,MG
+Sentinela do Sul,municipio,RS
+Sento Sé,municipio,BA
+Serafina Corrêa,municipio,RS
+Sericita,municipio,MG
+Seringueiras,municipio,RO
+Sério,municipio,RS
+Seritinga,municipio,MG
+Seropédica,municipio,RJ
+Serra,municipio,ES
+Serra Alta,municipio,SC
+Serra Azul,municipio,SP
+Serra Azul de Minas,municipio,MG
+Serra Branca,municipio,PB
+Serra Caiada,municipio,RN
+Serra da Raiz,municipio,PB
+Serra da Saudade,municipio,MG
+Serra de São Bento,municipio,RN
+Serra do Mel,municipio,RN
+Serra do Navio,municipio,AP
+Serra do Ramalho,municipio,BA
+Serra do Salitre,municipio,MG
+Serra dos Aimorés,municipio,MG
+Serra dourada,municipio,BA
+Serra Grande,municipio,PB
+Serra Negra,municipio,SP
+Serra Negra do Norte,municipio,RN
+Serra Nova Dourada,municipio,MT
+Serra Preta,municipio,BA
+Serra Redonda,municipio,PB
+Serra Talhada,municipio,PE
+Serrana,municipio,SP
+Serrania,municipio,MG
+Serrano do Maranhão,municipio,MA
+Serranópolis,municipio,GO
+Serranópolis de Minas,municipio,MG
+Serranópolis do Iguaçu,municipio,PR
+Serranos,municipio,MG
+Serraria,municipio,PB
+Serrinha,municipio,RN
+Serrinha,municipio,BA
+Serrinha dos Pintos,municipio,RN
+Serrita,municipio,PE
+Serro,municipio,MG
+Serrolândia,municipio,BA
+Sertaneja,municipio,PR
+Sertânia,municipio,PE
+Sertanópolis,municipio,PR
+Sertão,municipio,RS
+Sertão Santana,municipio,RS
+Sertãozinho,municipio,PB
+Sertãozinho,municipio,SP
+Sete Barras,municipio,SP
+Sete de Setembro,municipio,RS
+Sete Lagoas,municipio,MG
+Sete Quedas,municipio,MS
+Setubinha,municipio,MG
+Severiano de Almeida,municipio,RS
+Severiano Melo,municipio,RN
+Severínia,municipio,SP
+Siderópolis,municipio,SC
+Sidrolândia,municipio,MS
+Sigefredo Pacheco,municipio,PI
+Silva Jardim,municipio,RJ
+Silvânia,municipio,GO
+Silvanópolis,municipio,TO
+Silveira Martins,municipio,RS
+Silveirânia,municipio,MG
+Silveiras,municipio,SP
+Silves,municipio,AM
+Silvianópolis,municipio,MG
+Simão Dias,municipio,SE
+Simão Pereira,municipio,MG
+Simões,municipio,PI
+Simões Filho,municipio,BA
+Simolândia,municipio,GO
+Simonésia,municipio,MG
+Simplício Mendes,municipio,PI
+Sinimbu,municipio,RS
+Sinop,municipio,MT
+Siqueira Campos,municipio,PR
+Sirinhaém,municipio,PE
+Siriri,municipio,SE
+Sítio d'Abadia,municipio,GO
+Sítio do Mato,municipio,BA
+Sítio do Quinto,municipio,BA
+Sítio Novo,municipio,MA
+Sítio Novo,municipio,RN
+Sítio Novo do Tocantins,municipio,TO
+Sobradinho,municipio,BA
+Sobradinho,municipio,RS
+Sobrado,municipio,PB
+Sobral,municipio,CE
+Sobrália,municipio,MG
+Socorro,municipio,SP
+Socorro do Piauí,municipio,PI
+Solânea,municipio,PB
+Soledade,municipio,PB
+Soledade,municipio,RS
+Soledade de Minas,municipio,MG
+Solidão,municipio,PE
+Solonópole,municipio,CE
+Sombrio,municipio,SC
+Sonora,municipio,MS
+Sooretama,municipio,ES
+Sorocaba,municipio,SP
+Sorriso,municipio,MT
+Sossêgo,municipio,PB
+Soure,municipio,PA
+Sousa,municipio,PB
+Souto Soares,municipio,BA
+Sucupira,municipio,TO
+Sucupira do Norte,municipio,MA
+Sucupira do Riachão,municipio,MA
+Sud Mennucci,municipio,SP
+Sul Brasil,municipio,SC
+Sulina,municipio,PR
+Sumaré,municipio,SP
+Sumé,municipio,PB
+Sumidouro,municipio,RJ
+Surubim,municipio,PE
+Sussuapara,municipio,PI
+Suzanápolis,municipio,SP
+Suzano,municipio,SP
+Tabaí,municipio,RS
+Tabaporã,municipio,MT
+Tabapuã,municipio,SP
+Tabatinga,municipio,AM
+Tabatinga,municipio,SP
+Tabira,municipio,PE
+Taboão da Serra,municipio,SP
+Tabocas do Brejo Velho,municipio,BA
+Taboleiro Grande,municipio,RN
+Tabuleiro,municipio,MG
+Tabuleiro do Norte,municipio,CE
+Tacaimbó,municipio,PE
+Tacaratu,municipio,PE
+Taciba,municipio,SP
+Tacima,municipio,PB
+Tacuru,municipio,MS
+Taguaí,municipio,SP
+Taguatinga,municipio,TO
+Taiaçu,municipio,SP
+Tailândia,municipio,PA
+Taió,municipio,SC
+Taiobeiras,municipio,MG
+Taipas do Tocantins,municipio,TO
+Taipu,municipio,RN
+Taiúva,municipio,SP
+Talismã,municipio,TO
+Tamandaré,municipio,PE
+Tamarana,municipio,PR
+Tambaú,municipio,SP
+Tamboara,municipio,PR
+Tamboril,municipio,CE
+Tamboril do Piauí,municipio,PI
+Tanabi,municipio,SP
+Tangará,municipio,RN
+Tangará,municipio,SC
+Tangará da Serra,municipio,MT
+Tanguá,municipio,RJ
+Tanhaçu,municipio,BA
+Tanque d'Arca,municipio,AL
+Tanque do Piauí,municipio,PI
+Tanque Novo,municipio,BA
+Tanquinho,municipio,BA
+Taparuba,municipio,MG
+Tapauá,municipio,AM
+Tapejara,municipio,PR
+Tapejara,municipio,RS
+Tapera,municipio,RS
+Taperoá,municipio,PB
+Taperoá,municipio,BA
+Tapes,municipio,RS
+Tapira,municipio,MG
+Tapira,municipio,PR
+Tapiraí,municipio,MG
+Tapiraí,municipio,SP
+Tapiramutá,municipio,BA
+Tapiratiba,municipio,SP
+Tapurah,municipio,MT
+Taquara,municipio,RS
+Taquaraçu de Minas,municipio,MG
+Taquaral,municipio,SP
+Taquaral de Goiás,municipio,GO
+Taquarana,municipio,AL
+Taquari,municipio,RS
+Taquaritinga,municipio,SP
+Taquaritinga do Norte,municipio,PE
+Taquarituba,municipio,SP
+Taquarivaí,municipio,SP
+Taquaruçu do Sul,municipio,RS
+Taquarussu,municipio,MS
+Tarabai,municipio,SP
+Tarauacá,municipio,AC
+Tarrafas,municipio,CE
+Tartarugalzinho,municipio,AP
+Tarumã,municipio,SP
+Tarumirim,municipio,MG
+Tasso Fragoso,municipio,MA
+Tatuí,municipio,SP
+Tauá,municipio,CE
+Taubaté,municipio,SP
+Tavares,municipio,PB
+Tavares,municipio,RS
+Tefé,municipio,AM
+Teixeira,municipio,PB
+Teixeira de Freitas,municipio,BA
+Teixeira Soares,municipio,PR
+Teixeiras,municipio,MG
+Teixeirópolis,municipio,RO
+Tejuçuoca,municipio,CE
+Tejupá,municipio,SP
+Telêmaco Borba,municipio,PR
+Telha,municipio,SE
+Tenente Ananias,municipio,RN
+Tenente Laurentino Cruz,municipio,RN
+Tenente Portela,municipio,RS
+Tenório,municipio,PB
+Teodoro Sampaio,municipio,BA
+Teodoro Sampaio,municipio,SP
+Teofilândia,municipio,BA
+Teófilo Otoni,municipio,MG
+Teolândia,municipio,BA
+Teotônio Vilela,municipio,AL
+Terenos,municipio,MS
+Teresina,municipio,PI
+Teresina de Goiás,municipio,GO
+Teresópolis,municipio,RJ
+Terezinha,municipio,PE
+Terezópolis de Goiás,municipio,GO
+Terra Alta,municipio,PA
+Terra Boa,municipio,PR
+Terra de Areia,municipio,RS
+Terra Nova,municipio,PE
+Terra Nova,municipio,BA
+Terra Nova do Norte,municipio,MT
+Terra Rica,municipio,PR
+Terra Roxa,municipio,SP
+Terra Roxa,municipio,PR
+Terra Santa,municipio,PA
+Tesouro,municipio,MT
+Teutônia,municipio,RS
+Theobroma,municipio,RO
+Tianguá,municipio,CE
+Tibagi,municipio,PR
+Tibau,municipio,RN
+Tibau do Sul,municipio,RN
+Tietê,municipio,SP
+Tigrinhos,municipio,SC
+Tijucas,municipio,SC
+Tijucas do Sul,municipio,PR
+Timbaúba,municipio,PE
+Timbaúba dos Batistas,municipio,RN
+Timbé do Sul,municipio,SC
+Timbiras,municipio,MA
+Timbó,municipio,SC
+Timbó Grande,municipio,SC
+Timburi,municipio,SP
+Timon,municipio,MA
+Timóteo,municipio,MG
+Tio Hugo,municipio,RS
+Tiradentes,municipio,MG
+Tiradentes do Sul,municipio,RS
+Tiros,municipio,MG
+Tobias Barreto,municipio,SE
+Tocantínia,municipio,TO
+Tocantinópolis,municipio,TO
+Tocantins,municipio,MG
+Tocos do Moji,municipio,MG
+Toledo,municipio,MG
+Toledo,municipio,PR
+Tomar do Geru,municipio,SE
+Tomazina,municipio,PR
+Tombos,municipio,MG
+Tomé-Açu,municipio,PA
+Tonantins,municipio,AM
+Toritama,municipio,PE
+Torixoréu,municipio,MT
+Toropi,municipio,RS
+Torre de Pedra,municipio,SP
+Torres,municipio,RS
+Torrinha,municipio,SP
+Touros,municipio,RN
+Trabiju,municipio,SP
+Tracuateua,municipio,PA
+Tracunhaém,municipio,PE
+Traipu,municipio,AL
+Trairão,municipio,PA
+Trairi,municipio,CE
+Trajano de Moraes,municipio,RJ
+Tramandaí,municipio,RS
+Travesseiro,municipio,RS
+Tremedal,municipio,BA
+Tremembé,municipio,SP
+Três Arroios,municipio,RS
+Três Barras,municipio,SC
+Três Barras do Paraná,municipio,PR
+Três Cachoeiras,municipio,RS
+Três Corações,municipio,MG
+Três Coroas,municipio,RS
+Três de Maio,municipio,RS
+Três Forquilhas,municipio,RS
+Três Fronteiras,municipio,SP
+Três Lagoas,municipio,MS
+Três Marias,municipio,MG
+Três Palmeiras,municipio,RS
+Três Passos,municipio,RS
+Três Pontas,municipio,MG
+Três Ranchos,municipio,GO
+Três Rios,municipio,RJ
+Treviso,municipio,SC
+Treze de Maio,municipio,SC
+Treze Tílias,municipio,SC
+Trindade,municipio,PE
+Trindade,municipio,GO
+Trindade do Sul,municipio,RS
+Triunfo,municipio,PB
+Triunfo,municipio,PE
+Triunfo,municipio,RS
+Triunfo Potiguar,municipio,RN
+Trizidela do Vale,municipio,MA
+Trombas,municipio,GO
+Trombudo Central,municipio,SC
+Tubarão,municipio,SC
+Tucano,municipio,BA
+Tucumã,municipio,PA
+Tucunduva,municipio,RS
+Tucuruí,municipio,PA
+Tufilândia,municipio,MA
+Tuiuti,municipio,SP
+Tumiritinga,municipio,MG
+Tunápolis,municipio,SC
+Tunas,municipio,RS
+Tunas do Paraná,municipio,PR
+Tuneiras do Oeste,municipio,PR
+Tuntum,municipio,MA
+Tupã,municipio,SP
+Tupaciguara,municipio,MG
+Tupanatinga,municipio,PE
+Tupanci do Sul,municipio,RS
+Tupanciretã,municipio,RS
+Tupandi,municipio,RS
+Tuparendi,municipio,RS
+Tuparetama,municipio,PE
+Tupãssi,municipio,PR
+Tupi Paulista,municipio,SP
+Tupirama,municipio,TO
+Tupiratins,municipio,TO
+Turiaçu,municipio,MA
+Turilândia,municipio,MA
+Turiúba,municipio,SP
+Turmalina,municipio,MG
+Turmalina,municipio,SP
+Turuçu,municipio,RS
+Tururu,municipio,CE
+Turvânia,municipio,GO
+Turvelândia,municipio,GO
+Turvo,municipio,PR
+Turvo,municipio,SC
+Turvolândia,municipio,MG
+Tutoia,municipio,MA
+Uarini,municipio,AM
+Uauá,municipio,BA
+Ubá,municipio,MG
+Ubaí,municipio,MG
+Ubaíra,municipio,BA
+Ubaitaba,municipio,BA
+Ubajara,municipio,CE
+Ubaporanga,municipio,MG
+Ubarana,municipio,SP
+Ubatã,municipio,BA
+Ubatuba,municipio,SP
+Uberaba,municipio,MG
+Uberlândia,municipio,MG
+Ubirajara,municipio,SP
+Ubiratã,municipio,PR
+Ubiretama,municipio,RS
+Uchoa,municipio,SP
+Uibaí,municipio,BA
+Uiramutã,municipio,RR
+Uirapuru,municipio,GO
+Uiraúna,municipio,PB
+Ulianópolis,municipio,PA
+Umari,municipio,CE
+Umarizal,municipio,RN
+Umbaúba,municipio,SE
+Umburanas,municipio,BA
+Umburatiba,municipio,MG
+Umbuzeiro,municipio,PB
+Umirim,municipio,CE
+Umuarama,municipio,PR
+Una,municipio,BA
+Unaí,municipio,MG
+União,municipio,PI
+União da Serra,municipio,RS
+União da Vitória,municipio,PR
+União de Minas,municipio,MG
+União do Oeste,municipio,SC
+União do Sul,municipio,MT
+União dos Palmares,municipio,AL
+União Paulista,municipio,SP
+Uniflor,municipio,PR
+Unistalda,municipio,RS
+Upanema,municipio,RN
+Uraí,municipio,PR
+Urandi,municipio,BA
+Urânia,municipio,SP
+Urbano Santos,municipio,MA
+Uru,municipio,SP
+Uruaçu,municipio,GO
+Uruana,municipio,GO
+Uruana de Minas,municipio,MG
+Uruará,municipio,PA
+Urubici,municipio,SC
+Uruburetama,municipio,CE
+Urucânia,municipio,MG
+Urucará,municipio,AM
+Uruçuca,municipio,BA
+Uruçuí,municipio,PI
+Urucuia,municipio,MG
+Urucurituba,municipio,AM
+Uruguaiana,municipio,RS
+Uruoca,municipio,CE
+Urupá,municipio,RO
+Urupema,municipio,SC
+Urupês,municipio,SP
+Urussanga,municipio,SC
+Urutaí,municipio,GO
+Utinga,municipio,BA
+Vacaria,municipio,RS
+Vale de São Domingos,municipio,MT
+Vale do Anari,municipio,RO
+Vale do Paraíso,municipio,RO
+Vale do Sol,municipio,RS
+Vale Real,municipio,RS
+Vale Verde,municipio,RS
+Valença,municipio,BA
+Valença,municipio,RJ
+Valença do Piauí,municipio,PI
+Valente,municipio,BA
+Valentim Gentil,municipio,SP
+Valinhos,municipio,SP
+Valparaíso,municipio,SP
+Valparaíso de Goiás,municipio,GO
+Vanini,municipio,RS
+Vargeão,municipio,SC
+Vargem,municipio,SP
+Vargem,municipio,SC
+Vargem Alegre,municipio,MG
+Vargem Alta,municipio,ES
+Vargem Bonita,municipio,MG
+Vargem Bonita,municipio,SC
+Vargem Grande,municipio,MA
+Vargem Grande do Rio Pardo,municipio,MG
+Vargem Grande do Sul,municipio,SP
+Vargem Grande Paulista,municipio,SP
+Varginha,municipio,MG
+Varjão,municipio,GO
+Varjão de Minas,municipio,MG
+Varjota,municipio,CE
+Varre-Sai,municipio,RJ
+Várzea,municipio,RN
+Várzea,municipio,PB
+Várzea Alegre,municipio,CE
+Várzea Branca,municipio,PI
+Várzea da Palma,municipio,MG
+Várzea da Roça,municipio,BA
+Várzea do Poço,municipio,BA
+Várzea Grande,municipio,PI
+Várzea Grande,municipio,MT
+Várzea Nova,municipio,BA
+Várzea Paulista,municipio,SP
+Varzedo,municipio,BA
+Varzelândia,municipio,MG
+Vassouras,municipio,RJ
+Vazante,municipio,MG
+Venâncio Aires,municipio,RS
+Venda Nova do Imigrante,municipio,ES
+Venha-Ver,municipio,RN
+Ventania,municipio,PR
+Venturosa,municipio,PE
+Vera,municipio,MT
+Vera Cruz,municipio,RN
+Vera Cruz,municipio,BA
+Vera Cruz,municipio,SP
+Vera Cruz,municipio,RS
+Vera Cruz do Oeste,municipio,PR
+Vera Mendes,municipio,PI
+Veranópolis,municipio,RS
+Verdejante,municipio,PE
+Verdelândia,municipio,MG
+Verê,municipio,PR
+Vereda,municipio,BA
+Veredinha,municipio,MG
+Veríssimo,municipio,MG
+Vermelho Novo,municipio,MG
+Vertente do Lério,municipio,PE
+Vertentes,municipio,PE
+Vespasiano,municipio,MG
+Vespasiano Correa,municipio,RS
+Viadutos,municipio,RS
+Viamão,municipio,RS
+Viana,municipio,MA
+Viana,municipio,ES
+Vianópolis,municipio,GO
+Vicência,municipio,PE
+Vicente Dutra,municipio,RS
+Vicentina,municipio,MS
+Vicentinópolis,municipio,GO
+Viçosa,municipio,RN
+Viçosa,municipio,AL
+Viçosa,municipio,MG
+Viçosa do Ceará,municipio,CE
+Victor Graeff,municipio,RS
+Vidal Ramos,municipio,SC
+Videira,municipio,SC
+Vieiras,municipio,MG
+Vieirópolis,municipio,PB
+Vigia,municipio,PA
+Vila Bela da Santíssima Trindade,municipio,MT
+Vila Boa,municipio,GO
+Vila Flor,municipio,RN
+Vila Flores,municipio,RS
+Vila Lângaro,municipio,RS
+Vila Maria,municipio,RS
+Vila Nova do Piauí,municipio,PI
+Vila Nova do Sul,municipio,RS
+Vila Nova dos Martírios,municipio,MA
+Vila Pavão,municipio,ES
+Vila Propício,municipio,GO
+Vila Rica,municipio,MT
+Vila Valério,municipio,ES
+Vila Velha,municipio,ES
+Vilhena,municipio,RO
+Vinhedo,municipio,SP
+Viradouro,municipio,SP
+Virgem da Lapa,municipio,MG
+Virgínia,municipio,MG
+Virginópolis,municipio,MG
+Virgolândia,municipio,MG
+Virmond,municipio,PR
+Visconde do Rio Branco,municipio,MG
+Viseu,municipio,PA
+Vista Alegre,municipio,RS
+Vista Alegre do Alto,municipio,SP
+Vista Alegre do Prata,municipio,RS
+Vista Gaúcha,municipio,RS
+Vista Serrana,municipio,PB
+Vitor Meireles,municipio,SC
+Vitória,municipio,ES
+Vitória Brasil,municipio,SP
+Vitória da Conquista,municipio,BA
+Vitória das Missões,municipio,RS
+Vitória de Santo Antão,municipio,PE
+Vitória do Jari,municipio,AP
+Vitória do Mearim,municipio,MA
+Vitória do Xingu,municipio,PA
+Vitorino,municipio,PR
+Vitorino Freire,municipio,MA
+Volta Grande,municipio,MG
+Volta Redonda,municipio,RJ
+Votorantim,municipio,SP
+Votuporanga,municipio,SP
+Wagner,municipio,BA
+Wall Ferraz,municipio,PI
+Wanderlândia,municipio,TO
+Wanderley,municipio,BA
+Wenceslau Braz,municipio,MG
+Wenceslau Braz,municipio,PR
+Wenceslau Guimarães,municipio,BA
+Westfalia,municipio,RS
+Witmarsum,municipio,SC
+Xambioá,municipio,TO
+Xambrê,municipio,PR
+Xangri-Lá,municipio,RS
+Xanxerê,municipio,SC
+Xapuri,municipio,AC
+Xavantina,municipio,SC
+Xaxim,municipio,SC
+Xexéu,municipio,PE
+Xinguara,municipio,PA
+Xique-Xique,municipio,BA
+Zabelê,municipio,PB
+Zacarias,municipio,SP
+Zé Doca,municipio,MA
+Zortéa,municipio,SC

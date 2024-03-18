@@ -1,0 +1,13 @@
+{
+	"name": "blazil-backend",
+	"private": true,
+	"version": "0.0.0",
+	"author": {
+		"email": "leopiccionia@gmail.com",
+		"name": "Leonardo Piccioni de Almeida"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"supabase": "^1.148.6"
+	}
+}
