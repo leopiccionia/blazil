@@ -18,3 +18,21 @@ body {
 	min-height: 100vh;
 	padding: 0.1px;
 }
+
+#app {
+	margin: auto;
+	max-width: 80rem;
+	width: 100%;
+}
+
+h1 {
+	margin: 1rem;
+}
+
+.button {
+	background-color: #DDDD;
+	border: 1px solid #CCCC;
+	border-radius: 0.25rem;
+	padding: 0.25rem 1rem;
+	text-align: center;
+}

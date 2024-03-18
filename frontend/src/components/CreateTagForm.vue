@@ -38,7 +38,7 @@
 				<span>Pai</span>
 				<SelectTag v-model="newTag.parent_id" :tags="tags"/>
 			</label>
-			<button type="submit">Criar</button>
+			<button class="button" type="submit">Criar</button>
 		</form>
 		<pre v-if="error">{{ error }}</pre>
 	</section>

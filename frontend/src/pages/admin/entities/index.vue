@@ -28,10 +28,6 @@
 </template>
 
 <style scoped>
-	h1 {
-		margin: 1rem;
-	}
-
 	ul {
 		display: grid;
 		gap: 10px;

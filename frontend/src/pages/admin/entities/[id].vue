@@ -55,11 +55,11 @@
 				<h2>Tags</h2>
 				<form @submit.prevent="addEntityTag">
 					<SelectTag :tags="tagsTree" v-model="newTag" v-if="tagsTree"/>
-					<button type="submit">Adicionar</button>
+					<button class="button" type="submit">Adicionar</button>
 				</form>
 				<ul class="entity-tags" v-if="labeledTags">
 					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<button type="button" @click="removeEntityTag(tag.entityTag)">
+						<button class="button" type="button" @click="removeEntityTag(tag.entityTag)">
 							{{ tag.label }} <RemoveIcon/>
 						</button>
 					</li>
@@ -71,10 +71,6 @@
 </template>
 
 <style scoped>
-	h1 {
-		margin: 1rem;
-	}
-
 	.description {
 		margin: -1rem 1rem 0;
 	}
@@ -103,7 +99,7 @@
 		flex-wrap: wrap;
 		gap: 0.5rem;
 
-		& select, button {
+		& select {
 			padding: 0.25rem 1rem;
 		}
 	}
@@ -111,7 +107,6 @@
 	.entity-tags {
 		display: flex;
 		flex-wrap: wrap;
-		max-width: 768px;
 		padding: 0;
 
 		& li {

@@ -14,17 +14,13 @@
 		<section>
 			<h2>Lista de tags</h2>
 			<TagsRootTree :tags="tree"/>
-			<button type="button" @click="refetch()">Recarregar</button>
+			<button class="button" type="button" @click="refetch()">Recarregar</button>
 		</section>
 	</div>
 	<pre v-if="error">{{ error }}</pre>
 </template>
 
 <style scoped>
-	h1 {
-		margin: 1rem;
-	}
-
 	.tags-sections {
 
 		@media screen and (min-width: 769px) {
@@ -42,7 +38,6 @@
 
 		& :deep(button) {
 			display: block;
-			padding: 0.25rem 1rem;
 		}
 	}
 </style>
