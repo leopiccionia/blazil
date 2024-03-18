@@ -20,7 +20,7 @@
 	padding: 0;
 
 	& ul {
-		padding-inline-start: 1.5rem;
+		padding-inline-start: 1.2em;
 	}
 
 	& li {

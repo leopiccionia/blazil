@@ -2,9 +2,9 @@
 	import { ref } from 'vue'
 	import type { PropType } from 'vue'
 
-	import LeafIcon from '~icons/fa6-solid/angle-right'
-	import MaximizeIcon from '~icons/fa6-solid/square-plus'
-	import MinimizeIcon from '~icons/fa6-solid/square-minus'
+	import LeafIcon from '~icons/ph/minus'
+	import MaximizeIcon from '~icons/ph/caret-down'
+	import MinimizeIcon from '~icons/ph/caret-up'
 
 	import type { TagTree } from '../utils/types'
 
@@ -39,7 +39,7 @@
 	}
 
 	svg {
-		color: #999;
-		margin-right: 1ex;
+		color: #888;
+		margin-inline-end: 0.5ex;
 	}
 </style>

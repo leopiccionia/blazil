@@ -2,7 +2,7 @@
 	import { computed, ref } from 'vue'
 	import { useRoute } from 'vue-router/auto'
 
-	import RemoveIcon from '~icons/fa6-solid/xmark'
+	import RemoveIcon from '~icons/ph/x'
 
 	import ImageUploader from '../../components/ImageUploader.vue'
 	import SelectTag from '../../components/SelectTag.vue'
@@ -113,7 +113,7 @@
 		& button {
 			align-items: center;
 			display: flex;
-			gap: 1ch;
+			gap: 0.5ex;
 			padding: 0.125rem 0.5rem;
 		}
 	}

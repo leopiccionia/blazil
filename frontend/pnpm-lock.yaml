@@ -22,9 +22,9 @@ dependencies:
     version: 4.3.0(vue@3.4.21)
 
 devDependencies:
-  '@iconify-json/fa6-solid':
-    specifier: ^1.1.20
-    version: 1.1.20
+  '@iconify-json/ph':
+    specifier: ^1.1.11
+    version: 1.1.11
   '@vitejs/plugin-vue':
     specifier: ^5.0.4
     version: 5.0.4(vite@5.1.6)(vue@3.4.21)
@@ -293,8 +293,8 @@ packages:
     dev: true
     optional: true
 
-  /@iconify-json/fa6-solid@1.1.20:
-    resolution: {integrity: sha512-99P9zOacNS56MNNT7Mzih2Loe3jzwNFKFBOiVh+kF+4D+AHW5zyksyvMizIgGu2cizFz6npaATlCtl3E5Zfjbw==}
+  /@iconify-json/ph@1.1.11:
+    resolution: {integrity: sha512-izLvLZrU7WM03zNwNWNrAySv3i45hM3D3K6USjCGBSQMUG0HB8zxwrMf4O0leDrganmuQBH7Z0DWTgyH1ET/fg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
