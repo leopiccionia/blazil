@@ -28,10 +28,20 @@
 </template>
 
 <style scoped>
+	input[type="search"] {
+		display: block;
+		margin: 1rem;
+		max-width: 300px;
+		padding: 0.25rem 1rem;
+		width: 100%;
+	}
+
 	ul {
 		display: grid;
 		gap: 10px;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		margin: 1rem;
+		padding: 0;
 
 		& li {
 			list-style: none;
