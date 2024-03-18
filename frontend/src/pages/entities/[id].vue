@@ -52,6 +52,7 @@
 				<ImageUploader :entity="entity"/>
 			</section>
 			<section>
+				<h2>Tags</h2>
 				<form @submit.prevent="addEntityTag">
 					<SelectTag :tags="tagsTree" v-model="newTag" v-if="tagsTree"/>
 					<button type="submit">Adicionar</button>
@@ -70,13 +71,20 @@
 </template>
 
 <style scoped>
-	h1, p.description {
+	h1 {
 		margin: 1rem;
 	}
 
+	.description {
+		margin: -1rem 1rem 0;
+	}
+
 	.entity-sections {
-		display: grid;
-		grid-template-columns: auto 1fr;
+
+		@media screen and (min-width: 769px) {
+			display: grid;
+			grid-template-columns: auto 1fr;
+		}
 	}
 
 	:deep(section > *) {
@@ -92,7 +100,8 @@
 	form {
 		align-items: center;
 		display: flex;
-		gap: 1rem;
+		flex-wrap: wrap;
+		gap: 0.5rem;
 
 		& select, button {
 			padding: 0.25rem 1rem;
@@ -102,6 +111,7 @@
 	.entity-tags {
 		display: flex;
 		flex-wrap: wrap;
+		max-width: 768px;
 		padding: 0;
 
 		& li {
