@@ -2,9 +2,9 @@
 	import { reactive, toRaw } from 'vue'
 	import type { PropType } from 'vue'
 
-	import SelectTag from '../components/SelectTag.vue'
-	import { useTagCreate } from '../mutations/tags'
-	import type { TagTree } from '../utils/types'
+	import SelectTag from '~/components/SelectTag.vue'
+	import { useTagCreate } from '~/mutations/tags'
+	import type { TagTree } from '~/utils/types'
 
 	const { tags } = defineProps({
 		tags: { type: Array as PropType<TagTree[]>, required: true },

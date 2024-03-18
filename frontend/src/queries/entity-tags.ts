@@ -1,8 +1,8 @@
 import { useQuery } from '@tanstack/vue-query'
 
-import { queryResult } from '../utils/queries'
-import supabase from '../utils/supabase'
-import type { EntityTag } from '../utils/types'
+import { queryResult } from '~/utils/queries'
+import { supabase } from '~/utils/supabase'
+import type { EntityTag } from '~/utils/types'
 
 export function useEntityTagsQuery (filters: Partial<EntityTag>) {
 	return useQuery({

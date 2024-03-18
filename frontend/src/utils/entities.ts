@@ -1,4 +1,4 @@
-import type { Entity } from './types'
+import type { Entity } from '~/utils/types'
 
 export function formatEntityName (entity: Entity) {
 	if (['pais', 'estado', 'distrito_federal'].includes(entity.type)) {

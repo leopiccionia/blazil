@@ -1,8 +1,8 @@
 import { useQuery } from '@tanstack/vue-query'
 
-import { queryResult } from '../utils/queries'
-import supabase from '../utils/supabase'
-import type { Tag } from '../utils/types'
+import { queryResult } from '~/utils/queries'
+import { supabase } from '~/utils/supabase'
+import type { Tag } from '~/utils/types'
 
 export function useTagsQuery<T> (selector: (input: Tag[]) => T) {
 	return useQuery({

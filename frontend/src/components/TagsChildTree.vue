@@ -6,7 +6,7 @@
 	import MaximizeIcon from '~icons/ph/caret-down'
 	import MinimizeIcon from '~icons/ph/caret-up'
 
-	import type { TagTree } from '../utils/types'
+	import type { TagTree } from '~/utils/types'
 
 	const { tag } = defineProps({
 		tag: { type: Object as PropType<TagTree>, required: true },
@@ -22,7 +22,7 @@
 			<input type="checkbox" v-model="showTags" v-if="tag.children">
 			<span>{{ tag.name }}</span>
 		</label>
-		<ul v-if="showTags">
+		<ul v-if="showTags && tag.children">
 			<TagsChildTree v-for="child of tag.children" :key="child.id" :tag="child"/>
 		</ul>
 	</li>

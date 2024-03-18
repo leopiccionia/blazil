@@ -1,7 +1,7 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import type { TagTree } from '../utils/types'
+	import type { TagTree } from '~/utils/types'
 
 	const { tags } = defineProps({
 		prefix: { type: String, default: '' },

@@ -1,4 +1,4 @@
-import type { Tag, TagTree } from './types'
+import type { Tag, TagTree } from '~/utils/types'
 
 export function computeTagsMap (tags: Tag[]): Record<string, Tag> {
 	const map: Record<string, Tag> = {}

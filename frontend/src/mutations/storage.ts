@@ -1,7 +1,7 @@
 import { useMutation } from '@tanstack/vue-query'
 
-import { queryResult } from '../utils/queries'
-import supabase from '../utils/supabase'
+import { queryResult } from '~/utils/queries'
+import { supabase } from '~/utils/supabase'
 
 type UploadSize = {
 	name: string,

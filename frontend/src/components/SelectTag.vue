@@ -1,8 +1,8 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import SelectTagOptions from './SelectTagOptions.vue'
-	import type { TagTree } from '../utils/types'
+	import SelectTagOptions from '~/components/SelectTagOptions.vue'
+	import type { TagTree } from '~/utils/types'
 
 	const model = defineModel()
 

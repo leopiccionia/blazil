@@ -1,4 +1,4 @@
-import type { EntityTag, Tag } from './types'
+import type { EntityTag, Tag } from '~/utils/types'
 
 type LabeledTag = {
 	label: string,

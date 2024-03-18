@@ -1,10 +1,10 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import { useEntityUpdate } from '../mutations/entities'
-	import { useFileUpload } from '../mutations/storage'
-	import { getPublicUrl } from '../utils/storage'
-	import type { Entity } from '../utils/types'
+	import { useEntityUpdate } from '~/mutations/entities'
+	import { useFileUpload } from '~/mutations/storage'
+	import { getPublicUrl } from '~/utils/storage'
+	import type { Entity } from '~/utils/types'
 
 	const { entity } = defineProps({
 		entity: { type: Object as PropType<Entity>, required: true },

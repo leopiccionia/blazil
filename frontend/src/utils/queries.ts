@@ -1,4 +1,4 @@
-import type { Paginated } from './types'
+import type { Paginated } from '~/utils/types'
 
 export function infiniteQueryResult<Data, Error> (data: Data[] | null, error: Error | null, page: number): Promise<Paginated<Data>> {
 	if (error) {

@@ -1,9 +1,9 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/vue-query'
 import type { MaybeRef } from 'vue'
 
-import { infiniteQueryResult, queryResult } from '../utils/queries'
-import supabase from '../utils/supabase'
-import type { Paginated, Entity } from '../utils/types'
+import { infiniteQueryResult, queryResult } from '~/utils/queries'
+import { supabase } from '~/utils/supabase'
+import type { Entity, Paginated } from '~/utils/types'
 
 export function useEntitiesQuery (search: MaybeRef<string>) {
 	const PAGE_SIZE = 500

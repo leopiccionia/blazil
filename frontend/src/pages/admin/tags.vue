@@ -1,8 +1,8 @@
 <script setup lang="ts">
-	import CreateTagForm from '../components/CreateTagForm.vue'
-	import TagsRootTree from '../components/TagsRootTree.vue'
-	import { useTagsQuery } from '../queries/tags'
-	import { computeTagsTree } from '../utils/tags'
+	import CreateTagForm from '~/components/CreateTagForm.vue'
+	import TagsRootTree from '~/components/TagsRootTree.vue'
+	import { useTagsQuery } from '~/queries/tags'
+	import { computeTagsTree } from '~/utils/tags'
 
 	const { data: tree, error, refetch } = useTagsQuery(computeTagsTree)
 </script>

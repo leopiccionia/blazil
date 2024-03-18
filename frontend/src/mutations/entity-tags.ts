@@ -1,8 +1,8 @@
 import { useMutation, useQueryClient } from '@tanstack/vue-query'
 
-import { queryResult } from '../utils/queries'
-import supabase from '../utils/supabase'
-import type { EntityTag } from '../utils/types'
+import { queryResult } from '~/utils/queries'
+import { supabase } from '~/utils/supabase'
+import type { EntityTag } from '~/utils/types'
 
 export function useEntityTagCreate () {
 	const queryClient = useQueryClient()

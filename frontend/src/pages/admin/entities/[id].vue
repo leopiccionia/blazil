@@ -4,18 +4,18 @@
 
 	import RemoveIcon from '~icons/ph/x'
 
-	import ImageUploader from '../../components/ImageUploader.vue'
-	import SelectTag from '../../components/SelectTag.vue'
-	import { useEntityTagCreate, useEntityTagDelete } from '../../mutations/entity-tags'
-	import { useEntityQuery } from '../../queries/entities'
-	import { useEntityTagsQuery } from '../../queries/entity-tags'
-	import { useTagsQuery } from '../../queries/tags'
-	import { formatEntityName, formatEntityType } from '../../utils/entities'
-	import { listEntityTags } from '../../utils/entity-tags'
-	import { computeTagsMap, computeTagsTree } from '../../utils/tags'
-	import type { EntityTag } from '../../utils/types'
+	import ImageUploader from '~/components/ImageUploader.vue'
+	import SelectTag from '~/components/SelectTag.vue'
+	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
+	import { useEntityQuery } from '~/queries/entities'
+	import { useEntityTagsQuery } from '~/queries/entity-tags'
+	import { useTagsQuery } from '~/queries/tags'
+	import { formatEntityName, formatEntityType } from '~/utils/entities'
+	import { listEntityTags } from '~/utils/entity-tags'
+	import { computeTagsMap, computeTagsTree } from '~/utils/tags'
+	import type { EntityTag } from '~/utils/types'
 
-	const route = useRoute('/entities/[id]')
+	const route = useRoute('/admin/entities/[id]')
 	const entityId = Number(route.params.id)
 
 	const { data: entity, error } = useEntityQuery(entityId)

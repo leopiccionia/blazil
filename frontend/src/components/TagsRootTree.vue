@@ -1,8 +1,8 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import TagsChildTree from '../components/TagsChildTree.vue'
-	import type { TagTree } from '../utils/types'
+	import TagsChildTree from '~/components/TagsChildTree.vue'
+	import type { TagTree } from '~/utils/types'
 
 	const { tags } = defineProps({
 		tags: { type: Array as PropType<TagTree[]>, required: true },
