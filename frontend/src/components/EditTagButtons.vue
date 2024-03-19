@@ -5,7 +5,7 @@
 	import EditIcon from '~icons/ph/note-pencil-light'
 	import RemoveIcon from '~icons/ph/trash-light'
 
-	import TagDeleteModal from '~/components/TagDeleteModal.vue'
+	import DeleteTagModal from '~/components/DeleteTagModal.vue'
 	import { useModal } from '~/composables/modal'
 	import { InjectSelectTag } from '~/utils/injections'
 	import type { TagNode } from '~/utils/types'
@@ -29,18 +29,22 @@
 </script>
 
 <template>
-	<button type="button" @click="selectTag" :title="`Editar &quot;${node.tag.name}&quot;`">
+	<button class="edit-button" type="button" @click="selectTag" :title="`Editar &quot;${node.tag.name}&quot;`">
 		<EditIcon/>
 	</button>
-	<button type="button" @click="deleteTag" :title="`Remover &quot;${node.tag.name}&quot;`" v-if="!node.children">
+	<button class="delete-button" type="button" @click="deleteTag" :title="`Remover &quot;${node.tag.name}&quot;`" v-if="!node.children">
 		<RemoveIcon/>
 	</button>
-	<TagDeleteModal :controller="deleteTagModal" :node="node"/>
+	<DeleteTagModal :controller="deleteTagModal" :node="node"/>
 </template>
 
 <style scoped>
 	button {
 		color: #888;
 		margin-inline-start: 0.5ex;
+	}
+
+	.delete-button {
+		color: #F77;
 	}
 </style>

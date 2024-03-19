@@ -1,12 +1,17 @@
 <script setup lang="ts">
-	import CreateTagForm from '~/components/CreateTagForm.vue'
-	import EditTagButton from '~/components/EditTagButton.vue'
+	import ReloadIcon from '~icons/ph/arrows-clockwise-light'
+
+	import CreateTagModal from '~/components/CreateTagModal.vue'
+	import EditTagButtons from '~/components/EditTagButtons.vue'
 	import TagsRootTree from '~/components/TagsRootTree.vue'
+	import { useModal } from '~/composables/modal'
 	import { useTagsQuery } from '~/queries/tags'
 	import { computeTagsTree } from '~/utils/tags'
 	import type { Tag } from '~/utils/types'
 
 	const { data: nodes, error, refetch } = useTagsQuery(computeTagsTree)
+
+	const createTagModal = useModal({ defaultValue: null })
 
 	function selectTag (tag: Tag) {
 		console.log(tag)
@@ -15,35 +20,31 @@
 
 <template>
 	<h1>Tags</h1>
-	<div class="tags-sections" v-if="nodes">
-		<CreateTagForm :nodes="nodes"/>
+	<button class="refetch" @click="refetch()"><ReloadIcon/> Recarregar</button>
+	<template v-if="nodes">
 		<section>
-			<h2>Lista de tags</h2>
-			<TagsRootTree :action="EditTagButton" :nodes="nodes" @selectTag="selectTag"/>
-			<button class="button" type="button" @click="refetch()">Recarregar</button>
+			<TagsRootTree :action="EditTagButtons" :nodes="nodes" @selectTag="selectTag"/>
+			<button class="button" @click="createTagModal.open">Criar tag</button>
 		</section>
-	</div>
+		<CreateTagModal :controller="createTagModal" :nodes="nodes"/>
+	</template>
 	<pre v-if="error">{{ error }}</pre>
 </template>
 
 <style scoped>
-	.tags-sections {
+	section {
+		margin: 1rem;
+	}
 
-		@media screen and (min-width: 769px) {
-			display: grid;
-			grid-template-columns: 480px 1fr;
-		}
+	.refetch {
+		align-items: center;
+		color: #888;
+		display: flex;
+		gap: 0.5ex;
+		margin: 1rem;
+	}
 
-		& :deep(h2) {
-			margin-top: 0;
-		}
-
-		& :deep(section) {
-			padding: 1rem;
-		}
-
-		& :deep(button) {
-			display: block;
-		}
+	& :deep(.button) {
+		display: block;
 	}
 </style>
