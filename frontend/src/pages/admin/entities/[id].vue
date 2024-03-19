@@ -98,10 +98,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;
-
-		& select {
-			padding: 0.25rem 1rem;
-		}
 	}
 
 	.entity-tags {
@@ -118,6 +114,7 @@
 		& button {
 			align-items: center;
 			display: flex;
+			font-size: 0.875rem;
 			gap: 0.5ex;
 			padding: 0.125rem 0.5rem;
 		}

@@ -36,11 +36,11 @@
 <template>
 	<Modal title="Criar nova tag" :controller="controller">
 		<form @submit.prevent="createTag">
-			<label>
+			<label class="form-label">
 				<span>Nome</span>
 				<input class="form-field" type="text" required v-model="newTag.name">
 			</label>
-			<label>
+			<label class="form-label">
 				<span>Pai</span>
 				<SelectTag v-model="newTag.parent_id" :nodes="nodes" v-if="controller.isOpen"/>
 			</label>
@@ -54,16 +54,6 @@
 
 <style scoped>
 	form {
-
-		& label {
-			display: block;
-			margin: 1rem 0;
-
-			& > span {
-				display: block;
-				padding-inline: 0.25rem;
-			}
-		}
 
 		& input, select {
 			width: 100%;

@@ -41,11 +41,11 @@
 <template>
 	<Modal title="Editar tag" :controller="controller">
 		<form @submit.prevent="updateTag">
-			<label>
+			<label class="form-label">
 				<span>Nome</span>
 				<input class="form-field" type="text" required v-model="updatedTag.name">
 			</label>
-			<label>
+			<label class="form-label">
 				<span>Pai</span>
 				<SelectTag v-model="updatedTag.parent_id" :nodes="nodes" v-if="controller.isOpen && nodes"/>
 			</label>
@@ -59,16 +59,6 @@
 
 <style scoped>
 	form {
-
-		& label {
-			display: block;
-			margin: 1rem 0;
-
-			& > span {
-				display: block;
-				padding-inline: 0.25rem;
-			}
-		}
 
 		& input, select {
 			width: 100%;

@@ -32,6 +32,7 @@ h1 {
 button {
 	background-color: transparent;
 	border: none;
+	font-size: 1em;
 	padding: 0;
 }
 
@@ -47,5 +48,16 @@ button {
 	background-color: #FFFD;
 	border: 1px solid #CCCC;
 	border-radius: 0.25rem;
-	padding: 0.25rem 1rem;
+	font-size: 1em;
+	padding: 0.25rem 0.5rem;
+}
+
+.form-label {
+	display: block;
+	margin: 1rem 0;
+
+	& > span {
+		display: block;
+		padding-inline: 0.5rem;
+	}
 }

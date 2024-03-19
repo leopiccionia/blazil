@@ -13,7 +13,7 @@
 
 <template>
 	<h1>Entities</h1>
-	<input class="form-field" type="search" v-model="search">
+	<input class="form-field" type="search" v-model="search" aria-label="Filtrar entidades">
 	<ul v-if="data">
 		<template v-for="page of data.pages" :key="page.page">
 			<li v-for="entity of page.data" :key="entity.id">
@@ -47,10 +47,10 @@
 		}
 
 		& a {
-			color: blue;
+			color: #44F;
 
 			&.inactive {
-				color: red;
+				color: #F44;
 			}
 		}
 	}
