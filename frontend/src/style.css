@@ -29,6 +29,12 @@ h1 {
 	margin: 1rem;
 }
 
+button {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
 .button {
 	background-color: #DDDD;
 	border: 1px solid #CCCC;
