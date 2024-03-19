@@ -9,7 +9,7 @@
 	import type { TagNode } from '~/utils/types'
 
 	const { action, node } = defineProps({
-		action: { type: Object as PropType<Component<{ tag: TagNode }>>, default: null },
+		action: { type: Object as PropType<Component<{ node: TagNode }>>, default: null },
 		node: { type: Object as PropType<TagNode>, required: true },
 	})
 
@@ -22,7 +22,7 @@
 			<component :is="node.children ? (showTags ? MinimizeIcon : MaximizeIcon) : LeafIcon"/>
 			<input type="checkbox" v-model="showTags" v-if="node.children">
 			<span>{{ node.tag.name }}</span>
-			<component :is="action" :tag="node" v-if="action"/>
+			<component :is="action" :node="node" v-if="action"/>
 		</label>
 		<ul v-if="showTags && node.children">
 			<TagsChildTree v-for="child of node.children" :key="child.tag.id" :action="action" :node="child"/>

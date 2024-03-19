@@ -7,7 +7,7 @@
 	import type { Tag, TagNode } from '~/utils/types'
 
 	const { action, nodes } = defineProps({
-		action: { type: Object as PropType<Component<{ tag: TagNode }>>, default: null },
+		action: { type: Object as PropType<Component<{ node: TagNode }>>, default: null },
 		nodes: { type: Array as PropType<TagNode[]>, required: true },
 	})
 
