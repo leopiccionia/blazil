@@ -32,7 +32,7 @@
 		<form @submit.prevent="createTag">
 			<label>
 				<span>Nome</span>
-				<input type="text" required v-model="newTag.name">
+				<input class="form-field" type="text" required v-model="newTag.name">
 			</label>
 			<label>
 				<span>Pai</span>
@@ -62,7 +62,6 @@
 		}
 
 		& input, select {
-			padding: 0.25rem 1rem;
 			width: 100%;
 		}
 

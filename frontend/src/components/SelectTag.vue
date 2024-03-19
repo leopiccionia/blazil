@@ -12,7 +12,7 @@
 </script>
 
 <template>
-	<select v-model="model">
+	<select class="form-field" v-model="model">
 		<option :value="null" :key="0">-- Nenhum --</option>
 		<SelectTagOptions :tags="tags"/>
 	</select>

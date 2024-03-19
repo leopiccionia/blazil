@@ -13,7 +13,7 @@
 
 <template>
 	<h1>Entities</h1>
-	<input type="search" v-model="search">
+	<input class="form-field" type="search" v-model="search">
 	<ul v-if="data">
 		<template v-for="page of data.pages" :key="page.page">
 			<li v-for="entity of page.data" :key="entity.id">
@@ -32,7 +32,6 @@
 		display: block;
 		margin: 1rem;
 		max-width: 300px;
-		padding: 0.25rem 1rem;
 		width: 100%;
 	}
 
