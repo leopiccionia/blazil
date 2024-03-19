@@ -14,10 +14,10 @@ export function useEntityUpdate () {
 				.eq('id', id)
 				.select()
 
-			const { data, error } = await mutation.returns<Entity>()
+			const { data, error } = await mutation.returns<Entity[]>()
 			return queryResult(data, error)
 		},
-		onSuccess (newData) {
+		onSuccess ([newData]) {
 			queryClient.setQueryData<Entity>(['entities', newData.id], (entity) => ({ ...(entity ?? {}) , ...newData }))
 		},
 	})

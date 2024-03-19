@@ -23,3 +23,40 @@ export function useTagCreate () {
 		},
 	})
 }
+
+export function useTagDelete () {
+	const queryClient = useQueryClient()
+
+	return useMutation({
+		async mutationFn (tag: Tag) {
+			const mutation = supabase.from('tags')
+				.delete()
+				.eq('id', tag.id)
+
+			const { data, error } = await mutation
+			return queryResult(data, error)
+		},
+		onSuccess (_, tag) {
+			queryClient.setQueryData<Tag[]>(['tags'], (tags) => tags?.filter((t) => t.id != tag.id))
+		},
+	})
+}
+
+export function useTagUpdate () {
+	const queryClient = useQueryClient()
+
+	return useMutation({
+		async mutationFn ({ id, ...rest }: Pick<Tag, 'id'> & Partial<Tag>) {
+			const mutation = supabase.from('tags')
+				.update({ ...rest })
+				.eq('id', id)
+				.select()
+
+			const { data, error } = await mutation.returns<Tag[]>()
+			return queryResult(data, error)
+		},
+		onSuccess ([newData]) {
+			queryClient.setQueryData<Tag[]>(['tags'], (tags) => tags?.map((tag) => (tag.id == newData.id) ? { ...tag, ...newData } : tag))
+		},
+	})
+}

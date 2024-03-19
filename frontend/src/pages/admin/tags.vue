@@ -7,15 +7,10 @@
 	import { useModal } from '~/composables/modal'
 	import { useTagsQuery } from '~/queries/tags'
 	import { computeTagsTree } from '~/utils/tags'
-	import type { Tag } from '~/utils/types'
 
 	const { data: nodes, error, refetch } = useTagsQuery(computeTagsTree)
 
 	const createTagModal = useModal({ defaultValue: null })
-
-	function selectTag (tag: Tag) {
-		console.log(tag)
-	}
 </script>
 
 <template>
@@ -23,7 +18,7 @@
 	<button class="refetch" @click="refetch()"><ReloadIcon/> Recarregar</button>
 	<template v-if="nodes">
 		<section>
-			<TagsRootTree :action="EditTagButtons" :nodes="nodes" @selectTag="selectTag"/>
+			<TagsRootTree :action="EditTagButtons" :nodes="nodes"/>
 			<button class="button" @click="createTagModal.open">Criar tag</button>
 		</section>
 		<CreateTagModal :controller="createTagModal" :nodes="nodes"/>

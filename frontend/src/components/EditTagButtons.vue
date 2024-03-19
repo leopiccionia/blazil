@@ -1,13 +1,12 @@
 <script setup lang="ts">
-	import { inject } from 'vue'
 	import type { PropType } from 'vue'
 
 	import EditIcon from '~icons/ph/note-pencil-light'
 	import RemoveIcon from '~icons/ph/trash-light'
 
 	import DeleteTagModal from '~/components/DeleteTagModal.vue'
+	import EditTagModal from '~/components/EditTagModal.vue'
 	import { useModal } from '~/composables/modal'
-	import { InjectSelectTag } from '~/utils/injections'
 	import type { TagNode } from '~/utils/types'
 
 	const { node } = defineProps({
@@ -15,27 +14,23 @@
 	})
 
 	const deleteTagModal = useModal({ defaultValue: false })
-
-	const injectedSelectTag = inject(InjectSelectTag)!
+	const editTagModal = useModal({ defaultValue: null })
 
 	async function deleteTag () {
 		const confirmDeletion = await deleteTagModal.open()
 		console.log(confirmDeletion)
 	}
-
-	function selectTag () {
-		injectedSelectTag(node)
-	}
 </script>
 
 <template>
-	<button class="edit-button" type="button" @click="selectTag" :title="`Editar &quot;${node.tag.name}&quot;`">
+	<button class="edit-button" type="button" @click="editTagModal.open" :title="`Editar &quot;${node.tag.name}&quot;`">
 		<EditIcon/>
 	</button>
 	<button class="delete-button" type="button" @click="deleteTag" :title="`Remover &quot;${node.tag.name}&quot;`" v-if="!node.children">
 		<RemoveIcon/>
 	</button>
 	<DeleteTagModal :controller="deleteTagModal" :node="node"/>
+	<EditTagModal :controller="editTagModal" :tag="node.tag"/>
 </template>
 
 <style scoped>

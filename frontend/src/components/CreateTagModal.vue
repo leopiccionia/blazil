@@ -42,7 +42,7 @@
 			</label>
 			<label>
 				<span>Pai</span>
-				<SelectTag v-model="newTag.parent_id" :nodes="nodes"/>
+				<SelectTag v-model="newTag.parent_id" :nodes="nodes" v-if="controller.isOpen"/>
 			</label>
 			<div class="buttons">
 				<button class="button" type="submit">Criar</button>
