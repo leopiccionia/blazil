@@ -61,6 +61,7 @@
 
 			& > span {
 				display: block;
+				padding-inline: 0.25rem;
 			}
 		}
 

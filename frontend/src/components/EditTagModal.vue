@@ -62,10 +62,11 @@
 
 		& label {
 			display: block;
-			margin: 1rem;
+			margin: 1rem 0;
 
 			& > span {
 				display: block;
+				padding-inline: 0.25rem;
 			}
 		}
 
