@@ -1,4 +1,4 @@
-import type { Tag, TagTree } from '~/utils/types'
+import type { Tag, TagNode } from '~/utils/types'
 
 export function computeTagsMap (tags: Tag[]): Record<string, Tag> {
 	const map: Record<string, Tag> = {}
@@ -10,16 +10,16 @@ export function computeTagsMap (tags: Tag[]): Record<string, Tag> {
 	return map
 }
 
-function computeTagsSubtree (tag: Tag, groups: Record<string, Tag[]>): TagTree {
+function computeTagsSubtree (tag: Tag, groups: Record<string, Tag[]>): TagNode {
 	let children = null
 	if (groups[tag.id]) {
 		children = groups[tag.id].sort(sortTags).map((child) => computeTagsSubtree(child, groups))
 	}
 
-	return { id: tag.id, name: tag.name, children }
+	return { tag, children }
 }
 
-export function computeTagsTree (tags: Tag[]): TagTree[] {
+export function computeTagsTree (tags: Tag[]): TagNode[] {
 	// @ts-ignore
 	const groups: Record<string, Tag[]> = Object.groupBy(tags, (tag) => tag.parent_id ?? 0)
 

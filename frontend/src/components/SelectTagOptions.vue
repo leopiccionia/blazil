@@ -1,17 +1,17 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import type { TagTree } from '~/utils/types'
+	import type { TagNode } from '~/utils/types'
 
-	const { tags } = defineProps({
+	const { nodes } = defineProps({
+		nodes: { type: Array as PropType<TagNode[]>, required: true },
 		prefix: { type: String, default: '' },
-		tags: { type: Array as PropType<TagTree[]>, required: true },
 	})
 </script>
 
 <template>
-	<template v-for="tag of tags" :key="tag.id">
-		<option :value="tag.id">{{ prefix }}{{ tag.name }}</option>
-		<SelectTagOptions :prefix="`${prefix}${tag.name} › `" :tags="tag.children" v-if="tag.children"/>
+	<template v-for="node of nodes" :key="node.id">
+		<option :value="node.tag.id">{{ prefix }}{{ node.tag.name }}</option>
+		<SelectTagOptions :nodes="node.children" :prefix="`${prefix}${ node.tag.name} › `" v-if="node.children"/>
 	</template>
 </template>

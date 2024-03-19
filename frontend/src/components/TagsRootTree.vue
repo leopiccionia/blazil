@@ -1,17 +1,30 @@
 <script setup lang="ts">
-	import type { PropType } from 'vue'
+	import { provide } from 'vue'
+	import type { Component, PropType } from 'vue'
 
 	import TagsChildTree from '~/components/TagsChildTree.vue'
-	import type { TagTree } from '~/utils/types'
+	import { InjectSelectTag } from '~/utils/injections'
+	import type { Tag, TagNode } from '~/utils/types'
 
-	const { tags } = defineProps({
-		tags: { type: Array as PropType<TagTree[]>, required: true },
+	const { action, nodes } = defineProps({
+		action: { type: Object as PropType<Component<{ tag: TagNode }>>, default: null },
+		nodes: { type: Array as PropType<TagNode[]>, required: true },
 	})
+
+	const emit = defineEmits<{
+		selectTag: [tag: Tag],
+	}>()
+
+	function selectTag (node: TagNode) {
+		emit('selectTag', node.tag)
+	}
+
+	provide(InjectSelectTag, selectTag)
 </script>
 
 <template>
 	<ul class="tags-tree">
-		<TagsChildTree v-for="tag of tags" :key="tag.id" :tag="tag"/>
+		<TagsChildTree v-for="node of nodes" :key="node.tag.id" :action="action" :node="node"/>
 	</ul>
 </template>
 

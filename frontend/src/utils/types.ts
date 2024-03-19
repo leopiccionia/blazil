@@ -28,8 +28,7 @@ export type Paginated<Data> = {
 }
 
 // For dynamically-computed tag trees
-export type TagTree = {
-	id: number,
-	name: string,
-	children: TagTree[] | null,
+export type TagNode = {
+	tag: Tag,
+	children: TagNode[] | null,
 }

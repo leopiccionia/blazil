@@ -4,10 +4,10 @@
 
 	import SelectTag from '~/components/SelectTag.vue'
 	import { useTagCreate } from '~/mutations/tags'
-	import type { TagTree } from '~/utils/types'
+	import type { TagNode } from '~/utils/types'
 
-	const { tags } = defineProps({
-		tags: { type: Array as PropType<TagTree[]>, required: true },
+	const { nodes } = defineProps({
+		nodes: { type: Array as PropType<TagNode[]>, required: true },
 	})
 
 	const { mutateAsync, error } = useTagCreate()
@@ -36,7 +36,7 @@
 			</label>
 			<label>
 				<span>Pai</span>
-				<SelectTag v-model="newTag.parent_id" :tags="tags"/>
+				<SelectTag v-model="newTag.parent_id" :nodes="nodes"/>
 			</label>
 			<button class="button" type="submit">Criar</button>
 		</form>

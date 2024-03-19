@@ -54,7 +54,7 @@
 			<section>
 				<h2>Tags</h2>
 				<form @submit.prevent="addEntityTag">
-					<SelectTag :tags="tagsTree" v-model="newTag" v-if="tagsTree"/>
+					<SelectTag :nodes="tagsTree" v-model="newTag" v-if="tagsTree"/>
 					<button class="button" type="submit">Adicionar</button>
 				</form>
 				<ul class="entity-tags" v-if="labeledTags">
