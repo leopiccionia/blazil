@@ -62,6 +62,7 @@
 
 			& button {
 				color: #F77;
+				line-height: 0;
 			}
 		}
 

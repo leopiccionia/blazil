@@ -29,7 +29,17 @@
 	}
 
 	& input[type="checkbox"] {
-		display: none;
+		height: 0;
+		margin: 0;
+		padding: 0;
+		width: 0;
+
+		&:focus {
+
+			& + span {
+				outline: -webkit-focus-ring-color auto 5px;
+			}
+		}
 	}
 }
 </style>
