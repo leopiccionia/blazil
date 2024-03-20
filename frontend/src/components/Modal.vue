@@ -2,7 +2,7 @@
 	import { ref, watch } from 'vue'
 	import type { PropType } from 'vue'
 
-	import RemoveIcon from '~icons/ph/x'
+	import RemoveIcon from '~icons/ph/x-bold'
 
 	import type { ModalController } from '~/composables/modal'
 
@@ -38,7 +38,7 @@
 
 <style scoped>
 	dialog {
-		border: 1px solid #CCCC;
+		border: 1px solid #CCC;
 		border-radius: 0.25rem;
 		padding: 1rem;
 
@@ -55,7 +55,7 @@
 			justify-content: space-between;
 
 			& button {
-				color: #888;
+				color: #AAA;
 			}
 		}
 

@@ -2,7 +2,7 @@
 	import { computed, ref } from 'vue'
 	import { useRoute } from 'vue-router/auto'
 
-	import RemoveIcon from '~icons/ph/x'
+	import RemoveIcon from '~icons/ph/x-bold'
 
 	import ImageUploader from '~/components/ImageUploader.vue'
 	import SelectTag from '~/components/SelectTag.vue'
@@ -59,8 +59,10 @@
 				</form>
 				<ul class="entity-tags" v-if="labeledTags">
 					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<button class="button" type="button" @click="removeEntityTag(tag.entityTag)">
-							{{ tag.label }} <RemoveIcon/>
+						<button class="tag" type="button" @click="removeEntityTag(tag.entityTag)">
+							<span class="remove-tag">
+								{{ tag.label }} <RemoveIcon/>
+							</span>
 						</button>
 					</li>
 				</ul>
@@ -111,12 +113,14 @@
 			padding: 0;
 		}
 
-		& button {
+		& .remove-tag {
 			align-items: center;
 			display: flex;
-			font-size: 0.875rem;
 			gap: 0.5ex;
-			padding: 0.125rem 0.5rem;
+
+			& svg {
+				color: #999;
+			}
 		}
 	}
 </style>

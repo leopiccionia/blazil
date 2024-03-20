@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import ReloadIcon from '~icons/ph/arrows-clockwise-light'
+	import ReloadIcon from '~icons/ph/arrows-clockwise'
 
 	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import EditTagButtons from '~/components/EditTagButtons.vue'

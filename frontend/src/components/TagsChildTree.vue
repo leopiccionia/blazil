@@ -2,9 +2,9 @@
 	import { ref } from 'vue'
 	import type { Component, PropType } from 'vue'
 
-	import LeafIcon from '~icons/ph/minus'
-	import MaximizeIcon from '~icons/ph/caret-down'
-	import MinimizeIcon from '~icons/ph/caret-up'
+	import LeafIcon from '~icons/ph/dot-bold'
+	import MaximizeIcon from '~icons/ph/caret-down-bold'
+	import MinimizeIcon from '~icons/ph/caret-up-bold'
 
 	import type { TagNode } from '~/utils/types'
 
@@ -41,7 +41,7 @@
 	}
 
 	svg {
-		color: #888;
+		color: #AAA;
 		margin-inline-end: 0.5ex;
 	}
 </style>

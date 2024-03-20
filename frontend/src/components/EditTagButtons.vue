@@ -1,8 +1,8 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import EditIcon from '~icons/ph/note-pencil-light'
-	import RemoveIcon from '~icons/ph/trash-light'
+	import EditIcon from '~icons/ph/note-pencil'
+	import RemoveIcon from '~icons/ph/trash'
 
 	import DeleteTagModal from '~/components/DeleteTagModal.vue'
 	import EditTagModal from '~/components/EditTagModal.vue'
