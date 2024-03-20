@@ -6,29 +6,29 @@
 	import SelectTag from '~/components/SelectTag.vue'
 	import type { ModalController } from '~/composables/modal'
 	import { useTagCreate } from '~/mutations/tags'
-	import type { TagNode } from '~/utils/types'
+	import type { Tag, TagNode } from '~/utils/types'
 
 	const { controller, nodes } = defineProps({
-		controller: { type: Object as PropType<ModalController<null>>, required: true },
+		controller: { type: Object as PropType<ModalController<Tag | undefined>>, required: true },
 		nodes: { type: Array as PropType<TagNode[]>, required: true },
 	})
 
 	const { mutateAsync, error } = useTagCreate()
 
-	const newTag = reactive({
+	const formTag = reactive({
 		name: '',
 		parent_id: null,
 	})
 
 	watch(controller.isOpen, () => {
-		newTag.name = ''
-		newTag.parent_id = null
+		formTag.name = ''
+		formTag.parent_id = null
 	})
 
 	async function createTag () {
-		if (newTag.name) {
-			await mutateAsync(toRaw(newTag))
-			controller.close()
+		if (formTag.name) {
+			const [newTag] = await mutateAsync(toRaw(formTag))
+			controller.close(newTag)
 		}
 	}
 </script>
@@ -38,11 +38,11 @@
 		<form @submit.prevent="createTag">
 			<label class="form-label">
 				<span>Nome</span>
-				<input class="form-field" type="text" required v-model="newTag.name">
+				<input class="form-field" type="text" required v-model="formTag.name">
 			</label>
 			<label class="form-label">
 				<span>Pai</span>
-				<SelectTag v-model="newTag.parent_id" :nodes="nodes" v-if="controller.isOpen"/>
+				<SelectTag v-model="formTag.parent_id" :nodes="nodes" v-if="controller.isOpen"/>
 			</label>
 			<div class="buttons">
 				<button class="button" type="button" @click="controller.close()">Cancelar</button>

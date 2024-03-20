@@ -4,8 +4,10 @@
 
 	import RemoveIcon from '~icons/ph/x-bold'
 
+	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import ImageUploader from '~/components/ImageUploader.vue'
 	import SelectTag from '~/components/SelectTag.vue'
+	import { useModal } from '~/composables/modal'
 	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
 	import { useEntityQuery } from '~/queries/entities'
 	import { useEntityTagsQuery } from '~/queries/entity-tags'
@@ -13,7 +15,7 @@
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
 	import { listEntityTags } from '~/utils/entity-tags'
 	import { computeTagsMap, computeTagsTree } from '~/utils/tags'
-	import type { EntityTag } from '~/utils/types'
+	import type { EntityTag, Tag } from '~/utils/types'
 
 	const route = useRoute('/admin/entities/[id]')
 	const entityId = Number(route.params.id)
@@ -26,6 +28,8 @@
 	const { mutateAsync: createEntityTagAsync } = useEntityTagCreate()
 	const { mutateAsync: deleteEntityTagAsync } = useEntityTagDelete()
 
+	const createTagModal = useModal<Tag | undefined>({ defaultValue: undefined })
+
 	const newTag = ref<number | null>(null)
 
 	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? listEntityTags(entityTags.value, tagsMap.value) : [])
@@ -34,6 +38,13 @@
 		if (newTag.value) {
 			await createEntityTagAsync({ entity_id: entityId, tag_id: newTag.value })
 			newTag.value = null
+		}
+	}
+
+	async function createTag () {
+		const addedTag = await createTagModal.open()
+		if (addedTag) {
+			newTag.value = addedTag.id
 		}
 	}
 
@@ -57,6 +68,7 @@
 				<form @submit.prevent="addEntityTag">
 					<SelectTag :nodes="tagsTree" v-model="newTag" v-if="tagsTree"/>
 					<button class="button" type="submit">Adicionar</button>
+					<button class="button" type="button" @click="createTag">Criar tag</button>
 				</form>
 				<ul class="entity-tags" v-if="labeledTags">
 					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
@@ -72,6 +84,7 @@
 		</div>
 	</template>
 	<pre v-if="error">{{ error }}</pre>
+	<CreateTagModal :controller="createTagModal" :nodes="tagsTree" v-if="tagsTree"/>
 </template>
 
 <style scoped>

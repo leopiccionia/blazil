@@ -7,10 +7,11 @@
 	import { useModal } from '~/composables/modal'
 	import { useTagsQuery } from '~/queries/tags'
 	import { computeTagsTree } from '~/utils/tags'
+	import type { Tag } from '~/utils/types'
 
 	const { data: nodes, error, refetch } = useTagsQuery(computeTagsTree)
 
-	const createTagModal = useModal({ defaultValue: null })
+	const createTagModal = useModal<Tag | undefined>({ defaultValue: undefined })
 </script>
 
 <template>
