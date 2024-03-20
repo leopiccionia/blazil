@@ -13,12 +13,6 @@
 
 	const dialogEl = ref<HTMLDialogElement | null>(null)
 
-	function closeModal () {
-		if (controller.isOpen.value) {
-			controller.close()
-		}
-	}
-
 	watch(controller.isOpen, (isOpen) => {
 		if (isOpen) {
 			dialogEl.value!.showModal()
@@ -26,6 +20,12 @@
 			dialogEl.value!.close()
 		}
 	})
+
+	function closeModal () {
+		if (controller.isOpen.value) {
+			controller.close()
+		}
+	}
 </script>
 
 <template>
