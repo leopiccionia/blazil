@@ -49,6 +49,7 @@
 		<div class="entity-sections">
 			<section>
 				<img :src="entity.image" v-if="entity.image">
+				<div class="image-placeholder" v-else/>
 				<ImageUploader :entity="entity"/>
 			</section>
 			<section>
@@ -94,6 +95,14 @@
 	img {
 		height: auto;
 		max-width: 350px;
+	}
+
+	.image-placeholder {
+		aspect-ratio: 1 / 1;
+		background-color: #EEE;
+		height: auto;
+		max-width: 100%;
+		width: 350px;
 	}
 
 	form {
