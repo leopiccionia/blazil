@@ -59,11 +59,12 @@
 				</form>
 				<ul class="entity-tags" v-if="labeledTags">
 					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<button class="tag" type="button" @click="removeEntityTag(tag.entityTag)">
+						<div class="tag">
 							<span class="remove-tag">
-								{{ tag.label }} <RemoveIcon/>
+								{{ tag.label }}
+								<button type="button" title="Remover tag" @click="removeEntityTag(tag.entityTag)"><RemoveIcon/></button>
 							</span>
-						</button>
+						</div>
 					</li>
 				</ul>
 			</section>
@@ -118,8 +119,14 @@
 			display: flex;
 			gap: 0.5ex;
 
+			& button {
+				line-height: 0;
+			}
+
 			& svg {
 				color: #999;
+				height: 1em;
+				width: 1em;
 			}
 		}
 	}
