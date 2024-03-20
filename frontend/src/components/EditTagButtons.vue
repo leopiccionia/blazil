@@ -36,6 +36,7 @@
 <style scoped>
 	button {
 		color: #888;
+		line-height: 0;
 		margin-inline-start: 0.5ex;
 	}
 
