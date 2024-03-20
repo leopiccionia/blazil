@@ -20,20 +20,14 @@
 			dialogEl.value!.close()
 		}
 	})
-
-	function closeModal () {
-		if (controller.isOpen.value) {
-			controller.close()
-		}
-	}
 </script>
 
 <template>
-	<dialog ref="dialogEl" @cancel="closeModal">
+	<dialog ref="dialogEl" @cancel="controller.close()">
 		<article>
 			<header>
 				<h2>{{ title }}</h2>
-				<button type="button" title="Fechar" @click="closeModal">
+				<button type="button" title="Fechar" @click="controller.close()">
 					<RemoveIcon/>
 				</button>
 			</header>
