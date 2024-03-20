@@ -45,6 +45,7 @@
 				<SelectTag v-model="newTag.parent_id" :nodes="nodes" v-if="controller.isOpen"/>
 			</label>
 			<div class="buttons">
+				<button class="button" type="button" @click="controller.close()">Cancelar</button>
 				<button class="button" type="submit">Criar</button>
 			</div>
 		</form>

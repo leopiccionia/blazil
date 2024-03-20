@@ -50,6 +50,7 @@
 				<SelectTag v-model="updatedTag.parent_id" :nodes="nodes" v-if="controller.isOpen && nodes"/>
 			</label>
 			<div class="buttons">
+				<button class="button" type="button" @click="controller.close()">Cancelar</button>
 				<button class="button" type="submit">Atualizar</button>
 			</div>
 		</form>

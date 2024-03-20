@@ -13,6 +13,12 @@
 
 	const dialogEl = ref<HTMLDialogElement | null>(null)
 
+	function closeModal () {
+		if (controller.isOpen.value) {
+			controller.close()
+		}
+	}
+
 	watch(controller.isOpen, (isOpen) => {
 		if (isOpen) {
 			dialogEl.value!.showModal()
@@ -23,11 +29,11 @@
 </script>
 
 <template>
-	<dialog ref="dialogEl">
+	<dialog ref="dialogEl" @cancel="closeModal">
 		<article>
 			<header>
 				<h2>{{ title }}</h2>
-				<button type="button" title="Fechar" @click="controller.close()">
+				<button type="button" title="Fechar" @click="closeModal">
 					<RemoveIcon/>
 				</button>
 			</header>
@@ -55,7 +61,7 @@
 			justify-content: space-between;
 
 			& button {
-				color: #AAA;
+				color: #F77;
 			}
 		}
 
