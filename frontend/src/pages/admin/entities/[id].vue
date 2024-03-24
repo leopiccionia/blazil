@@ -2,6 +2,7 @@
 	import { computed, ref } from 'vue'
 	import { useRoute } from 'vue-router/auto'
 
+	import PlaceholderIcon from '~icons/ph/image-light'
 	import RemoveIcon from '~icons/ph/x-bold'
 
 	import CreateTagModal from '~/components/CreateTagModal.vue'
@@ -60,7 +61,9 @@
 		<div class="entity-sections">
 			<section>
 				<img :src="entity.image" v-if="entity.image">
-				<div class="image-placeholder" v-else/>
+				<div class="image-placeholder" v-else>
+					<PlaceholderIcon/>
+				</div>
 				<ImageUploader :entity="entity"/>
 			</section>
 			<section>
@@ -107,13 +110,21 @@
 
 	img {
 		height: auto;
-		max-width: 350px;
+		margin-inline: auto;
+		max-width: 100%;
+		width: 350px;
 	}
 
 	.image-placeholder {
+		align-items: center;
 		aspect-ratio: 1 / 1;
 		background-color: #EEE;
+		color: #AAA;
+		display: flex;
+		font-size: 2rem;
 		height: auto;
+		justify-content: center;
+		margin-inline: auto;
 		max-width: 100%;
 		width: 350px;
 	}
