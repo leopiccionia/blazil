@@ -13,7 +13,7 @@
 
 <template>
 	<select class="form-field" v-model="model">
-		<option :value="null" :key="0">-- Nenhum --</option>
+		<option :value="null" :key="0">--- Nenhum ---</option>
 		<SelectTagOptions :nodes="nodes"/>
 	</select>
 </template>
