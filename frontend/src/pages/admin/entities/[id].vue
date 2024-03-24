@@ -139,6 +139,7 @@
 	.entity-tags {
 		display: flex;
 		flex-wrap: wrap;
+		margin-top: 2rem;
 		padding: 0;
 
 		& li {
