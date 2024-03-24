@@ -5,19 +5,30 @@ import { infiniteQueryResult, queryResult } from '~/utils/queries'
 import { supabase } from '~/utils/supabase'
 import type { Entity, Paginated } from '~/utils/types'
 
-export function useEntitiesQuery (search: MaybeRef<string>) {
+export type EntitiesParams = {
+	search: string,
+	withImage: boolean | null,
+}
+
+export function useEntitiesQuery (params: MaybeRef<EntitiesParams>) {
 	const PAGE_SIZE = 500
 
 	return useInfiniteQuery({
-		queryKey: ['entities', search] as const,
-		async queryFn ({ queryKey: [_, search], pageParam }) {
+		queryKey: ['entities', params] as const,
+		async queryFn ({ queryKey: [_, params], pageParam }) {
 			const query = supabase.from('entities')
 				.select()
 				.range((pageParam - 1) * PAGE_SIZE, (pageParam * PAGE_SIZE) - 1)
 				.order('id', { ascending: true })
 
-			if (search) {
-				query.ilike('name', `%${search.replace('%', '')}%`)
+			if (params.search) {
+				query.ilike('name', `%${params.search.replace('%', '')}%`)
+			}
+
+			if (params.withImage === true) {
+				query.not('image', 'is', null)
+			} else if (params.withImage === false) {
+				query.is('image', null)
 			}
 
 			const { data, error } = await query.returns<Entity[]>()
