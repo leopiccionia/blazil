@@ -5,9 +5,9 @@
 	import PlaceholderIcon from '~icons/ph/image-light'
 	import RemoveIcon from '~icons/ph/x-bold'
 
+	import AutocompleteTag from '~/components/AutocompleteTag.vue'
 	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import ImageUploader from '~/components/ImageUploader.vue'
-	import SelectTag from '~/components/SelectTag.vue'
 	import { useModal } from '~/composables/modal'
 	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
 	import { useEntityQuery } from '~/queries/entities'
@@ -69,7 +69,7 @@
 			<section>
 				<h2>Tags</h2>
 				<form @submit.prevent="addEntityTag">
-					<SelectTag :nodes="tagsTree" v-model="newTag" v-if="tagsTree"/>
+					<AutocompleteTag v-model="newTag"/>
 					<button class="button" type="submit">Adicionar</button>
 					<button class="button" type="button" @click="createTag">Criar tag</button>
 				</form>

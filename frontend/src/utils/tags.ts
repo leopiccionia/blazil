@@ -1,5 +1,9 @@
 import type { Tag, TagNode } from '~/utils/types'
 
+export function computeTagsList (tags: Tag[]): Tag[] {
+	return tags.sort(sortTags)
+}
+
 export function computeTagsMap (tags: Tag[]): Record<string, Tag> {
 	const map: Record<string, Tag> = {}
 
