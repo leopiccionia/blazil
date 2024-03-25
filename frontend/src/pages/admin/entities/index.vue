@@ -43,7 +43,7 @@
 			</li>
 		</template>
 	</ul>
-	<button v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
+	<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
 	<pre v-if="error">{{ error }}</pre>
 </template>
 
@@ -90,5 +90,10 @@
 				color: #F44;
 			}
 		}
+	}
+
+	.see-more {
+		display: block;
+		margin: 1rem auto;
 	}
 </style>
