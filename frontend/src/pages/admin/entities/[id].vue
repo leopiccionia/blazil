@@ -3,11 +3,11 @@
 	import { useRoute } from 'vue-router/auto'
 
 	import PlaceholderIcon from '~icons/ph/image-light'
-	import RemoveIcon from '~icons/ph/x-bold'
 
 	import AutocompleteTag from '~/components/AutocompleteTag.vue'
 	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import ImageUploader from '~/components/ImageUploader.vue'
+	import TagButton from '~/components/TagButton.vue'
 	import { useModal } from '~/composables/modal'
 	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
 	import { useEntityQuery } from '~/queries/entities'
@@ -75,12 +75,7 @@
 				</form>
 				<ul class="entity-tags" v-if="labeledTags">
 					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<div class="tag">
-							<span class="remove-tag">
-								{{ tag.label }}
-								<button type="button" title="Remover tag" @click="removeEntityTag(tag.entityTag)"><RemoveIcon/></button>
-							</span>
-						</div>
+						<TagButton :label="tag.label" @toggle="removeEntityTag(tag.entityTag)"/>
 					</li>
 				</ul>
 			</section>
@@ -146,22 +141,6 @@
 			list-style: none;
 			margin: 0 0.75rem 0.5rem 0;
 			padding: 0;
-		}
-
-		& .remove-tag {
-			align-items: center;
-			display: flex;
-			gap: 0.5ex;
-
-			& button {
-				line-height: 0;
-			}
-
-			& svg {
-				color: #999;
-				height: 1em;
-				width: 1em;
-			}
 		}
 	}
 </style>
