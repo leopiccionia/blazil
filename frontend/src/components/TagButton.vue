@@ -2,11 +2,12 @@
 	import RemoveIcon from '~icons/ph/x-bold'
 
 	const emit = defineEmits<{
-		toggle: [],
+		remove: [],
 	}>()
 
-	const { label } = defineProps({
+	const { label, removable } = defineProps({
 		label: { type: String, required: true },
+		removable: { type: Boolean, default: true },
 	})
 </script>
 
@@ -14,7 +15,9 @@
 	<div class="tag">
 		<span class="remove-tag">
 			{{ label }}
-			<button type="button" title="Remover tag" @click="emit('toggle')"><RemoveIcon/></button>
+			<button type="button" title="Remover tag" @click="emit('remove')" v-if="removable">
+				<RemoveIcon/>
+			</button>
 		</span>
 	</div>
 </template>

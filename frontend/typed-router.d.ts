@@ -22,5 +22,6 @@ declare module 'vue-router/auto-routes' {
     '/admin/entities/': RouteRecordInfo<'/admin/entities/', '/admin/entities', Record<never, never>, Record<never, never>>,
     '/admin/entities/[id]': RouteRecordInfo<'/admin/entities/[id]', '/admin/entities/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     '/admin/tags': RouteRecordInfo<'/admin/tags', '/admin/tags', Record<never, never>, Record<never, never>>,
+    '/entities/[id]': RouteRecordInfo<'/entities/[id]', '/entities/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
   }
 }

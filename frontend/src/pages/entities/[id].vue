@@ -1,57 +1,25 @@
 <script setup lang="ts">
-	import { computed, ref } from 'vue'
+	import { computed } from 'vue'
 	import { useRoute } from 'vue-router/auto'
 
 	import PlaceholderIcon from '~icons/ph/image-light'
 
-	import AutocompleteTag from '~/components/AutocompleteTag.vue'
-	import CreateTagModal from '~/components/CreateTagModal.vue'
-	import ImageUploader from '~/components/ImageUploader.vue'
 	import TagButton from '~/components/TagButton.vue'
-	import { useModal } from '~/composables/modal'
-	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
 	import { useEntityQuery } from '~/queries/entities'
 	import { useEntityTagsQuery } from '~/queries/entity-tags'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
 	import { listEntityTags } from '~/utils/entity-tags'
-	import { computeTagsMap, computeTagsTree } from '~/utils/tags'
-	import type { EntityTag, Tag } from '~/utils/types'
+	import { computeTagsMap } from '~/utils/tags'
 
-	const route = useRoute('/admin/entities/[id]')
+	const route = useRoute('/entities/[id]')
 	const entityId = Number(route.params.id)
 
 	const { data: entity, error } = useEntityQuery(entityId)
 	const { data: entityTags } = useEntityTagsQuery({ entity_id: entityId })
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
-	const { data: tagsTree } = useTagsQuery(computeTagsTree)
-
-	const { mutateAsync: createEntityTagAsync } = useEntityTagCreate()
-	const { mutateAsync: deleteEntityTagAsync } = useEntityTagDelete()
-
-	const createTagModal = useModal<Tag | undefined>({ defaultValue: undefined })
-
-	const newTag = ref<number | null>(null)
 
 	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? listEntityTags(entityTags.value, tagsMap.value) : [])
-
-	async function addEntityTag () {
-		if (newTag.value) {
-			await createEntityTagAsync({ entity_id: entityId, tag_id: newTag.value })
-			newTag.value = null
-		}
-	}
-
-	async function createTag () {
-		const addedTag = await createTagModal.open()
-		if (addedTag) {
-			newTag.value = addedTag.id
-		}
-	}
-
-	async function removeEntityTag (entityTag: EntityTag) {
-		await deleteEntityTagAsync(entityTag)
-	}
 </script>
 
 <template>
@@ -64,25 +32,19 @@
 				<div class="image-placeholder" v-else>
 					<PlaceholderIcon/>
 				</div>
-				<ImageUploader :entity="entity"/>
 			</section>
 			<section>
 				<h2>Tags</h2>
-				<form @submit.prevent="addEntityTag">
-					<AutocompleteTag v-model="newTag"/>
-					<button class="button" type="submit">Adicionar</button>
-					<button class="button" type="button" @click="createTag">Criar tag</button>
-				</form>
 				<ul class="entity-tags" v-if="labeledTags">
 					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<TagButton :label="tag.label" @remove="removeEntityTag(tag.entityTag)"/>
+						<TagButton :label="tag.label" :removable="false"/>
 					</li>
 				</ul>
+				<p v-if="entityTags?.length === 0">Nenhuma tag adicionada.</p>
 			</section>
 		</div>
 	</template>
 	<pre v-if="error">{{ error }}</pre>
-	<CreateTagModal :controller="createTagModal" :nodes="tagsTree" v-if="tagsTree"/>
 </template>
 
 <style scoped>
@@ -124,17 +86,9 @@
 		width: 350px;
 	}
 
-	form {
-		align-items: center;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-	}
-
 	.entity-tags {
 		display: flex;
 		flex-wrap: wrap;
-		margin-top: 2rem;
 		padding: 0;
 
 		& li {
