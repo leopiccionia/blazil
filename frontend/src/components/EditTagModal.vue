@@ -6,8 +6,6 @@
 	import SelectTag from '~/components/SelectTag.vue'
 	import type { ModalController } from '~/composables/modal'
 	import { useTagUpdate } from '~/mutations/tags'
-	import { useTagsQuery } from '~/queries/tags'
-	import { computeTagsTree } from '~/utils/tags'
 	import type { Tag } from '~/utils/types'
 
 	const { controller, tag } = defineProps({
@@ -15,7 +13,6 @@
 		tag: { type: Object as PropType<Tag>, required: true },
 	})
 
-	const { data: nodes } = useTagsQuery(computeTagsTree)
 	const { mutateAsync, error } = useTagUpdate()
 
 	const updatedTag = reactive<Tag>({
@@ -47,7 +44,7 @@
 			</label>
 			<label class="form-label">
 				<span>Pai</span>
-				<SelectTag v-model="updatedTag.parent_id" :nodes="nodes" v-if="controller.isOpen && nodes"/>
+				<SelectTag v-model="updatedTag.parent_id" v-if="controller.isOpen"/>
 			</label>
 			<div class="buttons">
 				<button class="button" type="button" @click="controller.close()">Cancelar</button>

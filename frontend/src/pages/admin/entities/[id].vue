@@ -4,9 +4,9 @@
 
 	import PlaceholderIcon from '~icons/ph/image-light'
 
-	import AutocompleteTag from '~/components/AutocompleteTag.vue'
 	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import ImageUploader from '~/components/ImageUploader.vue'
+	import SelectTag from '~/components/SelectTag.vue'
 	import TagButton from '~/components/TagButton.vue'
 	import { useModal } from '~/composables/modal'
 	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
@@ -15,7 +15,7 @@
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
 	import { listEntityTags } from '~/utils/entity-tags'
-	import { computeTagsMap, computeTagsTree } from '~/utils/tags'
+	import { computeTagsMap } from '~/utils/tags'
 	import type { EntityTag, Tag } from '~/utils/types'
 
 	const route = useRoute('/admin/entities/[id]')
@@ -24,7 +24,6 @@
 	const { data: entity, error } = useEntityQuery(entityId)
 	const { data: entityTags } = useEntityTagsQuery({ entity_id: entityId })
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
-	const { data: tagsTree } = useTagsQuery(computeTagsTree)
 
 	const { mutateAsync: createEntityTagAsync } = useEntityTagCreate()
 	const { mutateAsync: deleteEntityTagAsync } = useEntityTagDelete()
@@ -69,7 +68,7 @@
 			<section>
 				<h2>Tags</h2>
 				<form @submit.prevent="addEntityTag">
-					<AutocompleteTag v-model="newTag"/>
+					<SelectTag v-model="newTag"/>
 					<button class="button" type="submit">Adicionar</button>
 					<button class="button" type="button" @click="createTag">Criar tag</button>
 				</form>
@@ -82,7 +81,7 @@
 		</div>
 	</template>
 	<pre v-if="error">{{ error }}</pre>
-	<CreateTagModal :controller="createTagModal" :nodes="tagsTree" v-if="tagsTree"/>
+	<CreateTagModal :controller="createTagModal"/>
 </template>
 
 <style scoped>

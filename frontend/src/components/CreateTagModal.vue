@@ -6,11 +6,10 @@
 	import SelectTag from '~/components/SelectTag.vue'
 	import type { ModalController } from '~/composables/modal'
 	import { useTagCreate } from '~/mutations/tags'
-	import type { Tag, TagNode } from '~/utils/types'
+	import type { Tag } from '~/utils/types'
 
-	const { controller, nodes } = defineProps({
+	const { controller } = defineProps({
 		controller: { type: Object as PropType<ModalController<Tag | undefined>>, required: true },
-		nodes: { type: Array as PropType<TagNode[]>, required: true },
 	})
 
 	const { mutateAsync, error } = useTagCreate()
@@ -42,7 +41,7 @@
 			</label>
 			<label class="form-label">
 				<span>Pai</span>
-				<SelectTag v-model="formTag.parent_id" :nodes="nodes" v-if="controller.isOpen"/>
+				<SelectTag v-model="formTag.parent_id" v-if="controller.isOpen"/>
 			</label>
 			<div class="buttons">
 				<button class="button" type="button" @click="controller.close()">Cancelar</button>

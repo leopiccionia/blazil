@@ -22,7 +22,7 @@
 			<TagsRootTree :action="EditTagButtons" :nodes="nodes"/>
 			<button class="button" @click="createTagModal.open">Criar tag</button>
 		</section>
-		<CreateTagModal :controller="createTagModal" :nodes="nodes"/>
+		<CreateTagModal :controller="createTagModal"/>
 	</template>
 	<pre v-if="error">{{ error }}</pre>
 </template>

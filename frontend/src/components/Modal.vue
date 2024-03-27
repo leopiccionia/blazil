@@ -40,6 +40,7 @@
 	dialog {
 		border: 1px solid #CCC;
 		border-radius: 0.25rem;
+		overflow: inherit;
 		padding: 1rem;
 
 		&::backdrop {
