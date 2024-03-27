@@ -32,6 +32,10 @@ begin
 		counter := counter + 1;
 	end loop;
 
+	if length(query_text) = 0 then
+		query_text := 'select * from entities where image is not null';
+	end if;
+
 	return query execute query_text;
 end;
 $$ language plpgsql;
