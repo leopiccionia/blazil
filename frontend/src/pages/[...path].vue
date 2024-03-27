@@ -7,7 +7,7 @@
 
 <template>
 	<h1>Erro 404</h1>
-	<p>Caminho <pre>/{{ path }}</pre> não encontrado.</p>
+	<p>O caminho <pre>/{{ path }}</pre> não foi encontrado.</p>
 </template>
 
 <style scoped>
