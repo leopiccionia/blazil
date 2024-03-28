@@ -36,7 +36,7 @@
 <template>
 	<label class="file-uploader button">
 		<span v-if="lastFile">{{ lastFile.name }} ({{ fileSize(lastFile) }})</span>
-		<span v-else>Enviar arquivo</span>
+		<span v-else>Enviar imagem</span>
 		<input type="file" accept="image/*" @change="uploadFile">
 	</label>
 	<pre v-if="error">{{ error }}</pre>
