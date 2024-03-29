@@ -59,7 +59,7 @@
 		<p class="description">{{ formatEntityType(entity) }}</p>
 		<div class="entity-sections">
 			<section>
-				<img :src="entity.image" v-if="entity.image">
+				<img :src="entity.image" alt="" v-if="entity.image">
 				<div class="image-placeholder" v-else>
 					<PlaceholderIcon/>
 				</div>
