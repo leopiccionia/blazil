@@ -7,6 +7,11 @@
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	--blue: #1E40AF;
+	--green: #16A34A;
+	--light-green: #22C55E;
+	--yellow: #FACC15;
 }
 
 * {
@@ -19,7 +24,7 @@ body {
 	padding: 0.1px;
 }
 
-#app {
+#route {
 	margin: auto;
 	max-width: 80rem;
 	width: 100%;
