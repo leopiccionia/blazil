@@ -17,7 +17,7 @@
 </script>
 
 <template>
-	<li class="tag-tree">
+	<li>
 		<label>
 			<component :is="node.children ? (showTags ? MinimizeIcon : MaximizeIcon) : LeafIcon"/>
 			<input type="checkbox" v-model="showTags" v-if="node.children">

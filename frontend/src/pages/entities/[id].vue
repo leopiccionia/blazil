@@ -85,16 +85,4 @@
 		max-width: 100%;
 		width: 350px;
 	}
-
-	.entity-tags {
-		display: flex;
-		flex-wrap: wrap;
-		padding: 0;
-
-		& li {
-			list-style: none;
-			margin: 0 0.75rem 0.5rem 0;
-			padding: 0;
-		}
-	}
 </style>

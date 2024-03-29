@@ -23,10 +23,10 @@
 </script>
 
 <template>
-	<button class="edit-button" type="button" @click="editTagModal.open" :title="`Editar &quot;${node.tag.name}&quot;`">
+	<button class="edit-button" type="button" :title="`Editar &quot;${node.tag.name}&quot;`" @click="editTagModal.open">
 		<EditIcon/>
 	</button>
-	<button class="delete-button" type="button" @click="deleteTag" :title="`Remover &quot;${node.tag.name}&quot;`" v-if="!node.children">
+	<button class="delete-button" type="button" :title="`Remover &quot;${node.tag.name}&quot;`" @click="deleteTag" v-if="!node.children">
 		<RemoveIcon/>
 	</button>
 	<DeleteTagModal :controller="deleteTagModal" :node="node"/>

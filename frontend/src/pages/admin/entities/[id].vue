@@ -131,15 +131,6 @@
 	}
 
 	.entity-tags {
-		display: flex;
-		flex-wrap: wrap;
 		margin-top: 2rem;
-		padding: 0;
-
-		& li {
-			list-style: none;
-			margin: 0 0.75rem 0.5rem 0;
-			padding: 0;
-		}
 	}
 </style>

@@ -61,3 +61,15 @@ button {
 		padding-inline: 0.5rem;
 	}
 }
+
+.entity-tags {
+	display: flex !important;
+	flex-wrap: wrap;
+	padding: 0;
+
+	& li {
+		list-style: none;
+		margin: 0 0.75rem 0.5rem 0;
+		padding: 0;
+	}
+}
