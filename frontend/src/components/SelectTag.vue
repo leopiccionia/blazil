@@ -77,7 +77,7 @@
 
 <template>
 	<div class="autocomplete" ref="wrapper">
-		<input class="form-field" type="text" v-model="search" @input="openDropdown" @keydown.down="moveDown" @keydown.enter="selectOption" @keydown.up="moveUp">
+		<input class="form-field" type="text" aria-label="Pesquisar tag" v-model="search" @input="openDropdown" @keydown.down="moveDown" @keydown.enter="selectOption" @keydown.up="moveUp">
 		<ul v-show="isOpen">
 			<li :key="0" :class="{ active: arrowIndex === 0 }" @click="setOption(null)">--- Nenhum ---</li>
 			<li v-for="(node, index) of filteredNodes" :key="node.id" :class="{ active: arrowIndex === index + 1 }" @click="setOption(node)">
