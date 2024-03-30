@@ -7,18 +7,23 @@
 	import DeleteTagModal from '~/components/DeleteTagModal.vue'
 	import EditTagModal from '~/components/EditTagModal.vue'
 	import { useModal } from '~/composables/modal'
+	import { useTagDelete } from '~/mutations/tags'
 	import type { TagNode } from '~/utils/types'
 
 	const { node } = defineProps({
 		node: { type: Object as PropType<TagNode>, required: true },
 	})
 
+	const { mutateAsync: deleteAsync } = useTagDelete()
+
 	const deleteTagModal = useModal({ defaultValue: false })
 	const editTagModal = useModal({ defaultValue: null })
 
 	async function deleteTag () {
 		const confirmDeletion = await deleteTagModal.open()
-		console.log(confirmDeletion)
+		if (confirmDeletion) {
+			await deleteAsync(node.tag)
+		}
 	}
 </script>
 
