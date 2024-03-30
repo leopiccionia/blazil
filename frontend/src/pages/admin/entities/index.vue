@@ -3,18 +3,18 @@
 	import { reactive, ref, watch } from 'vue'
 
 	import { useEntitiesQuery } from '~/queries/entities'
-	import type { EntitiesParams } from '~/queries/entities'
+	import type { EntitiesFilters } from '~/queries/entities'
 	import { formatEntityName } from '~/utils/entities'
 
-	const params = reactive<EntitiesParams>({ search: '', withImage: null })
+	const filters = reactive<EntitiesFilters>({ search: '', withImage: null })
 	const search = ref('')
 	const searchDebounced = refDebounced(search, 1000)
 
 	watch(searchDebounced, (text) => {
-		params.search = text
+		filters.search = text
 	})
 
-	const { data, error, fetchNextPage, hasNextPage } = useEntitiesQuery(params)
+	const { data, error, fetchNextPage, hasNextPage } = useEntitiesQuery(filters)
 </script>
 
 <template>
@@ -23,15 +23,15 @@
 	<div class="image-filters">
 		<label>
 			<span>Todas</span>
-			<input type="radio" :value="null" v-model="params.withImage">
+			<input type="radio" :value="null" v-model="filters.withImage">
 		</label>
 		<label>
 			<span>Com imagem</span>
-			<input type="radio" :value="true" v-model="params.withImage">
+			<input type="radio" :value="true" v-model="filters.withImage">
 		</label>
 		<label>
 			<span>Sem imagem</span>
-			<input type="radio" :value="false" v-model="params.withImage">
+			<input type="radio" :value="false" v-model="filters.withImage">
 		</label>
 	</div>
 	<ul v-if="data">

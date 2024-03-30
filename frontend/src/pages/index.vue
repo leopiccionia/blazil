@@ -8,20 +8,20 @@
 	import TagsRootTree from '~/components/TagsRootTree.vue'
 	import { provideSelectTag } from '~/composables/injections'
 	import { useEntitiesWithTagQuery } from '~/queries/entities'
-	import type { EntitiesWithTagParams } from '~/queries/entities'
+	import type { EntitiesWithTagFilters } from '~/queries/entities'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
 	import { computeTagsMap } from '~/utils/tags'
 	import type { Tag } from '~/utils/types'
 
-	const params = reactive<EntitiesWithTagParams>({
+	const filters = reactive<EntitiesWithTagFilters>({
 		tags: [],
 		ufs: [],
 	})
 
 	const inputTag = ref<number | null>(null)
 
-	const { data, error, fetchNextPage, hasNextPage } = useEntitiesWithTagQuery(params)
+	const { data, error, fetchNextPage, hasNextPage } = useEntitiesWithTagQuery(filters)
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
 
 	const entitiesCount = computed(() => {
@@ -32,23 +32,23 @@
 	})
 
 	function addInputTag () {
-		if (inputTag.value && !params.tags.includes(inputTag.value)) {
-			params.tags = [...params.tags, inputTag.value].sort(sortByNumber)
+		if (inputTag.value && !filters.tags.includes(inputTag.value)) {
+			filters.tags = [...filters.tags, inputTag.value].sort(sortByNumber)
 		}
 		inputTag.value = null
 	}
 
 	function removeTag (tagId: number) {
-		params.tags = params.tags.filter((item) => item !== tagId)
+		filters.tags = filters.tags.filter((item) => item !== tagId)
 	}
 
 	function removeUF (uf: string) {
-		params.ufs = params.ufs.filter((item) => item !== uf)
+		filters.ufs = filters.ufs.filter((item) => item !== uf)
 	}
 
 	function selectTag (tag: Tag) {
-		if (!params.tags.includes(tag.id)) {
-			params.tags = [...params.tags, tag.id].sort(sortByNumber)
+		if (!filters.tags.includes(tag.id)) {
+			filters.tags = [...filters.tags, tag.id].sort(sortByNumber)
 		}
 	}
 
@@ -64,7 +64,7 @@
 	<div class="home">
 		<aside>
 			<h2>Localização</h2>
-			<StatesTree v-model="params.ufs"/>
+			<StatesTree v-model="filters.ufs"/>
 
 			<h2>Tags</h2>
 			<SelectTag v-model="inputTag" @update:model-value="addInputTag"/>
@@ -74,11 +74,11 @@
 			<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
 			<h2 v-else-if="entitiesCount === 1">Exibindo um resultado</h2>
 			<h2 v-else>Exibindo {{ entitiesCount }} resultados</h2>
-			<ul class="entity-tags" v-if="(params.ufs.length + params.tags.length) > 0">
-				<li v-for="uf of params.ufs" :key="uf">
+			<ul class="entity-tags" v-if="(filters.ufs.length + filters.tags.length) > 0">
+				<li v-for="uf of filters.ufs" :key="uf">
 					<TagButton :label="uf" @remove="removeUF(uf)"/>
 				</li>
-				<li v-for="tag of params.tags" :key="tag">
+				<li v-for="tag of filters.tags" :key="tag">
 					<TagButton :label="tagsMap?.[tag]?.name ?? ''" @remove="removeTag(tag)"/>
 				</li>
 			</ul>

@@ -8,9 +8,9 @@ export function useEntityTagCreate () {
 	const queryClient = useQueryClient()
 
 	return useMutation({
-		async mutationFn (params: Omit<EntityTag, 'id'>) {
+		async mutationFn (fields: Omit<EntityTag, 'id'>) {
 			const mutation = supabase.from('entity_tags')
-				.insert(params)
+				.insert(fields)
 				.select()
 
 			const { data, error } = await mutation.returns<EntityTag[]>()

@@ -5,34 +5,34 @@ import { infiniteQueryResult, queryResult } from '~/utils/queries'
 import { supabase } from '~/utils/supabase'
 import type { Entity, Paginated } from '~/utils/types'
 
-export type EntitiesParams = {
+export type EntitiesFilters = {
 	search: string,
 	withImage: boolean | null,
 }
 
-export type EntitiesWithTagParams = {
+export type EntitiesWithTagFilters = {
 	tags: number[],
 	ufs: string[],
 }
 
-export function useEntitiesQuery (params: MaybeRef<EntitiesParams>) {
+export function useEntitiesQuery (filters: MaybeRef<EntitiesFilters>) {
 	const PAGE_SIZE = 500
 
 	return useInfiniteQuery({
-		queryKey: ['entities', params] as const,
-		async queryFn ({ queryKey: [_, params], pageParam }) {
+		queryKey: ['entities', filters] as const,
+		async queryFn ({ queryKey: [_, filters], pageParam }) {
 			const query = supabase.from('entities')
 				.select()
 				.range((pageParam - 1) * PAGE_SIZE, (pageParam * PAGE_SIZE) - 1)
 				.order('id', { ascending: true })
 
-			if (params.search) {
-				query.ilike('name', `%${params.search.replace('%', '')}%`)
+			if (filters.search) {
+				query.ilike('name', `%${filters.search.replace('%', '')}%`)
 			}
 
-			if (params.withImage === true) {
+			if (filters.withImage === true) {
 				query.not('image', 'is', null)
-			} else if (params.withImage === false) {
+			} else if (filters.withImage === false) {
 				query.is('image', null)
 			}
 
@@ -44,19 +44,19 @@ export function useEntitiesQuery (params: MaybeRef<EntitiesParams>) {
 	})
 }
 
-export function useEntitiesWithTagQuery (params: EntitiesWithTagParams) {
+export function useEntitiesWithTagQuery (filters: EntitiesWithTagFilters) {
 	const PAGE_SIZE = 100
 
 	return useInfiniteQuery({
-		queryKey: ['entities_with_tags', params] as const,
-		async queryFn ({ queryKey: [_, params], pageParam }) {
-			const query = supabase.rpc('entities_with_tags', { tag_ids: params.tags })
+		queryKey: ['entities_with_tags', filters] as const,
+		async queryFn ({ queryKey: [_, filters], pageParam }) {
+			const query = supabase.rpc('entities_with_tags', { tag_ids: filters.tags })
 				.select()
 				.range((pageParam - 1) * PAGE_SIZE, (pageParam * PAGE_SIZE) - 1)
 				.order('id', { ascending: true })
 
-			if (params.ufs.length > 0) {
-				query.in('uf', params.ufs)
+			if (filters.ufs.length > 0) {
+				query.in('uf', filters.ufs)
 			}
 
 			const { data, error } = await query.returns<Entity[]>()
