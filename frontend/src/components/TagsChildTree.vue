@@ -2,7 +2,7 @@
 	import { ref } from 'vue'
 	import type { Component, PropType } from 'vue'
 
-	import LeafIcon from '~icons/ph/dot-bold'
+	import LeafIcon from '~icons/codicon/circle-small-filled'
 	import MaximizeIcon from '~icons/ph/caret-down-bold'
 	import MinimizeIcon from '~icons/ph/caret-up-bold'
 

@@ -71,7 +71,9 @@
 			<TagsRootTree :action="AddTagButtons"/>
 		</aside>
 		<main>
-			<h2>Exibindo {{ entitiesCount }} resultados</h2>
+			<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
+			<h2 v-else-if="entitiesCount === 1">Exibindo um resultado</h2>
+			<h2 v-else>Exibindo {{ entitiesCount }} resultados</h2>
 			<ul class="entity-tags" v-if="(params.ufs.length + params.tags.length) > 0">
 				<li v-for="uf of params.ufs" :key="uf">
 					<TagButton :label="uf" @remove="removeUF(uf)"/>
@@ -113,12 +115,22 @@
 	}
 
 	aside {
-		background-color: #F7F7F7;
+		background-color: var(--blue);
+		border-radius: 0.25rem;
 		min-width: 15rem;
 		padding: 0.1px;
 
-		& > :deep(ul) {
+		& h2 {
+			color: var(--yellow);
+		}
+
+		& :deep(.tags-tree) {
+			color: white;
 			margin: 1rem;
+		}
+
+		& :deep(.tags-tree svg) {
+			color: var(--yellow);
 		}
 	}
 

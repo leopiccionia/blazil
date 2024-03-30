@@ -1,7 +1,7 @@
 <script setup lang="ts">
 	import type { PropType } from 'vue'
 
-	import AddButton from '~icons/ph/plus-circle'
+	import AddButton from '~icons/ph/plus-circle-bold'
 
 	import { useSelectTag } from '~/composables/injections'
 	import type { TagNode } from '~/utils/types'

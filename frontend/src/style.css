@@ -13,9 +13,9 @@
 	--blue: #1E40AF;
 	--green: #15803D;
 	--red: #DC2626;
-	--yellow: #FACC15;
+	--yellow: #FDE047;
 
-	--button-bg: #FDE68A;
+	--button-bg: #FDE047;
 	--button-border: #EAB308;
 }
 
@@ -37,7 +37,7 @@ body {
 
 #route {
 	margin: auto;
-	max-width: 80rem;
+	max-width: 90rem;
 	width: 100%;
 }
 

@@ -20,7 +20,7 @@
 			gap: 2rem;
 			line-height: 2rem;
 			margin: auto;
-			max-width: 80rem;
+			max-width: 90rem;
 			padding: 1rem;
 			width: 100%;
 		}
