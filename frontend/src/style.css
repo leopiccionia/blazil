@@ -8,10 +8,17 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
+	--heading-font: 'BioRhyme', sans-serif;
+
 	--blue: #1E40AF;
-	--green: #16A34A;
-	--light-green: #22C55E;
+	--green: #15803D;
 	--yellow: #FACC15;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'BioRhyme';
+	src: url('~/assets/fonts/BioRhyme/BioRhyme-Medium.ttf') format('truetype');
 }
 
 * {
@@ -28,6 +35,11 @@ body {
 	margin: auto;
 	max-width: 80rem;
 	width: 100%;
+}
+
+h1, h2 {
+	color: var(--blue);
+	font-family: var(--heading-font);
 }
 
 h1 {

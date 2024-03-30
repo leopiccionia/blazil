@@ -148,7 +148,8 @@
 		}
 
 		& .entity-name {
-			font-weight: bold;
+			color: var(--green);
+			font-family: var(--heading-font);
 			margin-top: 0.5rem;
 		}
 

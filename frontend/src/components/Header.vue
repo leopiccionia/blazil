@@ -2,7 +2,7 @@
 	<header class="main-header">
 		<div class="content">
 			<RouterLink class="site-logo" :to="{ name: '/' }">
-			<img src="~~/assets/logo.svg" alt="Blazil">
+			<img src="~~/assets/images/logo.svg" alt="Blazil">
 				<span class="site-name">Blazil</span>
 			</RouterLink>
 			<span class="site-description">Banco de dados de brasões cívicos brasileiros</span>
@@ -18,7 +18,7 @@
 			align-items: center;
 			display: flex;
 			gap: 2rem;
-			line-height: 1;
+			line-height: 2rem;
 			margin: auto;
 			max-width: 80rem;
 			padding: 1rem;
@@ -37,6 +37,7 @@
 
 			& .site-name {
 				color: white;
+				font-family: var(--heading-font);
 				font-size: 2rem;
 			}
 		}
