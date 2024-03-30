@@ -45,7 +45,7 @@ export function useEntitiesQuery (params: MaybeRef<EntitiesParams>) {
 }
 
 export function useEntitiesWithTagQuery (params: EntitiesWithTagParams) {
-	const PAGE_SIZE = 500
+	const PAGE_SIZE = 100
 
 	return useInfiniteQuery({
 		queryKey: ['entities_with_tags', params] as const,
