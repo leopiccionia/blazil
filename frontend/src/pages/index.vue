@@ -1,11 +1,8 @@
 <script setup lang="ts">
-	import { computed, reactive, ref } from 'vue'
+	import { computed, reactive } from 'vue'
 
-	import AddTagButtons from '~/components/AddTagButtons.vue'
-	import SelectTag from '~/components/SelectTag.vue'
-	import StatesTree from '~/components/StatesTree.vue'
+	import FiltersBar from '~/components/FiltersBar.vue'
 	import TagButton from '~/components/TagButton.vue'
-	import TagsRootTree from '~/components/TagsRootTree.vue'
 	import { provideSelectTag } from '~/composables/injections'
 	import { useEntitiesWithTagQuery } from '~/queries/entities'
 	import type { EntitiesWithTagFilters } from '~/queries/entities'
@@ -19,8 +16,6 @@
 		ufs: [],
 	})
 
-	const inputTag = ref<number | null>(null)
-
 	const { data, error, fetchNextPage, hasNextPage } = useEntitiesWithTagQuery(filters)
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
 
@@ -30,13 +25,6 @@
 		}
 		return data.value.pages.reduce((acc, curr) => acc + curr.count, 0)
 	})
-
-	function addInputTag () {
-		if (inputTag.value && !filters.tags.includes(inputTag.value)) {
-			filters.tags = [...filters.tags, inputTag.value].sort(sortByNumber)
-		}
-		inputTag.value = null
-	}
 
 	function removeTag (tagId: number) {
 		filters.tags = filters.tags.filter((item) => item !== tagId)
@@ -63,12 +51,7 @@
 	<h1>Pesquisar</h1>
 	<div class="home">
 		<aside>
-			<h2>Localização</h2>
-			<StatesTree v-model="filters.ufs"/>
-
-			<h2>Tags</h2>
-			<SelectTag v-model="inputTag" @update:model-value="addInputTag"/>
-			<TagsRootTree :action="AddTagButtons"/>
+			<FiltersBar v-model:filters="filters"/>
 		</aside>
 		<main>
 			<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
@@ -107,30 +90,10 @@
 		}
 	}
 
-	aside, main {
+	main {
 
 		& > * {
 			margin: 1rem;
-		}
-	}
-
-	aside {
-		background-color: var(--blue);
-		border-radius: 0.25rem;
-		min-width: 15rem;
-		padding: 0.1px;
-
-		& h2 {
-			color: var(--yellow);
-		}
-
-		& :deep(.tags-tree) {
-			color: white;
-			margin: 1rem;
-		}
-
-		& :deep(.tags-tree svg) {
-			color: var(--yellow);
 		}
 	}
 

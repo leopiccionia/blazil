@@ -25,7 +25,11 @@
 	padding: 0;
 
 	& ul {
-		padding-inline-start: 1.2em;
+		padding-inline-start: calc(1.2em + 0.5ex);
+
+		&.level-1 {
+			padding-inline-start: 1ch;
+		}
 	}
 
 	& li {
@@ -40,7 +44,7 @@
 
 		&:focus {
 
-			& + span {
+			& ~ svg {
 				outline: -webkit-focus-ring-color auto 5px;
 			}
 		}

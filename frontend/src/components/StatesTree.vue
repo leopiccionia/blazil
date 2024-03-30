@@ -2,7 +2,6 @@
 	import { ref } from 'vue'
 
 	import AddButton from '~icons/ph/plus-circle-bold'
-	import LeafIcon from '~icons/codicon/circle-small-filled'
 	import MaximizeIcon from '~icons/ph/caret-down-bold'
 	import MinimizeIcon from '~icons/ph/caret-up-bold'
 
@@ -36,36 +35,36 @@
 	<ul class="tags-tree">
 		<li>
 			<label>
-				<component :is="showRegions ? MinimizeIcon : MaximizeIcon"/>
 				<input type="checkbox" v-model="showRegions">
 				<span>Regiões</span>
+				<component class="arrow-icon" :is="showRegions ? MinimizeIcon : MaximizeIcon"/>
 			</label>
-			<ul v-if="showRegions">
+			<ul class="level-1" v-if="showRegions">
 				<li v-for="(ufs, label) of regions" :key="label">
 					<label>
-						<LeafIcon/>
-						<span>{{ label }}</span>
 						<button type="button" :title="`Filtrar por &quot;${label}&quot;`" @click="selectRegion(ufs)">
 							<AddButton/>
 						</button>
+						<span>{{ label }}</span>
 					</label>
 				</li>
 			</ul>
 		</li>
 		<li>
-			<label>
-				<component :is="showStates ? MinimizeIcon : MaximizeIcon"/>
-				<input type="checkbox" v-model="showStates">
-				<span>Estados</span>
-			</label>
-			<ul v-if="showStates">
+			<div class="tree-row">
+				<label>
+					<input type="checkbox" v-model="showStates">
+					<span>Estados</span>
+					<component class="arrow-icon":is="showStates ? MinimizeIcon : MaximizeIcon"/>
+				</label>
+			</div>
+			<ul class="level-1" v-if="showStates">
 				<li v-for="(label, uf) of ufs" :key="uf">
 					<label>
-						<LeafIcon/>
-						<span>{{ label }}</span>
 						<button type="button" :title="`Filtrar por &quot;${label}&quot;`" @click="selectUF(uf)">
 							<AddButton/>
 						</button>
+						<span>{{ label }}</span>
 					</label>
 				</li>
 			</ul>
@@ -75,8 +74,12 @@
 
 <style scoped>
 	button {
-		color: #888;
 		line-height: 0;
+		margin-inline-end: 0.5ex;
+	}
+
+	svg.arrow-icon {
 		margin-inline-start: 0.5ex;
+		margin-inline-end: 0;
 	}
 </style>
