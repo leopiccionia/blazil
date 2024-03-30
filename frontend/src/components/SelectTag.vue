@@ -113,7 +113,7 @@
 			text-align: start;
 
 			& span {
-				color: #888;
+				color: var(--green);
 			}
 
 			&.active, &:hover {

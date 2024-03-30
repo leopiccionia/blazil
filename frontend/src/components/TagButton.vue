@@ -29,13 +29,9 @@
 		--padding: 0.25rem;
 		--height: calc((var(--font-size) + 2 * var(--padding)) / sqrt(2));
 
-		--tag-dark: #B45309;
-		--tag-light: #FDE68A;
-		--tag-medium: #EAB308;
-
 		align-items: center;
-		background-color: var(--tag-light);
-		border: 1px solid var(--tag-medium);
+		background-color: var(--button-bg);
+		border: 1px solid var(--button-border);
 		border-inline-start-width: 0;
 		border-radius: var(--border-radius);
 		display: flex;
@@ -49,8 +45,8 @@
 
 		&::before {
 			content: '';
-			background-color: var(--tag-light);
-			border: 1px solid var(--tag-medium);
+			background-color: var(--button-bg);
+			border: 1px solid var(--button-border);
 			border-radius: var(--border-radius);
 			height: var(--height);
 			left: calc(var(--height) / -2);
@@ -70,7 +66,7 @@
 			}
 
 			& svg {
-				color: var(--tag-dark);
+				color: var(--red);
 				height: 1em;
 				width: 1em;
 			}

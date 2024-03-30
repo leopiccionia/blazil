@@ -54,7 +54,7 @@
 			user-select: none;
 		}
 
-		& svg {
+		& > svg {
 			color: #AAA;
 			margin-inline-end: 0.5ex;
 		}

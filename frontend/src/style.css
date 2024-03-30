@@ -12,7 +12,11 @@
 
 	--blue: #1E40AF;
 	--green: #15803D;
+	--red: #DC2626;
 	--yellow: #FACC15;
+
+	--button-bg: #FDE68A;
+	--button-border: #EAB308;
 }
 
 @font-face {
@@ -54,8 +58,8 @@ button {
 }
 
 .button {
-	background-color: #EEE;
-	border: 1px solid #CCC;
+	background-color: var(--button-bg);
+	border: 1px solid var(--button-border);
 	border-radius: 0.25rem;
 	padding: 0.25rem 1rem;
 	text-align: center;

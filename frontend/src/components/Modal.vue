@@ -56,7 +56,7 @@
 			justify-content: space-between;
 
 			& button {
-				color: #F77;
+				color: var(--red);
 				line-height: 0;
 			}
 		}

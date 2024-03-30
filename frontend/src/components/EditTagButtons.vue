@@ -41,6 +41,6 @@
 	}
 
 	.delete-button {
-		color: #F77;
+		color: var(--red);
 	}
 </style>
