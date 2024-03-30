@@ -10,7 +10,7 @@ as $$
 	inner join entities on entity_tags.entity_id = entities.id
 	inner join rec_tags on entity_tags.tag_id = rec_tags.id
 	where entities.image is not null;
-$$ language sql;
+$$ language sql stable;
 
 -- select * from entities_with_tag(4);
 
@@ -38,6 +38,6 @@ begin
 
 	return query execute query_text;
 end;
-$$ language plpgsql;
+$$ language plpgsql stable;
 
 -- select * from entities_with_tags(array[4, 5]);
