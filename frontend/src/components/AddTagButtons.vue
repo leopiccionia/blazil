@@ -14,7 +14,7 @@
 </script>
 
 <template>
-	<template v-if="node.tag.parent_id">
+	<template v-if="node.tag.parent_id || !node.children">
 		<button class="add-button" type="button" :title="`Filtrar por &quot;${node.tag.name}&quot;`" @click="selectTag(node.tag)">
 			<AddButton/>
 		</button>
