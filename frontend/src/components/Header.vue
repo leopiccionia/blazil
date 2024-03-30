@@ -44,6 +44,7 @@
 
 		& .site-description {
 			color: var(--yellow);
+			font-family: var(--heading-font);
 			line-height: 2rem;
 			font-size: 1.25rem;
 

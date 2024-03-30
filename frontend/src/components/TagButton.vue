@@ -29,9 +29,13 @@
 		--padding: 0.25rem;
 		--height: calc((var(--font-size) + 2 * var(--padding)) / sqrt(2));
 
+		--tag-dark: #B45309;
+		--tag-light: #FCD34D;
+		--tag-medium: #F59E0B;
+
 		align-items: center;
-		background-color: #EEE;
-		border: 1px solid #CCC;
+		background-color: var(--tag-light);
+		border: 1px solid var(--tag-medium);
 		border-inline-start-width: 0;
 		border-radius: var(--border-radius);
 		display: flex;
@@ -45,8 +49,8 @@
 
 		&::before {
 			content: '';
-			background-color: #EEE;
-			border: 1px solid #CCC;
+			background-color: var(--tag-light);
+			border: 1px solid var(--tag-medium);
 			border-radius: var(--border-radius);
 			height: var(--height);
 			left: calc(var(--height) / -2);
@@ -66,7 +70,7 @@
 			}
 
 			& svg {
-				color: #999;
+				color: var(--tag-dark);
 				height: 1em;
 				width: 1em;
 			}
