@@ -30,8 +30,8 @@
 		--height: calc((var(--font-size) + 2 * var(--padding)) / sqrt(2));
 
 		--tag-dark: #B45309;
-		--tag-light: #FCD34D;
-		--tag-medium: #F59E0B;
+		--tag-light: #FDE68A;
+		--tag-medium: #EAB308;
 
 		align-items: center;
 		background-color: var(--tag-light);
