@@ -48,42 +48,45 @@
 </script>
 
 <template>
-	<h1>Pesquisar</h1>
-	<div class="home">
-		<aside>
-			<FiltersBar v-model:filters="filters"/>
-		</aside>
-		<main>
-			<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
-			<h2 v-else-if="entitiesCount === 1">Exibindo 1 resultado</h2>
-			<h2 v-else>Exibindo {{ entitiesCount }} resultados</h2>
-			<ul class="entity-tags" v-if="(filters.ufs.length + filters.tags.length) > 0">
-				<li v-for="uf of filters.ufs" :key="uf">
-					<TagButton :label="uf" @remove="removeUF(uf)"/>
-				</li>
-				<li v-for="tag of filters.tags" :key="tag">
-					<TagButton :label="tagsMap?.[tag]?.name ?? ''" @remove="removeTag(tag)"/>
-				</li>
-			</ul>
-			<div class="entity-cards" v-if="data">
-				<template v-for="page of data.pages" :key="page.page">
-					<article class="entity-card" v-for="entity of page.data" :key="entity.id">
-						<RouterLink class="entity-image" :to="{ name: '/entities/[id]', params: { id: entity.id } }">
-							<img :src="entity.image!" :alt="entity.name" loading="lazy">
-						</RouterLink>
-						<div class="entity-name">{{ formatEntityName(entity) }}</div>
-						<div class="entity-type">{{ formatEntityType(entity) }}</div>
-					</article>
-				</template>
-			</div>
-			<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
-			<pre v-if="error">{{ error }}</pre>
-		</main>
+	<div class="content">
+		<h1>Pesquisar</h1>
+		<div class="home-sections">
+			<aside>
+				<FiltersBar v-model:filters="filters"/>
+			</aside>
+			<main>
+				<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
+				<h2 v-else-if="entitiesCount === 1">Exibindo 1 resultado</h2>
+				<h2 v-else>Exibindo {{ entitiesCount }} resultados</h2>
+				<ul class="entity-tags" v-if="(filters.ufs.length + filters.tags.length) > 0">
+					<li v-for="uf of filters.ufs" :key="uf">
+						<TagButton :label="uf" @remove="removeUF(uf)"/>
+					</li>
+					<li v-for="tag of filters.tags" :key="tag">
+						<TagButton :label="tagsMap?.[tag]?.name ?? ''" @remove="removeTag(tag)"/>
+					</li>
+				</ul>
+				<div class="entity-cards" v-if="data">
+					<template v-for="page of data.pages" :key="page.page">
+						<article class="entity-card" v-for="entity of page.data" :key="entity.id">
+							<RouterLink class="entity-image" :to="{ name: '/entities/[id]', params: { id: entity.id } }">
+								<img :src="entity.image!" :alt="entity.name" loading="lazy">
+							</RouterLink>
+							<div class="entity-name">{{ formatEntityName(entity) }}</div>
+							<div class="entity-type">{{ formatEntityType(entity) }}</div>
+						</article>
+					</template>
+				</div>
+				<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
+				<pre v-if="error">{{ error }}</pre>
+			</main>
+		</div>
 	</div>
 </template>
 
 <style scoped>
-	.home {
+	.home-sections {
+
 		@media screen and (min-width: 769px) {
 			display: grid;
 			grid-template-columns: auto 1fr;

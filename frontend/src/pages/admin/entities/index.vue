@@ -18,33 +18,35 @@
 </script>
 
 <template>
-	<h1>Entities</h1>
-	<input class="form-field" type="search" v-model="search" aria-label="Filtrar entidades">
-	<div class="image-filters">
-		<label>
-			<span>Todas</span>
-			<input type="radio" :value="null" v-model="filters.withImage">
-		</label>
-		<label>
-			<span>Com imagem</span>
-			<input type="radio" :value="true" v-model="filters.withImage">
-		</label>
-		<label>
-			<span>Sem imagem</span>
-			<input type="radio" :value="false" v-model="filters.withImage">
-		</label>
+	<div class="content">
+		<h1>Entities</h1>
+		<input class="form-field" type="search" v-model="search" aria-label="Filtrar entidades">
+		<div class="image-filters">
+			<label>
+				<span>Todas</span>
+				<input type="radio" :value="null" v-model="filters.withImage">
+			</label>
+			<label>
+				<span>Com imagem</span>
+				<input type="radio" :value="true" v-model="filters.withImage">
+			</label>
+			<label>
+				<span>Sem imagem</span>
+				<input type="radio" :value="false" v-model="filters.withImage">
+			</label>
+		</div>
+		<ul v-if="data">
+			<template v-for="page of data.pages" :key="page.page">
+				<li v-for="entity of page.data" :key="entity.id">
+					<RouterLink :class="{ active: entity.image, inactive: !entity.image }" :to="{ name: '/admin/entities/[id]', params: { id: entity.id } }">
+						{{ formatEntityName(entity) }}
+					</RouterLink>
+				</li>
+			</template>
+		</ul>
+		<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
+		<pre v-if="error">{{ error }}</pre>
 	</div>
-	<ul v-if="data">
-		<template v-for="page of data.pages" :key="page.page">
-			<li v-for="entity of page.data" :key="entity.id">
-				<RouterLink :class="{ active: entity.image, inactive: !entity.image }" :to="{ name: '/admin/entities/[id]', params: { id: entity.id } }">
-					{{ formatEntityName(entity) }}
-				</RouterLink>
-			</li>
-		</template>
-	</ul>
-	<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
-	<pre v-if="error">{{ error }}</pre>
 </template>
 
 <style scoped>

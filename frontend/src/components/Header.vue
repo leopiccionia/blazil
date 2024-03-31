@@ -19,10 +19,7 @@
 			display: flex;
 			gap: 2rem;
 			line-height: 2rem;
-			margin: auto;
-			max-width: 90rem;
 			padding: 1rem;
-			width: 100%;
 		}
 
 		& .site-logo {

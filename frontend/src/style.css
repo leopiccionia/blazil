@@ -35,7 +35,7 @@ body {
 	padding: 0.1px;
 }
 
-#route {
+.content {
 	margin: auto;
 	max-width: 90rem;
 	width: 100%;

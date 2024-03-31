@@ -54,10 +54,14 @@
 </script>
 
 <template>
-	<template v-if="entity">
-		<h1>{{ formatEntityName(entity) }}</h1>
-		<p class="description">{{ formatEntityType(entity) }}</p>
-		<div class="entity-sections">
+	<div class="entity-header" v-if="entity">
+		<div class="content">
+			<h1>{{ formatEntityName(entity) }}</h1>
+			<p>{{ formatEntityType(entity) }}</p>
+		</div>
+	</div>
+	<div class="content">
+		<div class="entity-sections" v-if="entity">
 			<section>
 				<img :src="entity.image" alt="" v-if="entity.image">
 				<div class="image-placeholder" v-else>
@@ -79,14 +83,27 @@
 				</ul>
 			</section>
 		</div>
-	</template>
-	<pre v-if="error">{{ error }}</pre>
+		<pre v-if="error">{{ error }}</pre>
+	</div>
 	<CreateTagModal :controller="createTagModal"/>
 </template>
 
 <style scoped>
-	.description {
-		margin: -1rem 1rem 0;
+	.entity-header {
+		background-color: var(--yellow);
+		padding: 0.1px;
+
+		& .content {
+
+			& > * {
+				line-height: 1;
+				margin: 1rem;
+			}
+
+			& p {
+				margin-top: -0.5rem;
+			}
+		}
 	}
 
 	.entity-sections {

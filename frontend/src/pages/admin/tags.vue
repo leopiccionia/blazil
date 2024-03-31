@@ -9,11 +9,13 @@
 </script>
 
 <template>
-	<h1>Tags</h1>
-	<section>
-		<TagsRootTree :action="EditTagButtons"/>
-		<button class="button" @click="createTagModal.open">Criar tag</button>
-	</section>
+	<div class="content">
+		<h1>Tags</h1>
+		<section>
+			<TagsRootTree :action="EditTagButtons"/>
+			<button class="button" @click="createTagModal.open">Criar tag</button>
+		</section>
+	</div>
 	<CreateTagModal :controller="createTagModal"/>
 </template>
 
