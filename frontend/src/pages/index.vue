@@ -55,7 +55,7 @@
 		</aside>
 		<main>
 			<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
-			<h2 v-else-if="entitiesCount === 1">Exibindo um resultado</h2>
+			<h2 v-else-if="entitiesCount === 1">Exibindo 1 resultado</h2>
 			<h2 v-else>Exibindo {{ entitiesCount }} resultados</h2>
 			<ul class="entity-tags" v-if="(filters.ufs.length + filters.tags.length) > 0">
 				<li v-for="uf of filters.ufs" :key="uf">
