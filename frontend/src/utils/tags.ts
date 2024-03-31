@@ -1,7 +1,11 @@
 import type { Tag, TagNode } from '~/utils/types'
 
+export function compareTags (a: Tag, b: Tag): number {
+	return (a.name).localeCompare(b.name)
+}
+
 export function computeTagsList (tags: Tag[]): Tag[] {
-	return tags.sort(sortTags)
+	return tags.sort(compareTags)
 }
 
 export function computeTagsMap (tags: Tag[]): Record<string, Tag> {
@@ -17,7 +21,7 @@ export function computeTagsMap (tags: Tag[]): Record<string, Tag> {
 function computeTagsSubtree (tag: Tag, groups: Record<string, Tag[]>): TagNode {
 	let children = null
 	if (groups[tag.id]) {
-		children = groups[tag.id].sort(sortTags).map((child) => computeTagsSubtree(child, groups))
+		children = groups[tag.id].sort(compareTags).map((child) => computeTagsSubtree(child, groups))
 	}
 
 	return { tag, children }
@@ -29,9 +33,5 @@ export function computeTagsTree (tags: Tag[]): TagNode[] {
 
 	const rootTags = groups[0] ?? []
 
-	return rootTags.sort(sortTags).map((tag) => computeTagsSubtree(tag, groups))
-}
-
-export function sortTags (a: Tag, b: Tag): number {
-	return (a.name).localeCompare(b.name)
+	return rootTags.sort(compareTags).map((tag) => computeTagsSubtree(tag, groups))
 }

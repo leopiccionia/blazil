@@ -26,6 +26,10 @@
 		return data.value.pages.reduce((acc, curr) => acc + curr.count, 0)
 	})
 
+	function compareNumbers (a: number, b: number) {
+		return a - b
+	}
+
 	function removeTag (tagId: number) {
 		filters.tags = filters.tags.filter((item) => item !== tagId)
 	}
@@ -36,12 +40,8 @@
 
 	function selectTag (tag: Tag) {
 		if (!filters.tags.includes(tag.id)) {
-			filters.tags = [...filters.tags, tag.id].sort(sortByNumber)
+			filters.tags = [...filters.tags, tag.id].sort(compareNumbers)
 		}
-	}
-
-	function sortByNumber (a: number, b: number) {
-		return a - b
 	}
 
 	provideSelectTag(selectTag)

@@ -14,7 +14,7 @@
 	import { useEntityTagsQuery } from '~/queries/entity-tags'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
-	import { listEntityTags } from '~/utils/entity-tags'
+	import { groupEntityTags } from '~/utils/entity-tags'
 	import { computeTagsMap } from '~/utils/tags'
 	import type { EntityTag, Tag } from '~/utils/types'
 
@@ -32,7 +32,7 @@
 
 	const newTag = ref<number | null>(null)
 
-	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? listEntityTags(entityTags.value, tagsMap.value) : [])
+	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? groupEntityTags(entityTags.value, tagsMap.value) : {})
 
 	async function addEntityTag () {
 		if (newTag.value) {
@@ -76,11 +76,14 @@
 					<button class="button" type="submit">Adicionar</button>
 					<button class="button" type="button" @click="createTag">Criar tag</button>
 				</form>
-				<ul class="entity-tags" v-if="labeledTags">
-					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<TagButton :label="tag.label" @remove="removeEntityTag(tag.entityTag)"/>
-					</li>
-				</ul>
+				<template v-for="(sectionTags, section) of labeledTags" :key="section">
+					<h3>{{ section }}</h3>
+					<ul class="entity-tags">
+						<li v-for="tag of sectionTags" :key="tag.entityTag.id">
+							<TagButton :label="tag.label" @remove="removeEntityTag(tag.entityTag)"/>
+						</li>
+					</ul>
+				</template>
 			</section>
 		</div>
 		<pre v-if="error">{{ error }}</pre>
@@ -145,9 +148,5 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;
-	}
-
-	.entity-tags {
-		margin-top: 2rem;
 	}
 </style>

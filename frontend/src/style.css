@@ -41,13 +41,20 @@ body {
 	width: 100%;
 }
 
+h1, h2, h3 {
+	font-family: var(--heading-font);
+}
+
 h1, h2 {
 	color: var(--blue);
-	font-family: var(--heading-font);
 }
 
 h1 {
 	margin: 1rem;
+}
+
+h3 {
+	color: var(--green);
 }
 
 button {

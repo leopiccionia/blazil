@@ -15,19 +15,19 @@
 
 	function addInputTag () {
 		if (inputTag.value && !filters.value.tags.includes(inputTag.value)) {
-			filters.value.tags = [...filters.value.tags, inputTag.value].sort(sortByNumber)
+			filters.value.tags = [...filters.value.tags, inputTag.value].sort(compareNumbers)
 		}
 		inputTag.value = null
 	}
 
-	function selectTag (tag: Tag) {
-		if (!filters.value.tags.includes(tag.id)) {
-			filters.value.tags = [...filters.value.tags, tag.id].sort(sortByNumber)
-		}
+	function compareNumbers (a: number, b: number) {
+		return a - b
 	}
 
-	function sortByNumber (a: number, b: number) {
-		return a - b
+	function selectTag (tag: Tag) {
+		if (!filters.value.tags.includes(tag.id)) {
+			filters.value.tags = [...filters.value.tags, tag.id].sort(compareNumbers)
+		}
 	}
 
 	provideSelectTag(selectTag)

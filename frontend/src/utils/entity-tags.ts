@@ -1,3 +1,4 @@
+import { sortObject } from '~/utils/objects'
 import type { EntityTag, Tag } from '~/utils/types'
 
 type LabeledTag = {
@@ -5,24 +6,33 @@ type LabeledTag = {
 	entityTag: EntityTag,
 }
 
-export function listEntityTags (entityTags: EntityTag[], tagsMap: Record<string, Tag>): LabeledTag[] {
-	const labeledTags: LabeledTag[] = []
+function compareLabeledTags (a: LabeledTag, b: LabeledTag): number {
+	return (a.label).localeCompare(b.label)
+}
+
+export function groupEntityTags (entityTags: EntityTag[], tagsMap: Record<string, Tag>): Record<string, LabeledTag[]> {
+	const groups: Record<string, LabeledTag[]> = {}
 
 	for (const entityTag of entityTags) {
 		let tag = tagsMap[entityTag.tag_id]
-		let label = tag.name
+		const label = tag.name
 
 		while (tag.parent_id) {
 			tag = tagsMap[tag.parent_id]
-			label = `${tag.name} › ${label}`
 		}
 
-		labeledTags.push({ label, entityTag })
+		const rootLabel = tag.name
+
+		if (groups[rootLabel]) {
+			groups[rootLabel].push({ label, entityTag })
+		} else {
+			groups[rootLabel] = [{ label, entityTag }]
+		}
 	}
 
-	return labeledTags.sort(sortLabeledTags)
-}
+	for (const tags of Object.values(groups)) {
+		tags.sort(compareLabeledTags)
+	}
 
-function sortLabeledTags (a: LabeledTag, b: LabeledTag): number {
-	return (a.label).localeCompare(b.label)
+	return sortObject(groups)
 }

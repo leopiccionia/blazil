@@ -9,7 +9,7 @@
 	import { useEntityTagsQuery } from '~/queries/entity-tags'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
-	import { listEntityTags } from '~/utils/entity-tags'
+	import { groupEntityTags } from '~/utils/entity-tags'
 	import { computeTagsMap } from '~/utils/tags'
 
 	const route = useRoute('/entities/[id]')
@@ -19,7 +19,7 @@
 	const { data: entityTags } = useEntityTagsQuery({ entity_id: entityId })
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
 
-	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? listEntityTags(entityTags.value, tagsMap.value) : [])
+	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? groupEntityTags(entityTags.value, tagsMap.value) : {})
 </script>
 
 <template>
@@ -39,12 +39,15 @@
 			</section>
 			<section>
 				<h2>Tags</h2>
-				<ul class="entity-tags" v-if="labeledTags">
-					<li v-for="tag of labeledTags" :key="tag.entityTag.id">
-						<TagButton :label="tag.label" :removable="false"/>
-					</li>
-				</ul>
 				<p v-if="entityTags?.length === 0">Nenhuma tag adicionada.</p>
+				<template v-for="(sectionTags, section) of labeledTags" :key="section">
+					<h3>{{ section }}</h3>
+					<ul class="entity-tags">
+						<li v-for="tag of sectionTags" :key="tag.entityTag.id">
+							<TagButton :label="tag.label" :removable="false"/>
+						</li>
+					</ul>
+				</template>
 			</section>
 		</div>
 		<pre v-if="error">{{ error }}</pre>
