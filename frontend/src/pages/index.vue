@@ -89,6 +89,7 @@
 
 		@media screen and (min-width: 769px) {
 			display: grid;
+			gap: 0 1rem;
 			grid-template-columns: auto 1fr;
 		}
 	}

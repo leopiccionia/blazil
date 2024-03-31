@@ -47,9 +47,12 @@
 <style scoped>
 	.filters-bar {
 		background-color: var(--blue);
-		border-radius: 0.25rem;
 		min-width: 15rem;
 		padding: 0.1px;
+
+		@media screen and (min-width: 769px) {
+			border-radius: 0.25rem;
+		}
 
 		& > * {
 			margin: 1rem;
