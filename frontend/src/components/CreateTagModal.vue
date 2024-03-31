@@ -33,7 +33,7 @@
 </script>
 
 <template>
-	<Modal title="Criar nova tag" :controller="controller">
+	<Modal title="Criar tag" :controller="controller">
 		<form @submit.prevent="createTag">
 			<label class="form-label">
 				<span>Nome</span>

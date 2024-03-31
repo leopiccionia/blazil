@@ -71,6 +71,10 @@
 			margin: 0;
 		}
 
+		& :deep(label) {
+			display: block;
+		}
+
 		& :deep(.buttons) {
 			align-items: center;
 			display: flex;
