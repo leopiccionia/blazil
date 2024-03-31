@@ -31,7 +31,7 @@
 	<button class="edit-button" type="button" :title="`Editar &quot;${node.tag.name}&quot;`" @click="editTagModal.open">
 		<EditIcon/>
 	</button>
-	<button class="delete-button" type="button" :title="`Remover &quot;${node.tag.name}&quot;`" @click="deleteTag" v-if="!node.children">
+	<button class="delete-button" type="button" :title="`Excluir &quot;${node.tag.name}&quot;`" @click="deleteTag" v-if="!node.children">
 		<RemoveIcon/>
 	</button>
 	<DeleteTagModal :controller="deleteTagModal" :node="node"/>

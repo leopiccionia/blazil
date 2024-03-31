@@ -101,3 +101,7 @@ button {
 		padding: 0;
 	}
 }
+
+.text-danger {
+	color: var(--red);
+}
