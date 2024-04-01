@@ -93,7 +93,8 @@
 
 <style scoped>
 	.entity-header {
-		background-color: var(--yellow);
+		background-color: var(--button-bg);
+		border-bottom: 3px solid var(--button-border);
 		padding: 0.1px;
 
 		& .content {
