@@ -58,6 +58,7 @@
 	}
 
 	.image-filters {
+		accent-color: var(--blue);
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0 1rem;
@@ -86,10 +87,10 @@
 		}
 
 		& a {
-			color: #44F;
+			color: var(--blue);
 
 			&.inactive {
-				color: #F44;
+				color: var(--red);
 			}
 		}
 	}
