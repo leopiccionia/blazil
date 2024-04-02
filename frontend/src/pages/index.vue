@@ -3,13 +3,11 @@
 
 	import FiltersBar from '~/components/FiltersBar.vue'
 	import TagButton from '~/components/TagButton.vue'
-	import { provideSelectTag } from '~/composables/injections'
 	import { useEntitiesWithTagQuery } from '~/queries/entities'
 	import type { EntitiesWithTagFilters } from '~/queries/entities'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
 	import { computeTagsMap } from '~/utils/tags'
-	import type { Tag } from '~/utils/types'
 
 	const filters = reactive<EntitiesWithTagFilters>({
 		tags: [],
@@ -26,10 +24,6 @@
 		return data.value.pages.reduce((acc, curr) => acc + curr.count, 0)
 	})
 
-	function compareNumbers (a: number, b: number) {
-		return a - b
-	}
-
 	function removeTag (tagId: number) {
 		filters.tags = filters.tags.filter((item) => item !== tagId)
 	}
@@ -37,14 +31,6 @@
 	function removeUF (uf: string) {
 		filters.ufs = filters.ufs.filter((item) => item !== uf)
 	}
-
-	function selectTag (tag: Tag) {
-		if (!filters.tags.includes(tag.id)) {
-			filters.tags = [...filters.tags, tag.id].sort(compareNumbers)
-		}
-	}
-
-	provideSelectTag(selectTag)
 </script>
 
 <template>

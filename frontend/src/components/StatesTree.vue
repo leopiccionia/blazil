@@ -1,7 +1,7 @@
 <script setup lang="ts">
 	import { ref } from 'vue'
 
-	import AddButton from '~icons/ph/plus-circle-bold'
+	import AddIcon from '~icons/ph/plus-circle-bold'
 	import MaximizeIcon from '~icons/ph/caret-down-bold'
 	import MinimizeIcon from '~icons/ph/caret-up-bold'
 
@@ -43,7 +43,7 @@
 				<li v-for="(ufs, label) of regions" :key="label">
 					<label>
 						<button type="button" :title="`Filtrar por &quot;${label}&quot;`" @click="selectRegion(ufs)">
-							<AddButton/>
+							<AddIcon/>
 						</button>
 						<span>{{ label }}</span>
 					</label>
@@ -62,7 +62,7 @@
 				<li v-for="(label, uf) of ufs" :key="uf">
 					<label>
 						<button type="button" :title="`Filtrar por &quot;${label}&quot;`" @click="selectUF(uf)">
-							<AddButton/>
+							<AddIcon/>
 						</button>
 						<span>{{ label }}</span>
 					</label>
@@ -71,15 +71,3 @@
 		</li>
 	</ul>
 </template>
-
-<style scoped>
-	button {
-		line-height: 0;
-		margin-inline-end: 0.5ex;
-	}
-
-	svg.arrow-icon {
-		margin-inline-start: 0.5ex;
-		margin-inline-end: 0;
-	}
-</style>

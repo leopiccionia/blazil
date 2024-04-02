@@ -32,3 +32,10 @@ export type TagNode = {
 	tag: Tag,
 	children: TagNode[] | null,
 }
+
+export type TagTreeLineSlot = {
+	tag: Tag,
+	hasChildren: boolean,
+	showChildren: boolean,
+	toggleChildren: () => void,
+}

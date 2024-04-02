@@ -4,19 +4,19 @@
 	import Modal from '~/components/Modal.vue'
 	import type { ModalController } from '~/composables/modal'
 	import { useEntityTagsQuery } from '~/queries/entity-tags'
-	import { TagNode } from '~/utils/types'
+	import { Tag } from '~/utils/types'
 
-	const { controller, node } = defineProps({
+	const { controller, tag } = defineProps({
 		controller: { type: Object as PropType<ModalController<boolean>>, required: true },
-		node: { type: Object as PropType<TagNode>, required: true },
+		tag: { type: Object as PropType<Tag>, required: true },
 	})
 
-	const { data: entityTags } = useEntityTagsQuery({ tag_id: node.tag.id }, () => controller.isOpen.value)
+	const { data: entityTags } = useEntityTagsQuery({ tag_id: tag.id }, () => controller.isOpen.value)
 </script>
 
 <template>
 	<Modal title="Excluir tag" :controller="controller">
-		<p>Deseja mesmo excluir a tag "{{ node.tag.name }}"?</p>
+		<p>Deseja mesmo excluir a tag "{{ tag.name }}"?</p>
 		<template v-if="entityTags">
 			<p v-if="entityTags.length === 0">Ela não está associada a nenhuma entidade.</p>
 			<p class="text-danger" v-else-if="entityTags.length === 1">Ela está associada a um entidade.</p>

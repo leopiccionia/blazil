@@ -1,11 +1,13 @@
 <script setup lang="ts">
 	import { ref } from 'vue'
 
-	import AddTagButtons from '~/components/AddTagButtons.vue'
+	import AddIcon from '~icons/ph/plus-circle-bold'
+	import MaximizeIcon from '~icons/ph/caret-down-bold'
+	import MinimizeIcon from '~icons/ph/caret-up-bold'
+
 	import SelectTag from '~/components/SelectTag.vue'
 	import StatesTree from '~/components/StatesTree.vue'
 	import TagsRootTree from '~/components/TagsRootTree.vue'
-	import { provideSelectTag } from '~/composables/injections'
 	import type { EntitiesWithTagFilters } from '~/queries/entities'
 	import type { Tag } from '~/utils/types'
 
@@ -29,8 +31,6 @@
 			filters.value.tags = [...filters.value.tags, tag.id].sort(compareNumbers)
 		}
 	}
-
-	provideSelectTag(selectTag)
 </script>
 
 <template>
@@ -40,7 +40,16 @@
 
 		<h2>Tags</h2>
 		<SelectTag v-model="inputTag" @update:model-value="addInputTag"/>
-		<TagsRootTree :action="AddTagButtons"/>
+		<TagsRootTree v-slot="{ tag, hasChildren, showChildren, toggleChildren }">
+			<button class="add-button" type="button" :title="`Filtrar por &quot;${tag.name}&quot;`" @click="selectTag(tag)" v-if="tag.parent_id || !hasChildren">
+				<AddIcon/>
+			</button>
+			<label>
+				<input type="checkbox" :value="showChildren" @change="toggleChildren" v-if="hasChildren">
+				<span>{{ tag.name }}</span>
+				<component class="arrow-icon" :is="showChildren ? MinimizeIcon : MaximizeIcon" v-if="hasChildren"/>
+			</label>
+		</TagsRootTree>
 	</div>
 </template>
 
@@ -67,8 +76,25 @@
 			margin: 1rem;
 		}
 
-		& :deep(.tags-tree svg) {
+		& :deep(.tags-tree button) {
+			line-height: 0;
+			margin-inline-end: 0.5ex;
+		}
+
+		& :deep(.tags-tree ul) {
+			padding-inline-start: calc(1.2em + 0.5ex);
+		}
+
+		& :deep(.tags-tree ul.level-1) {
+			padding-inline-start: 0.75em;
+		}
+
+		& :deep(svg) {
 			color: var(--yellow);
+		}
+
+		& :deep(svg.arrow-icon) {
+			margin-inline-start: 0.5ex;
 		}
 	}
 </style>

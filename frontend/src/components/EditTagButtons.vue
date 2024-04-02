@@ -8,10 +8,11 @@
 	import EditTagModal from '~/components/EditTagModal.vue'
 	import { useModal } from '~/composables/modal'
 	import { useTagDelete } from '~/mutations/tags'
-	import type { TagNode } from '~/utils/types'
+	import type { Tag } from '~/utils/types'
 
-	const { node } = defineProps({
-		node: { type: Object as PropType<TagNode>, required: true },
+	const { hasChildren, tag } = defineProps({
+		hasChildren: { type: Boolean, required: true },
+		tag: { type: Object as PropType<Tag>, required: true },
 	})
 
 	const { mutateAsync: deleteAsync } = useTagDelete()
@@ -22,27 +23,27 @@
 	async function deleteTag () {
 		const confirmDeletion = await deleteTagModal.open()
 		if (confirmDeletion) {
-			await deleteAsync(node.tag)
+			await deleteAsync(tag)
 		}
 	}
 </script>
 
 <template>
-	<button class="edit-button" type="button" :title="`Editar &quot;${node.tag.name}&quot;`" @click="editTagModal.open">
+	<button class="edit-button" type="button" :title="`Editar &quot;${tag.name}&quot;`" @click="editTagModal.open">
 		<EditIcon/>
 	</button>
-	<button class="delete-button" type="button" :title="`Excluir &quot;${node.tag.name}&quot;`" @click="deleteTag" v-if="!node.children">
+	<button class="delete-button" type="button" :title="`Excluir &quot;${tag.name}&quot;`" @click="deleteTag" v-if="!hasChildren">
 		<RemoveIcon/>
 	</button>
-	<DeleteTagModal :controller="deleteTagModal" :node="node"/>
-	<EditTagModal :controller="editTagModal" :tag="node.tag"/>
+	<DeleteTagModal :controller="deleteTagModal" :tag="tag"/>
+	<EditTagModal :controller="editTagModal" :tag="tag"/>
 </template>
 
 <style scoped>
 	button {
 		color: #888;
 		line-height: 0;
-		margin-inline-end: 0.5ex;
+		margin-inline-start: 0.5ex;
 	}
 
 	.delete-button {
