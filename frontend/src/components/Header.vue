@@ -2,7 +2,7 @@
 	<header class="main-header">
 		<div class="content">
 			<RouterLink class="site-logo" :to="{ name: '/' }">
-			<img src="~~/assets/images/logo.svg" alt="Blazil">
+			<img src="~~/assets/images/logo.svg" alt="">
 				<span class="site-name">Blazil</span>
 			</RouterLink>
 			<span class="site-description">Banco de dados de brasões cívicos brasileiros</span>
