@@ -38,7 +38,7 @@
 
 <template>
 	<div class="content">
-		<h1>Pesquisar</h1>
+		<h1>Pesquisa</h1>
 		<div class="home-sections">
 			<aside>
 				<FiltersBar v-model:filters="filters"/>
