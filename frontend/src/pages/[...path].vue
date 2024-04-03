@@ -1,8 +1,12 @@
 <script setup lang="ts">
 	import { useRoute } from 'vue-router/auto'
 
+	import { useTitle } from '~/composables/head'
+
 	const route = useRoute('/[...path]')
 	const path = route.params.path
+
+	useTitle('Erro 404')
 </script>
 
 <template>

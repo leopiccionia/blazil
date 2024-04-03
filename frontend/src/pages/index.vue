@@ -3,6 +3,7 @@
 
 	import FiltersBar from '~/components/FiltersBar.vue'
 	import TagButton from '~/components/TagButton.vue'
+	import { useTitle } from '~/composables/head'
 	import { useEntitiesWithTagQuery } from '~/queries/entities'
 	import type { EntitiesWithTagFilters } from '~/queries/entities'
 	import { useTagsQuery } from '~/queries/tags'
@@ -16,6 +17,8 @@
 
 	const { data, error, fetchNextPage, hasNextPage } = useEntitiesWithTagQuery(filters)
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
+
+	useTitle('Pesquisa')
 
 	const entitiesCount = computed(() => {
 		if (!data.value) {
@@ -55,7 +58,7 @@
 				<div class="entity-cards" v-if="data">
 					<template v-for="page of data.pages" :key="page.page">
 						<article class="entity-card" v-for="entity of page.data" :key="entity.id">
-							<RouterLink class="entity-image" :to="{ name: '/entities/[id]', params: { id: entity.id } }">
+							<RouterLink class="entity-image" :to="{ name: '/entidades/[id]', params: { id: entity.id } }">
 								<img :src="entity.image!" :alt="entity.name" loading="lazy">
 							</RouterLink>
 							<div class="entity-name">{{ formatEntityName(entity) }}</div>

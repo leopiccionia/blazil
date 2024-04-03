@@ -2,6 +2,7 @@
 	import { refDebounced } from '@vueuse/core'
 	import { reactive, ref, watch } from 'vue'
 
+	import { useTitle } from '~/composables/head'
 	import { useEntitiesQuery } from '~/queries/entities'
 	import type { EntitiesFilters } from '~/queries/entities'
 	import { formatEntityName } from '~/utils/entities'
@@ -10,11 +11,13 @@
 	const search = ref('')
 	const searchDebounced = refDebounced(search, 1000)
 
+	const { data, error, fetchNextPage, hasNextPage } = useEntitiesQuery(filters)
+
+	useTitle('Entidades', { admin: true })
+
 	watch(searchDebounced, (text) => {
 		filters.search = text
 	})
-
-	const { data, error, fetchNextPage, hasNextPage } = useEntitiesQuery(filters)
 </script>
 
 <template>
@@ -38,7 +41,7 @@
 		<ul v-if="data">
 			<template v-for="page of data.pages" :key="page.page">
 				<li v-for="entity of page.data" :key="entity.id">
-					<RouterLink :class="{ active: entity.image, inactive: !entity.image }" :to="{ name: '/admin/entities/[id]', params: { id: entity.id } }">
+					<RouterLink :class="{ active: entity.image, inactive: !entity.image }" :to="{ name: '/admin/entidades/[id]', params: { id: entity.id } }">
 						{{ formatEntityName(entity) }}
 					</RouterLink>
 				</li>

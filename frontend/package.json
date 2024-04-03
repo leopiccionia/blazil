@@ -15,7 +15,8 @@
 	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.41.1",
-		"@tanstack/vue-query": "^5.28.9",
+		"@tanstack/vue-query": "^5.28.13",
+		"@unhead/vue": "^1.9.4",
 		"@vueuse/core": "^10.9.0",
 		"pretty-bytes": "^6.1.1",
 		"vue": "^3.4.21",

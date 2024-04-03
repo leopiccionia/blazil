@@ -8,6 +8,7 @@
 	import ImageUploader from '~/components/ImageUploader.vue'
 	import SelectTag from '~/components/SelectTag.vue'
 	import TagButton from '~/components/TagButton.vue'
+	import { useTitle } from '~/composables/head'
 	import { useModal } from '~/composables/modal'
 	import { useEntityTagCreate, useEntityTagDelete } from '~/mutations/entity-tags'
 	import { useEntityQuery } from '~/queries/entities'
@@ -18,7 +19,7 @@
 	import { computeTagsMap } from '~/utils/tags'
 	import type { EntityTag, Tag } from '~/utils/types'
 
-	const route = useRoute('/admin/entities/[id]')
+	const route = useRoute('/admin/entidades/[id]')
 	const entityId = Number(route.params.id)
 
 	const { data: entity, error } = useEntityQuery(entityId)
@@ -27,6 +28,8 @@
 
 	const { mutateAsync: createEntityTagAsync } = useEntityTagCreate()
 	const { mutateAsync: deleteEntityTagAsync } = useEntityTagDelete()
+
+	useTitle(() => entity.value ? formatEntityName(entity.value) : 'Entidade', { admin: true })
 
 	const createTagModal = useModal<Tag | undefined>({ defaultValue: undefined })
 

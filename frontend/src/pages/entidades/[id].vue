@@ -5,6 +5,7 @@
 	import PlaceholderIcon from '~icons/ph/image-light'
 
 	import TagButton from '~/components/TagButton.vue'
+	import { useTitle } from '~/composables/head'
 	import { useEntityQuery } from '~/queries/entities'
 	import { useEntityTagsQuery } from '~/queries/entity-tags'
 	import { useTagsQuery } from '~/queries/tags'
@@ -12,12 +13,14 @@
 	import { groupEntityTags } from '~/utils/entity-tags'
 	import { computeTagsMap } from '~/utils/tags'
 
-	const route = useRoute('/entities/[id]')
+	const route = useRoute('/entidades/[id]')
 	const entityId = Number(route.params.id)
 
 	const { data: entity, error } = useEntityQuery(entityId)
 	const { data: entityTags } = useEntityTagsQuery({ entity_id: entityId })
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
+
+	useTitle(() => entity.value ? formatEntityName(entity.value) : 'Entidade')
 
 	const labeledTags = computed(() => (entityTags.value && tagsMap.value) ? groupEntityTags(entityTags.value, tagsMap.value) : {})
 </script>

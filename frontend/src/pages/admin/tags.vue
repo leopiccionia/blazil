@@ -6,8 +6,11 @@
 	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import EditTagButtons from '~/components/EditTagButtons.vue'
 	import TagsRootTree from '~/components/TagsRootTree.vue'
+	import { useTitle } from '~/composables/head'
 	import { useModal } from '~/composables/modal'
 	import type { Tag } from '~/utils/types'
+
+	useTitle('Tags', { admin: true })
 
 	const createTagModal = useModal<Tag | undefined>({ defaultValue: undefined })
 </script>
