@@ -90,7 +90,7 @@
 	.entity-cards {
 		display: grid;
 		gap: 1rem;
-		grid-template-columns: repeat(auto-fill, minmax(12rem, auto));
+		grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
 	}
 
 	.entity-card {
@@ -115,7 +115,6 @@
 		& .entity-name {
 			color: var(--green);
 			font-family: var(--heading-font);
-			margin-top: 0.5rem;
 		}
 
 		& .entity-type {
