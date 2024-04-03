@@ -1,19 +1,16 @@
 <script setup lang="ts">
-	import { computed, reactive } from 'vue'
+	import { computed } from 'vue'
 
 	import FiltersBar from '~/components/FiltersBar.vue'
 	import TagButton from '~/components/TagButton.vue'
+	import { useFilters } from '~/composables/filters'
 	import { useTitle } from '~/composables/head'
 	import { useEntitiesWithTagQuery } from '~/queries/entities'
-	import type { EntitiesWithTagFilters } from '~/queries/entities'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
 	import { computeTagsMap } from '~/utils/tags'
 
-	const filters = reactive<EntitiesWithTagFilters>({
-		tags: [],
-		ufs: [],
-	})
+	const filters = useFilters()
 
 	const { data, error, fetchNextPage, hasNextPage } = useEntitiesWithTagQuery(filters)
 	const { data: tagsMap } = useTagsQuery(computeTagsMap)
