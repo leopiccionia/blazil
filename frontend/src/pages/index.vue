@@ -1,5 +1,6 @@
 <script setup lang="ts">
-	import { computed } from 'vue'
+	import { useInfiniteScroll } from '@vueuse/core'
+	import { computed, ref } from 'vue'
 
 	import FiltersBar from '~/components/FiltersBar.vue'
 	import TagButton from '~/components/TagButton.vue'
@@ -17,11 +18,19 @@
 
 	useTitle('Pesquisa')
 
+	const seeMoreButton = ref<HTMLButtonElement | null>(null)
+
 	const entitiesCount = computed(() => {
 		if (!data.value) {
 			return 0
 		}
 		return data.value.pages.reduce((acc, curr) => acc + curr.count, 0)
+	})
+
+	useInfiniteScroll(seeMoreButton, () => {
+		if (hasNextPage) {
+			fetchNextPage()
+		}
 	})
 
 	function removeTag (tagId: number) {
@@ -63,7 +72,7 @@
 						</article>
 					</template>
 				</div>
-				<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
+				<button ref="seeMoreButton" class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
 				<pre v-if="error">{{ error }}</pre>
 			</main>
 		</div>

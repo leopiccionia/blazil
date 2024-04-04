@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { refDebounced } from '@vueuse/core'
+	import { refDebounced, useInfiniteScroll } from '@vueuse/core'
 	import { reactive, ref, watch } from 'vue'
 
 	import { useTitle } from '~/composables/head'
@@ -15,8 +15,16 @@
 
 	useTitle('Entidades', { admin: true })
 
+	const seeMoreButton = ref<HTMLButtonElement | null>(null)
+
 	watch(searchDebounced, (text) => {
 		filters.search = text
+	})
+
+	useInfiniteScroll(seeMoreButton, () => {
+		if (hasNextPage) {
+			fetchNextPage()
+		}
 	})
 </script>
 
@@ -47,7 +55,7 @@
 				</li>
 			</template>
 		</ul>
-		<button class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
+		<button ref="seeMoreButton" class="button see-more" v-if="hasNextPage" @click="fetchNextPage()">Ver mais</button>
 		<pre v-if="error">{{ error }}</pre>
 	</div>
 </template>
