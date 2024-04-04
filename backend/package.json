@@ -7,6 +7,9 @@
 		"name": "Leonardo Piccioni de Almeida"
 	},
 	"license": "MIT",
+	"scripts": {
+		"dev": "./scripts/dev.sh"
+	},
 	"devDependencies": {
 		"supabase": "^1.148.6"
 	}
