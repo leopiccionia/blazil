@@ -21,7 +21,7 @@
 		<section>
 			<TagsRootTree v-slot="{ tag, hasChildren, showChildren, toggleChildren }">
 				<label>
-					<input type="checkbox" :value="showChildren" @change="toggleChildren" v-if="hasChildren">
+					<input class="sr-only" type="checkbox" :value="showChildren" @change="toggleChildren" v-if="hasChildren">
 					<component class="arrow-icon" :is="hasChildren ? (showChildren ? MinimizeIcon : MaximizeIcon) : LeafIcon"/>
 					<span>{{ tag.name }}</span>
 				</label>

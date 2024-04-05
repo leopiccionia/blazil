@@ -37,7 +37,7 @@
 	<label class="file-uploader button">
 		<span v-if="lastFile">{{ lastFile.name }} ({{ fileSize(lastFile) }})</span>
 		<span v-else>Enviar imagem</span>
-		<input type="file" accept="image/*" @change="uploadFile">
+		<input class="sr-only"type="file" accept="image/*" @change="uploadFile">
 	</label>
 	<pre v-if="error">{{ error }}</pre>
 	<pre v-if="uploadError">{{ uploadError }}</pre>
@@ -46,9 +46,10 @@
 <style scoped>
 	.file-uploader {
 		margin-top: 2rem;
-	}
 
-	input[type="file"] {
-		display: none;
+		&:focus-within {
+			outline: Highlight auto 5px;
+			outline: -webkit-focus-ring-color auto 5px;
+		}
 	}
 </style>

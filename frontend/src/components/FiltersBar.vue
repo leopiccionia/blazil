@@ -45,7 +45,7 @@
 				<AddIcon/>
 			</button>
 			<label>
-				<input type="checkbox" :value="showChildren" @change="toggleChildren" v-if="hasChildren">
+				<input class="sr-only" type="checkbox" :value="showChildren" @change="toggleChildren" v-if="hasChildren">
 				<span>{{ tag.name }}</span>
 				<component class="arrow-icon" :is="showChildren ? MinimizeIcon : MaximizeIcon" v-if="hasChildren"/>
 			</label>

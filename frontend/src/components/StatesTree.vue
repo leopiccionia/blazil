@@ -35,7 +35,7 @@
 	<ul class="tags-tree">
 		<li>
 			<label>
-				<input type="checkbox" v-model="showRegions">
+				<input class="sr-only" type="checkbox" v-model="showRegions">
 				<span>Regiões</span>
 				<component class="arrow-icon" :is="showRegions ? MinimizeIcon : MaximizeIcon"/>
 			</label>
@@ -53,7 +53,7 @@
 		<li>
 			<div class="tree-row">
 				<label>
-					<input type="checkbox" v-model="showStates">
+					<input class="sr-only" type="checkbox" v-model="showStates">
 					<span>Estados</span>
 					<component class="arrow-icon":is="showStates ? MinimizeIcon : MaximizeIcon"/>
 				</label>

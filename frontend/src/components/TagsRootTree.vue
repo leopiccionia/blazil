@@ -35,11 +35,6 @@
 	}
 
 	& input[type="checkbox"] {
-		height: 0;
-		margin: 0;
-		opacity: 0;
-		padding: 0;
-		width: 0;
 
 		&:focus {
 
