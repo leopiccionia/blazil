@@ -1,4 +1,5 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/vue-query'
+import { computed } from 'vue'
 import type { MaybeRef } from 'vue'
 
 import { infiniteQueryResult, queryResult } from '~/utils/queries'
@@ -11,8 +12,8 @@ export type EntitiesFilters = {
 }
 
 export type EntitiesWithTagFilters = {
-	tags: number[],
-	ufs: string[],
+	tags: Set<number>,
+	ufs: Set<string>,
 }
 
 export function useEntitiesQuery (filters: MaybeRef<EntitiesFilters>) {
@@ -47,16 +48,19 @@ export function useEntitiesQuery (filters: MaybeRef<EntitiesFilters>) {
 export function useEntitiesWithTagQuery (filters: EntitiesWithTagFilters) {
 	const PAGE_SIZE = 100
 
+	const tags = computed(() => [...filters.tags.values()])
+	const ufs = computed(() => [...filters.ufs.values()])
+
 	return useInfiniteQuery({
-		queryKey: ['entities_with_tags', filters] as const,
-		async queryFn ({ queryKey: [_, filters], pageParam }) {
-			const query = supabase.rpc('entities_with_tags', { tag_ids: filters.tags })
+		queryKey: ['entities_with_tags', tags, ufs] as const,
+		async queryFn ({ queryKey: [_, tags, ufs], pageParam }) {
+			const query = supabase.rpc('entities_with_tags', { tag_ids: tags })
 				.select()
 				.range((pageParam - 1) * PAGE_SIZE, (pageParam * PAGE_SIZE) - 1)
 				.order('id', { ascending: true })
 
-			if (filters.ufs.length > 0) {
-				query.in('uf', filters.ufs)
+			if (ufs.length > 0) {
+				query.in('uf', ufs)
 			}
 
 			const { data, error } = await query.returns<Entity[]>()

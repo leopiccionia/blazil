@@ -5,7 +5,7 @@
 
 	import CreateTagModal from '~/components/CreateTagModal.vue'
 	import EditTagButtons from '~/components/EditTagButtons.vue'
-	import TagsRootTree from '~/components/TagsRootTree.vue'
+	import TagsTree from '~/components/TagsTree.vue'
 	import { useTitle } from '~/composables/head'
 	import { useModal } from '~/composables/modal'
 	import type { Tag } from '~/utils/types'
@@ -19,14 +19,14 @@
 	<div class="content">
 		<h1>Tags</h1>
 		<section>
-			<TagsRootTree v-slot="{ tag, hasChildren, showChildren, toggleChildren }">
+			<TagsTree v-slot="{ tag, hasChildren, showChildren, toggleChildren }">
 				<label>
 					<input class="sr-only" type="checkbox" :value="showChildren" @change="toggleChildren" v-if="hasChildren">
 					<component class="arrow-icon" :is="hasChildren ? (showChildren ? MinimizeIcon : MaximizeIcon) : LeafIcon"/>
 					<span>{{ tag.name }}</span>
 				</label>
 				<EditTagButtons :tag="tag" :hasChildren="hasChildren"/>
-			</TagsRootTree>
+			</TagsTree>
 			<button class="button" @click="createTagModal.open">Criar tag</button>
 		</section>
 	</div>

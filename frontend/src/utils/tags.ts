@@ -1,5 +1,11 @@
 import type { Tag, TagNode } from '~/utils/types'
 
+export function compareTagIds (tagsMap: Record<string, Tag>) {
+	return function (a: number, b: number): number {
+		return compareTags(tagsMap[a], tagsMap[b])
+	}
+}
+
 export function compareTags (a: Tag, b: Tag): number {
 	return (a.name).localeCompare(b.name)
 }

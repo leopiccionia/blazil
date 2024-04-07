@@ -9,7 +9,7 @@
 	import { useEntitiesWithTagQuery } from '~/queries/entities'
 	import { useTagsQuery } from '~/queries/tags'
 	import { formatEntityName, formatEntityType } from '~/utils/entities'
-	import { computeTagsMap } from '~/utils/tags'
+	import { compareTagIds, computeTagsMap } from '~/utils/tags'
 
 	const filters = useFilters()
 
@@ -27,18 +27,25 @@
 		return data.value.pages.reduce((acc, curr) => acc + curr.count, 0)
 	})
 
+	const sortedTags = computed(() => [...filters.tags.values()].sort(tagsMap.value ? compareTagIds(tagsMap.value) : compareNumbers))
+	const sortedUFs = computed(() => [...filters.ufs.values()].sort())
+
 	useInfiniteScroll(seeMoreButton, () => {
 		if (hasNextPage) {
 			fetchNextPage()
 		}
 	})
 
+	function compareNumbers (a: number, b: number): number {
+		return a - b
+	}
+
 	function removeTag (tagId: number) {
-		filters.tags = filters.tags.filter((item) => item !== tagId)
+		filters.tags.delete(tagId)
 	}
 
 	function removeUF (uf: string) {
-		filters.ufs = filters.ufs.filter((item) => item !== uf)
+		filters.ufs.delete(uf)
 	}
 </script>
 
@@ -53,11 +60,15 @@
 				<h2 v-if="entitiesCount === 0">Nenhum resultado encontrado</h2>
 				<h2 v-else-if="entitiesCount === 1">Exibindo 1 resultado</h2>
 				<h2 v-else>Exibindo {{ entitiesCount }} resultados</h2>
-				<ul class="entity-tags" v-if="(filters.ufs.length + filters.tags.length) > 0">
-					<li v-for="uf of filters.ufs" :key="uf">
+				<ul class="entity-tags" v-if="filters.ufs.size > 0">
+					<li key="">UFs:</li>
+					<li v-for="uf of sortedUFs" :key="uf">
 						<TagButton :label="uf" @remove="removeUF(uf)"/>
 					</li>
-					<li v-for="tag of filters.tags" :key="tag">
+				</ul>
+				<ul class="entity-tags" v-if="filters.tags.size > 0">
+					<li :key="0">Tags:</li>
+					<li v-for="tag of sortedTags" :key="tag">
 						<TagButton :label="tagsMap?.[tag]?.name ?? ''" @remove="removeTag(tag)"/>
 					</li>
 				</ul>
@@ -94,6 +105,10 @@
 		& > * {
 			margin: 1rem;
 		}
+	}
+
+	.entity-tags + .entity-tags {
+		margin-top: -0.75rem;
 	}
 
 	.entity-cards {

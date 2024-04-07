@@ -4,10 +4,11 @@
 	import AddIcon from '~icons/ph/plus-circle-bold'
 	import MaximizeIcon from '~icons/ph/caret-down-bold'
 	import MinimizeIcon from '~icons/ph/caret-up-bold'
+	import RemoveIcon from '~icons/ph/minus-circle-bold'
 
 	import { groupUFsByRegion, listUFs } from '~/utils/entities'
 
-	const model = defineModel<string[]>({ required: true })
+	const model = defineModel<Set<string>>({ required: true })
 
 	const showRegions = ref(false)
 	const showStates = ref(false)
@@ -15,18 +16,39 @@
 	const regions = groupUFsByRegion()
 	const ufs = listUFs()
 
-	function selectRegion (ufs: string[]) {
-		for (const uf of ufs) {
-			if (!model.value.includes(uf)) {
-				model.value.push(uf)
-			}
-			model.value.sort()
-		}
+	function hasRegion (ufs: string[]) {
+		return ufs.every((uf) => hasUF(uf))
+	}
+
+	function hasUF (uf: string) {
+		return model.value.has(uf)
+	}
+
+	function removeUF (uf: string) {
+		model.value.delete(uf)
 	}
 
 	function selectUF (uf: string) {
-		if (!model.value.includes(uf)) {
-			model.value = [...model.value, uf].sort()
+		model.value.add(uf)
+	}
+
+	function toggleRegion (ufs: string[]) {
+		if (hasRegion(ufs)) {
+			for (const uf of ufs) {
+				removeUF(uf)
+			}
+		} else {
+			for (const uf of ufs) {
+				selectUF(uf)
+			}
+		}
+	}
+
+	function toggleUF (uf: string) {
+		if (hasUF(uf)) {
+			removeUF(uf)
+		} else {
+			selectUF(uf)
 		}
 	}
 </script>
@@ -41,9 +63,9 @@
 			</label>
 			<ul class="level-1" v-if="showRegions">
 				<li v-for="(ufs, label) of regions" :key="label">
-					<label>
-						<button type="button" :title="`Filtrar por &quot;${label}&quot;`" @click="selectRegion(ufs)">
-							<AddIcon/>
+					<label @click.prevent>
+						<button type="button" :title="`${hasRegion(ufs) ? 'Não filtrar' : 'Filtrar'} por &quot;${label}&quot;`" @click="toggleRegion(ufs)">
+							<component :is="hasRegion(ufs) ? RemoveIcon : AddIcon"/>
 						</button>
 						<span>{{ label }}</span>
 					</label>
@@ -60,9 +82,9 @@
 			</div>
 			<ul class="level-1" v-if="showStates">
 				<li v-for="(label, uf) of ufs" :key="uf">
-					<label>
-						<button type="button" :title="`Filtrar por &quot;${label}&quot;`" @click="selectUF(uf)">
-							<AddIcon/>
+					<label @click.prevent>
+						<button type="button" :title="`${hasUF(uf) ? 'Não filtrar' : 'Filtrar'} por &quot;${label}&quot;`" @click="toggleUF(uf)">
+							<component :is="hasUF(uf) ? RemoveIcon : AddIcon"/>
 						</button>
 						<span>{{ label }}</span>
 					</label>

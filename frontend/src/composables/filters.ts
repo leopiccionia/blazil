@@ -17,18 +17,18 @@ function buildParams (filters: EntitiesWithTagFilters): string {
 
 export function useFilters (): EntitiesWithTagFilters {
 	const filters = reactive<EntitiesWithTagFilters>({
-		tags: [],
-		ufs: [],
+		tags: new Set(),
+		ufs: new Set(),
 	})
 
 	onMounted(() => {
 		const params = new URLSearchParams(window.location.search)
 
 		if (params.has('tag')) {
-			filters.tags = params.getAll('tag').map(Number)
+			filters.tags = new Set(params.getAll('tag').map(Number))
 		}
 		if (params.has('uf')) {
-			filters.ufs = params.getAll('uf')
+			filters.ufs = new Set(params.getAll('uf'))
 		}
 	})
 
